@@ -1,0 +1,42 @@
+digraph g {
+
+	s0 [shape="circle" label="s0"];
+	s1 [shape="circle" label="s1"];
+	s2 [shape="circle" label="s2"];
+	s3 [shape="circle" label="s3"];
+	s4 [shape="circle" label="s4"];
+	s5 [shape="circle" label="s5"];
+	s6 [shape="circle" label="s6"];
+	s7 [shape="circle" label="s7"];
+	s8 [shape="circle" label="s8"];
+	s9 [shape="circle" label="s9"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+	s0 -> s2 [label="ClientHelloRSAReset / SERVER_HELLOCERTIFICATECERTIFICATE_REQUESTSERVER_HELLO_DONE\n"];
+	s1 -> s1 [label="ClientHelloRSAReset / x\nClientKeyExchange / x\nEmptyCertificate / x\nChangeCipherSpec / x\nFinished / x\nApplicationData / x\nApplicationDataEmpty / x\nClientCertificateValid / x\nClientCertificateInvalid / x\nClientCertificateVerify / x\nCertificateRequest / x\nHelloVerifyRequest / x\nDHClientKeyExchange / x\nDHEServerKeyExchange / x\nECDHClientKeyExchange / x\nECDHEServerKeyExchange / x\nServerHelloDone / x\nAlert / x\nSSL2ClientHello / x\nHelloRequest / x\nEncryptedExtensionMessage / x\nServerHello / x\nClientCertificateVerifyInvalid / x\n"];
+	s2 -> s1 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nClientKeyExchange / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\nApplicationDataEmpty / Alert2.10ConnectionClosed\nClientCertificateVerify / Alert2.10ConnectionClosed\nCertificateRequest / Alert2.10ConnectionClosed\nHelloVerifyRequest / Alert2.10ConnectionClosed\nDHClientKeyExchange / Alert2.10ConnectionClosed\nDHEServerKeyExchange / Alert2.10ConnectionClosed\nECDHClientKeyExchange / Alert2.10ConnectionClosed\nECDHEServerKeyExchange / Alert2.10ConnectionClosed\nServerHelloDone / Alert2.10ConnectionClosed\nSSL2ClientHello / Alert2.10ConnectionClosed\nHelloRequest / Alert2.10ConnectionClosed\nEncryptedExtensionMessage / Alert2.10ConnectionClosed\nServerHello / Alert2.10ConnectionClosed\nClientCertificateVerifyInvalid / Alert2.10ConnectionClosed\n"];
+	s2 -> s1 [label="EmptyCertificate / Alert2.48ConnectionClosed\nClientCertificateInvalid / Alert2.48ConnectionClosed\n"];
+	s2 -> s3 [label="ClientCertificateValid / Empty\n"];
+	s2 -> s1 [label="Alert / ConnectionClosed\n"];
+	s3 -> s1 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\nApplicationDataEmpty / Alert2.10ConnectionClosed\nClientCertificateValid / Alert2.10ConnectionClosed\nClientCertificateInvalid / Alert2.10ConnectionClosed\nClientCertificateVerify / Alert2.10ConnectionClosed\nCertificateRequest / Alert2.10ConnectionClosed\nHelloVerifyRequest / Alert2.10ConnectionClosed\nDHEServerKeyExchange / Alert2.10ConnectionClosed\nECDHEServerKeyExchange / Alert2.10ConnectionClosed\nServerHelloDone / Alert2.10ConnectionClosed\nSSL2ClientHello / Alert2.10ConnectionClosed\nHelloRequest / Alert2.10ConnectionClosed\nEncryptedExtensionMessage / Alert2.10ConnectionClosed\nServerHello / Alert2.10ConnectionClosed\nClientCertificateVerifyInvalid / Alert2.10ConnectionClosed\n"];
+	s3 -> s4 [label="ClientKeyExchange / Empty\n"];
+	s3 -> s8 [label="DHClientKeyExchange / Empty\n"];
+	s3 -> s1 [label="ECDHClientKeyExchange / Alert2.50ConnectionClosed\n"];
+	s3 -> s1 [label="Alert / ConnectionClosed\n"];
+	s4 -> s1 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\nApplicationDataEmpty / Alert2.10ConnectionClosed\nClientCertificateValid / Alert2.10ConnectionClosed\nClientCertificateInvalid / Alert2.10ConnectionClosed\nCertificateRequest / Alert2.10ConnectionClosed\nHelloVerifyRequest / Alert2.10ConnectionClosed\nDHClientKeyExchange / Alert2.10ConnectionClosed\nDHEServerKeyExchange / Alert2.10ConnectionClosed\nECDHClientKeyExchange / Alert2.10ConnectionClosed\nECDHEServerKeyExchange / Alert2.10ConnectionClosed\nServerHelloDone / Alert2.10ConnectionClosed\nSSL2ClientHello / Alert2.10ConnectionClosed\nHelloRequest / Alert2.10ConnectionClosed\nEncryptedExtensionMessage / Alert2.10ConnectionClosed\nServerHello / Alert2.10ConnectionClosed\n"];
+	s4 -> s5 [label="ClientCertificateVerify / Empty\n"];
+	s4 -> s1 [label="Alert / ConnectionClosed\n"];
+	s4 -> s1 [label="ClientCertificateVerifyInvalid / Alert2.51ConnectionClosed\n"];
+	s5 -> s1 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\nApplicationDataEmpty / Alert2.10ConnectionClosed\nClientCertificateValid / Alert2.10ConnectionClosed\nClientCertificateInvalid / Alert2.10ConnectionClosed\nClientCertificateVerify / Alert2.10ConnectionClosed\nCertificateRequest / Alert2.10ConnectionClosed\nHelloVerifyRequest / Alert2.10ConnectionClosed\nDHClientKeyExchange / Alert2.10ConnectionClosed\nDHEServerKeyExchange / Alert2.10ConnectionClosed\nECDHClientKeyExchange / Alert2.10ConnectionClosed\nECDHEServerKeyExchange / Alert2.10ConnectionClosed\nServerHelloDone / Alert2.10ConnectionClosed\nSSL2ClientHello / Alert2.10ConnectionClosed\nHelloRequest / Alert2.10ConnectionClosed\nEncryptedExtensionMessage / Alert2.10ConnectionClosed\nServerHello / Alert2.10ConnectionClosed\nClientCertificateVerifyInvalid / Alert2.10ConnectionClosed\n"];
+	s5 -> s6 [label="ChangeCipherSpec / Empty\n"];
+	s5 -> s1 [label="Alert / ConnectionClosed\n"];
+	s6 -> s1 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\nApplicationDataEmpty / Alert2.10ConnectionClosed\nClientCertificateValid / Alert2.10ConnectionClosed\nClientCertificateInvalid / Alert2.10ConnectionClosed\nClientCertificateVerify / Alert2.10ConnectionClosed\nCertificateRequest / Alert2.10ConnectionClosed\nHelloVerifyRequest / Alert2.10ConnectionClosed\nDHClientKeyExchange / Alert2.10ConnectionClosed\nDHEServerKeyExchange / Alert2.10ConnectionClosed\nECDHClientKeyExchange / Alert2.10ConnectionClosed\nECDHEServerKeyExchange / Alert2.10ConnectionClosed\nServerHelloDone / Alert2.10ConnectionClosed\nAlert / Alert2.10ConnectionClosed\nSSL2ClientHello / Alert2.10ConnectionClosed\nHelloRequest / Alert2.10ConnectionClosed\nEncryptedExtensionMessage / Alert2.10ConnectionClosed\nServerHello / Alert2.10ConnectionClosed\nClientCertificateVerifyInvalid / Alert2.10ConnectionClosed\n"];
+	s6 -> s7 [label="Finished / CHANGE_CIPHER_SPECFINISHED\n"];
+	s7 -> s1 [label="ClientHelloRSAReset / Alert2.40ConnectionClosed\n"];
+	s7 -> s1 [label="ClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nClientCertificateValid / Alert2.10ConnectionClosed\nClientCertificateInvalid / Alert2.10ConnectionClosed\nClientCertificateVerify / Alert2.10ConnectionClosed\nCertificateRequest / Alert2.10ConnectionClosed\nHelloVerifyRequest / Alert2.10ConnectionClosed\nDHClientKeyExchange / Alert2.10ConnectionClosed\nDHEServerKeyExchange / Alert2.10ConnectionClosed\nECDHClientKeyExchange / Alert2.10ConnectionClosed\nECDHEServerKeyExchange / Alert2.10ConnectionClosed\nServerHelloDone / Alert2.10ConnectionClosed\nSSL2ClientHello / Alert2.10ConnectionClosed\nHelloRequest / Alert2.10ConnectionClosed\nEncryptedExtensionMessage / Alert2.10ConnectionClosed\nServerHello / Alert2.10ConnectionClosed\nClientCertificateVerifyInvalid / Alert2.10ConnectionClosed\n"];
+	s7 -> s1 [label="ApplicationData / APPLICATIONConnectionClosed\n"];
+	s7 -> s9 [label="ApplicationDataEmpty / Empty\n"];
+	s7 -> s1 [label="Alert / ConnectionClosed\n"];
+}

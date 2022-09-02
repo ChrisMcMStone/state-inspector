@@ -1,0 +1,29 @@
+base_dir: "/home/james/Documents/CTF/project/"
+output_dir: "/tmp/openssl"
+
+results_dir: "experiments/results"
+
+experiment_name: ""
+kill_ports: 4500
+
+# HARNESS
+harness:
+ base_dir: "tls/TLSAttackerConnector"
+ prep_command: ""
+ command: "java -jar ./target/TLSAttackerConnector2.0.jar --messageDir ./messages/messages.txt --timeout 400 -tP 4500"
+
+# SERVER
+server:
+ base_dir: "tls/openssl"
+ log_file: "server_log.log"
+ command: ""
+ post_command: ""
+
+# LEARNER
+learner:
+  base_dir: "greyboxstatelearning/statelearner"
+  command: "./run_learner.sh configs/ab_test/openssl-h-large-alpha.properties"
+  log_file: "learner_log.log"
+
+# MISC
+notes: ""

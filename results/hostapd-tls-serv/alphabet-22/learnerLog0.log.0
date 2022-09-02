@@ -1,0 +1,1582 @@
+Feb 05, 2021 2:25:09 AM learner.MemStateLearner <init>
+INFO: Using TLS SUL
+Feb 05, 2021 2:25:13 AM learner.MemStateLearner learn
+INFO: Bootstrap phase with 3 iterations of each flow.
+Feb 05, 2021 2:25:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:1 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Feb 05, 2021 2:25:26 AM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 10664
+Feb 05, 2021 2:25:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:2 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Feb 05, 2021 2:25:39 AM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 10666
+Feb 05, 2021 2:25:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:3 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Feb 05, 2021 2:25:51 AM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 10664
+Feb 05, 2021 2:25:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:4 [ClientHelloRSAReset ClientHello ClientHello ClientHello ClientHello ClientHello | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:25:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:5 [ClientHelloRSAReset ClientHello | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:6 [ClientHelloRSAReset ClientHello | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:7 [ClientHelloRSAReset ClientHelloDHE ClientHelloDHE ClientHelloDHE ClientHelloDHE ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:26:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:8 [ClientHelloRSAReset ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:9 [ClientHelloRSAReset ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:10 [ClientHelloRSAReset ClientHelloRSA ClientHelloRSA ClientHelloRSA ClientHelloRSA ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:26:21 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:11 [ClientHelloRSAReset ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:12 [ClientHelloRSAReset ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:13 [ClientHelloRSAReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:26:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:14 [ClientHelloRSAReset ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:15 [ClientHelloRSAReset ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:16 [ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:26:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:17 [ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:18 [ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:19 [ClientHelloRSAReset ServerHelloRSA ServerHelloRSA ServerHelloRSA ServerHelloRSA ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:26:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:20 [ClientHelloRSAReset ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:26:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:21 [ClientHelloRSAReset ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:22 [ClientHelloRSAReset ServerHelloDHE ServerHelloDHE ServerHelloDHE ServerHelloDHE ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:27:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:23 [ClientHelloRSAReset ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:24 [ClientHelloRSAReset ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:25 [ClientHelloRSAReset EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.48ConnectionClosed - - - -]
+Feb 05, 2021 2:27:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:26 [ClientHelloRSAReset EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.48ConnectionClosed]
+Feb 05, 2021 2:27:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:27 [ClientHelloRSAReset EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.48ConnectionClosed]
+Feb 05, 2021 2:27:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:28 [ClientHelloRSAReset CertificateRequest CertificateRequest CertificateRequest CertificateRequest CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:27:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:29 [ClientHelloRSAReset CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:30 [ClientHelloRSAReset CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:31 [ClientHelloRSAReset ServerHelloDone ServerHelloDone ServerHelloDone ServerHelloDone ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:27:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:32 [ClientHelloRSAReset ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:33 [ClientHelloRSAReset ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:27:46 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:34 [ClientHelloRSAReset ClientCertificate ClientCertificate ClientCertificate ClientCertificate ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.45ConnectionClosed - - - -]
+Feb 05, 2021 2:27:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:35 [ClientHelloRSAReset ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 2:27:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:36 [ClientHelloRSAReset ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 2:27:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:37 [ClientHelloRSAReset ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:28:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:38 [ClientHelloRSAReset ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:39 [ClientHelloRSAReset ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:40 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - -]
+Feb 05, 2021 2:28:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:41 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:42 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:43 [ClientHelloRSAReset ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:28:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:44 [ClientHelloRSAReset ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:45 [ClientHelloRSAReset ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:46 [ClientHelloRSAReset Finished Finished Finished Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:28:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:47 [ClientHelloRSAReset Finished | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:48 [ClientHelloRSAReset Finished | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:49 [ClientHelloRSAReset ApplicationData ApplicationData ApplicationData ApplicationData ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:28:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:50 [ClientHelloRSAReset ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:28:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:51 [ClientHelloRSAReset ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:29:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:52 [ClientHelloRSAReset ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty]
+Feb 05, 2021 2:29:21 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:53 [ClientHelloRSAReset HeartbeatRequest HeartbeatRequest HeartbeatRequest HeartbeatRequest HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:29:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:54 [ClientHelloRSAReset HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:29:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:55 [ClientHelloRSAReset HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:29:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:56 [ClientHelloRSAReset HeartbeatResponse HeartbeatResponse HeartbeatResponse HeartbeatResponse HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:29:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:57 [ClientHelloRSAReset HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:29:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:58 [ClientHelloRSAReset HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:29:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:59 [ClientHelloRSAReset Alert10 Alert10 Alert10 Alert10 Alert10 | ServerHelloTLSv12CertificateServerHelloDone ConnectionClosed - - - -]
+Feb 05, 2021 2:29:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:60 [ClientHelloRSAReset Alert10 | ServerHelloTLSv12CertificateServerHelloDone ConnectionClosed]
+Feb 05, 2021 2:29:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:61 [ClientHelloRSAReset Alert10 | ServerHelloTLSv12CertificateServerHelloDone ConnectionClosed]
+Feb 05, 2021 2:29:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:62 [ClientHelloRSAReset Alert1100 Alert1100 Alert1100 Alert1100 Alert1100 | ServerHelloTLSv12CertificateServerHelloDone ConnectionClosed - - - -]
+Feb 05, 2021 2:29:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:63 [ClientHelloRSAReset Alert1100 | ServerHelloTLSv12CertificateServerHelloDone ConnectionClosed]
+Feb 05, 2021 2:30:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:64 [ClientHelloRSAReset Alert1100 | ServerHelloTLSv12CertificateServerHelloDone ConnectionClosed]
+Feb 05, 2021 2:30:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:65 [ClientHelloRSAReset ServerCertificate ServerCertificate ServerCertificate ServerCertificate ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.45ConnectionClosed - - - -]
+Feb 05, 2021 2:30:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:66 [ClientHelloRSAReset ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 2:30:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:67 [ClientHelloRSAReset ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 2:30:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:68 [ClientHelloRSAReset ServerKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:30:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:69 [ClientHelloRSAReset ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:30:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:70 [ClientHelloRSAReset ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 2:30:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:71 [ClientHelloRSAReset ClientKeyExchange ClientHello ClientHello ClientHello ClientHello ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:30:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:72 [ClientHelloRSAReset ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:30:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:73 [ClientHelloRSAReset ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:30:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:74 [ClientHelloRSAReset ClientKeyExchange ClientHelloDHE ClientHelloDHE ClientHelloDHE ClientHelloDHE ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:30:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:75 [ClientHelloRSAReset ClientKeyExchange ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:31:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:76 [ClientHelloRSAReset ClientKeyExchange ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:31:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:77 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSA ClientHelloRSA ClientHelloRSA ClientHelloRSA ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:31:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:78 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:31:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:79 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:31:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:80 [ClientHelloRSAReset ClientKeyExchange ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:31:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:81 [ClientHelloRSAReset ClientKeyExchange ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:31:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:82 [ClientHelloRSAReset ClientKeyExchange ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:31:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:83 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:31:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:84 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:32:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:85 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:32:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:86 [ClientHelloRSAReset ClientKeyExchange ServerHelloRSA ServerHelloRSA ServerHelloRSA ServerHelloRSA ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:32:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:87 [ClientHelloRSAReset ClientKeyExchange ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:32:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:88 [ClientHelloRSAReset ClientKeyExchange ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:32:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:89 [ClientHelloRSAReset ClientKeyExchange ServerHelloDHE ServerHelloDHE ServerHelloDHE ServerHelloDHE ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:32:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:90 [ClientHelloRSAReset ClientKeyExchange ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:32:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:91 [ClientHelloRSAReset ClientKeyExchange ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:32:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:92 [ClientHelloRSAReset ClientKeyExchange EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:32:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:93 [ClientHelloRSAReset ClientKeyExchange EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:33:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:94 [ClientHelloRSAReset ClientKeyExchange EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:33:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:95 [ClientHelloRSAReset ClientKeyExchange CertificateRequest CertificateRequest CertificateRequest CertificateRequest CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:33:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:96 [ClientHelloRSAReset ClientKeyExchange CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:33:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:97 [ClientHelloRSAReset ClientKeyExchange CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:33:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:98 [ClientHelloRSAReset ClientKeyExchange ServerHelloDone ServerHelloDone ServerHelloDone ServerHelloDone ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:33:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:99 [ClientHelloRSAReset ClientKeyExchange ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:33:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:100 [ClientHelloRSAReset ClientKeyExchange ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:33:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:101 [ClientHelloRSAReset ClientKeyExchange ClientCertificate ClientCertificate ClientCertificate ClientCertificate ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:33:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:102 [ClientHelloRSAReset ClientKeyExchange ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:34:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:103 [ClientHelloRSAReset ClientKeyExchange ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:34:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:104 [ClientHelloRSAReset ClientKeyExchange ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.80ConnectionClosed - - - -]
+Feb 05, 2021 2:34:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:105 [ClientHelloRSAReset ClientKeyExchange ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.80ConnectionClosed]
+Feb 05, 2021 2:34:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:106 [ClientHelloRSAReset ClientKeyExchange ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.80ConnectionClosed]
+Feb 05, 2021 2:34:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:107 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:34:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:108 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:34:46 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:109 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:34:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:110 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - -]
+Feb 05, 2021 2:35:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:111 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:35:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:112 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:35:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:113 [ClientHelloRSAReset ClientKeyExchange Finished Finished Finished Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:35:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:114 [ClientHelloRSAReset ClientKeyExchange Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:35:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:115 [ClientHelloRSAReset ClientKeyExchange Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:35:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:116 [ClientHelloRSAReset ClientKeyExchange ApplicationData ApplicationData ApplicationData ApplicationData ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:35:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:117 [ClientHelloRSAReset ClientKeyExchange ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:35:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:118 [ClientHelloRSAReset ClientKeyExchange ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:36:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:119 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty Empty]
+Feb 05, 2021 2:36:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:120 [ClientHelloRSAReset ClientKeyExchange HeartbeatRequest HeartbeatRequest HeartbeatRequest HeartbeatRequest HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:36:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:121 [ClientHelloRSAReset ClientKeyExchange HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:36:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:122 [ClientHelloRSAReset ClientKeyExchange HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:36:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:123 [ClientHelloRSAReset ClientKeyExchange HeartbeatResponse HeartbeatResponse HeartbeatResponse HeartbeatResponse HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:36:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:124 [ClientHelloRSAReset ClientKeyExchange HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:36:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:125 [ClientHelloRSAReset ClientKeyExchange HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:37:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:126 [ClientHelloRSAReset ClientKeyExchange Alert10 Alert10 Alert10 Alert10 Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed - - - -]
+Feb 05, 2021 2:37:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:127 [ClientHelloRSAReset ClientKeyExchange Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 2:37:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:128 [ClientHelloRSAReset ClientKeyExchange Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 2:37:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:129 [ClientHelloRSAReset ClientKeyExchange Alert1100 Alert1100 Alert1100 Alert1100 Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed - - - -]
+Feb 05, 2021 2:37:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:130 [ClientHelloRSAReset ClientKeyExchange Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 2:37:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:131 [ClientHelloRSAReset ClientKeyExchange Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 2:37:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:132 [ClientHelloRSAReset ClientKeyExchange ServerCertificate ServerCertificate ServerCertificate ServerCertificate ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:37:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:133 [ClientHelloRSAReset ClientKeyExchange ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:37:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:134 [ClientHelloRSAReset ClientKeyExchange ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:38:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:135 [ClientHelloRSAReset ClientKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:38:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:136 [ClientHelloRSAReset ClientKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:38:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:137 [ClientHelloRSAReset ClientKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:38:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:138 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHello ClientHello ClientHello ClientHello ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:38:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:139 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:38:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:140 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:38:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:141 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloDHE ClientHelloDHE ClientHelloDHE ClientHelloDHE ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:39:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:142 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:39:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:143 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:39:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:144 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSA ClientHelloRSA ClientHelloRSA ClientHelloRSA ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:39:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:145 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:39:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:146 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:39:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:147 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:40:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:148 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:40:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:149 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:40:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:150 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:40:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:151 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:40:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:152 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:40:53 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:153 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloRSA ServerHelloRSA ServerHelloRSA ServerHelloRSA ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:41:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:154 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:41:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:155 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:41:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:156 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloDHE ServerHelloDHE ServerHelloDHE ServerHelloDHE ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:41:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:157 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:41:41 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:158 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:41:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:159 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:42:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:160 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:42:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:161 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:42:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:162 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec CertificateRequest CertificateRequest CertificateRequest CertificateRequest CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:42:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:163 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:42:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:164 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:42:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:165 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloDone ServerHelloDone ServerHelloDone ServerHelloDone ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:42:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:166 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:43:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:167 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:43:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:168 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientCertificate ClientCertificate ClientCertificate ClientCertificate ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:43:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:169 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:43:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:170 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:43:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:171 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:43:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:172 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:44:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:173 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:44:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:174 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:44:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:175 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:44:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:176 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:44:46 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:177 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:44:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:178 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:45:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:179 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:45:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:180 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished Finished Finished Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed - - -]
+Feb 05, 2021 2:45:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:181 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 2:45:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:182 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 2:45:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:183 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationData ApplicationData ApplicationData ApplicationData ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:46:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:184 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:46:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:185 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:46:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:186 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty Empty Empty]
+Feb 05, 2021 2:46:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:187 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec HeartbeatRequest HeartbeatRequest HeartbeatRequest HeartbeatRequest HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:46:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:188 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:47:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:189 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:47:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:190 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec HeartbeatResponse HeartbeatResponse HeartbeatResponse HeartbeatResponse HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:47:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:191 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:47:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:192 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:47:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:193 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Alert10 Alert10 Alert10 Alert10 Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed - - - -]
+Feb 05, 2021 2:47:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:194 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 2:48:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:195 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 2:48:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:196 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Alert1100 Alert1100 Alert1100 Alert1100 Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed - - - -]
+Feb 05, 2021 2:48:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:197 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 2:48:34 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:198 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 2:48:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:199 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerCertificate ServerCertificate ServerCertificate ServerCertificate ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:48:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:200 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:49:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:201 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:49:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:202 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed - - - -]
+Feb 05, 2021 2:49:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:203 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:49:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:204 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 2:49:32 AM learningalgorithm.CoreLearner bootstrap
+INFO: Using 67 unique bootstrap flows, each executed 3 times for diff tool
+Feb 05, 2021 2:49:35 AM learningalgorithm.CoreLearner bootstrap
+INFO: Using representative log from malloc2.log sessionID 2
+Feb 05, 2021 2:49:35 AM greyboxinterface.StateDiffInterface buildCmd
+INFO: 201 meta logs passed to diff tool
+Feb 05, 2021 2:49:35 AM greyboxinterface.StateDiffInterface getStateMemory
+INFO: Diff tool launch command: pypy3 /home/mathy/greyboxstatelearning/diff_tool/diff_tool.py --mem-maps /tmp/hostap_tls/mem_maps2.log --mlog-filter /tmp/hostap_tls/malloc2.log --json --apply-hueristics --output-log /tmp/hostap_tls/stateaddrset.log --calc-confidence --terminating-outputs ConnectionClosed DecryptError --logs /tmp/hostap_tls/meta_162.log /tmp/hostap_tls/meta_84.log /tmp/hostap_tls/meta_143.log /tmp/hostap_tls/meta_53.log /tmp/hostap_tls/meta_101.log /tmp/hostap_tls/meta_69.log /tmp/hostap_tls/meta_196.log /tmp/hostap_tls/meta_77.log /tmp/hostap_tls/meta_8.log /tmp/hostap_tls/meta_123.log /tmp/hostap_tls/meta_27.log /tmp/hostap_tls/meta_85.log /tmp/hostap_tls/meta_57.log /tmp/hostap_tls/meta_76.log /tmp/hostap_tls/meta_41.log /tmp/hostap_tls/meta_21.log /tmp/hostap_tls/meta_189.log /tmp/hostap_tls/meta_32.log /tmp/hostap_tls/meta_30.log /tmp/hostap_tls/meta_34.log /tmp/hostap_tls/meta_65.log /tmp/hostap_tls/meta_107.log /tmp/hostap_tls/meta_90.log /tmp/hostap_tls/meta_181.log /tmp/hostap_tls/meta_170.log /tmp/hostap_tls/meta_122.log /tmp/hostap_tls/meta_79.log /tmp/hostap_tls/meta_71.log /tmp/hostap_tls/meta_197.log /tmp/hostap_tls/meta_23.log /tmp/hostap_tls/meta_35.log /tmp/hostap_tls/meta_190.log /tmp/hostap_tls/meta_164.log /tmp/hostap_tls/meta_78.log /tmp/hostap_tls/meta_58.log /tmp/hostap_tls/meta_139.log /tmp/hostap_tls/meta_38.log /tmp/hostap_tls/meta_195.log /tmp/hostap_tls/meta_31.log /tmp/hostap_tls/meta_169.log /tmp/hostap_tls/meta_156.log /tmp/hostap_tls/meta_89.log /tmp/hostap_tls/meta_11.log /tmp/hostap_tls/meta_86.log /tmp/hostap_tls/meta_16.log /tmp/hostap_tls/meta_106.log /tmp/hostap_tls/meta_104.log /tmp/hostap_tls/meta_7.log /tmp/hostap_tls/meta_149.log /tmp/hostap_tls/meta_198.log /tmp/hostap_tls/meta_91.log /tmp/hostap_tls/meta_126.log /tmp/hostap_tls/meta_20.log /tmp/hostap_tls/meta_114.log /tmp/hostap_tls/meta_148.log /tmp/hostap_tls/meta_128.log /tmp/hostap_tls/meta_28.log /tmp/hostap_tls/meta_92.log /tmp/hostap_tls/meta_110.log /tmp/hostap_tls/meta_178.log /tmp/hostap_tls/meta_168.log /tmp/hostap_tls/meta_111.log /tmp/hostap_tls/meta_9.log /tmp/hostap_tls/meta_24.log /tmp/hostap_tls/meta_100.log /tmp/hostap_tls/meta_150.log /tmp/hostap_tls/meta_171.log /tmp/hostap_tls/meta_157.log /tmp/hostap_tls/meta_37.log /tmp/hostap_tls/meta_137.log /tmp/hostap_tls/meta_121.log /tmp/hostap_tls/meta_117.log /tmp/hostap_tls/meta_1.log /tmp/hostap_tls/meta_98.log /tmp/hostap_tls/meta_68.log /tmp/hostap_tls/meta_124.log /tmp/hostap_tls/meta_6.log /tmp/hostap_tls/meta_88.log /tmp/hostap_tls/meta_132.log /tmp/hostap_tls/meta_173.log /tmp/hostap_tls/meta_142.log /tmp/hostap_tls/meta_167.log /tmp/hostap_tls/meta_18.log /tmp/hostap_tls/meta_103.log /tmp/hostap_tls/meta_133.log /tmp/hostap_tls/meta_29.log /tmp/hostap_tls/meta_116.log /tmp/hostap_tls/meta_129.log /tmp/hostap_tls/meta_83.log /tmp/hostap_tls/meta_46.log /tmp/hostap_tls/meta_87.log /tmp/hostap_tls/meta_95.log /tmp/hostap_tls/meta_82.log /tmp/hostap_tls/meta_17.log /tmp/hostap_tls/meta_45.log /tmp/hostap_tls/meta_59.log /tmp/hostap_tls/meta_145.log /tmp/hostap_tls/meta_99.log /tmp/hostap_tls/meta_151.log /tmp/hostap_tls/meta_140.log /tmp/hostap_tls/meta_13.log /tmp/hostap_tls/meta_192.log /tmp/hostap_tls/meta_127.log /tmp/hostap_tls/meta_81.log /tmp/hostap_tls/meta_22.log /tmp/hostap_tls/meta_80.log /tmp/hostap_tls/meta_203.log /tmp/hostap_tls/meta_182.log /tmp/hostap_tls/meta_55.log /tmp/hostap_tls/meta_75.log /tmp/hostap_tls/meta_147.log /tmp/hostap_tls/meta_56.log /tmp/hostap_tls/meta_177.log /tmp/hostap_tls/meta_50.log /tmp/hostap_tls/meta_63.log /tmp/hostap_tls/meta_187.log /tmp/hostap_tls/meta_144.log /tmp/hostap_tls/meta_193.log /tmp/hostap_tls/meta_185.log /tmp/hostap_tls/meta_184.log /tmp/hostap_tls/meta_112.log /tmp/hostap_tls/meta_179.log /tmp/hostap_tls/meta_158.log /tmp/hostap_tls/meta_15.log /tmp/hostap_tls/meta_105.log /tmp/hostap_tls/meta_152.log /tmp/hostap_tls/meta_130.log /tmp/hostap_tls/meta_141.log /tmp/hostap_tls/meta_202.log /tmp/hostap_tls/meta_54.log /tmp/hostap_tls/meta_204.log /tmp/hostap_tls/meta_115.log /tmp/hostap_tls/meta_180.log /tmp/hostap_tls/meta_48.log /tmp/hostap_tls/meta_62.log /tmp/hostap_tls/meta_73.log /tmp/hostap_tls/meta_201.log /tmp/hostap_tls/meta_19.log /tmp/hostap_tls/meta_154.log /tmp/hostap_tls/meta_64.log /tmp/hostap_tls/meta_176.log /tmp/hostap_tls/meta_97.log /tmp/hostap_tls/meta_61.log /tmp/hostap_tls/meta_49.log /tmp/hostap_tls/meta_10.log /tmp/hostap_tls/meta_3.log /tmp/hostap_tls/meta_2.log /tmp/hostap_tls/meta_199.log /tmp/hostap_tls/meta_118.log /tmp/hostap_tls/meta_44.log /tmp/hostap_tls/meta_60.log /tmp/hostap_tls/meta_165.log /tmp/hostap_tls/meta_42.log /tmp/hostap_tls/meta_113.log /tmp/hostap_tls/meta_102.log /tmp/hostap_tls/meta_43.log /tmp/hostap_tls/meta_200.log /tmp/hostap_tls/meta_125.log /tmp/hostap_tls/meta_12.log /tmp/hostap_tls/meta_120.log /tmp/hostap_tls/meta_67.log /tmp/hostap_tls/meta_4.log /tmp/hostap_tls/meta_191.log /tmp/hostap_tls/meta_72.log /tmp/hostap_tls/meta_66.log /tmp/hostap_tls/meta_14.log /tmp/hostap_tls/meta_25.log /tmp/hostap_tls/meta_194.log /tmp/hostap_tls/meta_70.log /tmp/hostap_tls/meta_159.log /tmp/hostap_tls/meta_135.log /tmp/hostap_tls/meta_166.log /tmp/hostap_tls/meta_109.log /tmp/hostap_tls/meta_40.log /tmp/hostap_tls/meta_160.log /tmp/hostap_tls/meta_47.log /tmp/hostap_tls/meta_138.log /tmp/hostap_tls/meta_108.log /tmp/hostap_tls/meta_183.log /tmp/hostap_tls/meta_175.log /tmp/hostap_tls/meta_51.log /tmp/hostap_tls/meta_39.log /tmp/hostap_tls/meta_93.log /tmp/hostap_tls/meta_36.log /tmp/hostap_tls/meta_33.log /tmp/hostap_tls/meta_172.log /tmp/hostap_tls/meta_134.log /tmp/hostap_tls/meta_131.log /tmp/hostap_tls/meta_188.log /tmp/hostap_tls/meta_96.log /tmp/hostap_tls/meta_74.log /tmp/hostap_tls/meta_174.log /tmp/hostap_tls/meta_155.log /tmp/hostap_tls/meta_136.log /tmp/hostap_tls/meta_5.log /tmp/hostap_tls/meta_26.log /tmp/hostap_tls/meta_146.log /tmp/hostap_tls/meta_94.log /tmp/hostap_tls/meta_153.log /tmp/hostap_tls/meta_163.log /tmp/hostap_tls/meta_161.log
+Feb 05, 2021 3:03:54 AM learningalgorithm.CoreLearner bootstrap
+INFO: Using 209 addresses of bytes in heap memory for state classification.
+Feb 05, 2021 3:03:55 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:03:55 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:03:56 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:04:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:205 [ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:04:08 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:206 [ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:04:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:207 [ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone]
+Feb 05, 2021 3:04:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:208 [ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:04:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:209 [ServerHelloRSA | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:210 [ServerHelloDHE | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:211 [EmptyCertificate | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:21 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:212 [CertificateRequest | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:213 [ServerHelloDone | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:214 [ClientCertificate | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:215 [ClientCertificateVerify | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:216 [ClientKeyExchange | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:217 [ChangeCipherSpec | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:218 [Finished | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:219 [ApplicationData | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:220 [ApplicationDataEmpty | Empty]
+Feb 05, 2021 3:04:29 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:04:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:221 [HeartbeatRequest | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:222 [HeartbeatResponse | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:223 [Alert10 | ConnectionClosed]
+Feb 05, 2021 3:04:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:224 [Alert1100 | ConnectionClosed]
+Feb 05, 2021 3:04:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:225 [ServerCertificate | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:226 [ServerKeyExchange | Alert2.10ConnectionClosed]
+Feb 05, 2021 3:04:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:227 [ApplicationDataEmpty ClientHello | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:04:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:228 [ApplicationDataEmpty ClientHelloDHE | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:04:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:229 [ApplicationDataEmpty ClientHelloRSA | Empty ServerHelloTLSv12CertificateServerHelloDone]
+Feb 05, 2021 3:05:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:230 [ApplicationDataEmpty ClientHelloDHEReset | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:05:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:231 [ApplicationDataEmpty ClientHelloRSAReset | Empty ServerHelloTLSv12CertificateServerHelloDone]
+Feb 05, 2021 3:05:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:232 [ApplicationDataEmpty ServerHelloRSA | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:233 [ApplicationDataEmpty ServerHelloDHE | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:234 [ApplicationDataEmpty EmptyCertificate | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:235 [ApplicationDataEmpty CertificateRequest | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:236 [ApplicationDataEmpty ServerHelloDone | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:34 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:237 [ApplicationDataEmpty ClientCertificate | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:238 [ApplicationDataEmpty ClientCertificateVerify | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:239 [ApplicationDataEmpty ClientKeyExchange | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:240 [ApplicationDataEmpty ChangeCipherSpec | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:241 [ApplicationDataEmpty Finished | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:53 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:242 [ApplicationDataEmpty ApplicationData | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:05:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:243 [ApplicationDataEmpty ApplicationDataEmpty | Empty Empty]
+Feb 05, 2021 3:05:59 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:06:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:244 [ApplicationDataEmpty HeartbeatRequest | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:245 [ApplicationDataEmpty HeartbeatResponse | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:246 [ApplicationDataEmpty Alert10 | Empty ConnectionClosed]
+Feb 05, 2021 3:06:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:247 [ApplicationDataEmpty Alert1100 | Empty ConnectionClosed]
+Feb 05, 2021 3:06:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:248 [ApplicationDataEmpty ServerCertificate | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:21 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:249 [ApplicationDataEmpty ServerKeyExchange | Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:250 [ClientHello ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:251 [ClientHello ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:252 [ClientHello ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:253 [ClientHello ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:254 [ClientHello ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:06:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:255 [ClientHello ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:256 [ClientHello ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:08 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:257 [ClientHello EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.48ConnectionClosed]
+Feb 05, 2021 3:07:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:258 [ClientHello CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:259 [ClientHello ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:260 [ClientHello ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 3:07:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:261 [ClientHello ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:262 [ClientHello ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:07:38 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:07:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:263 [ClientHello ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:264 [ClientHello Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:07:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:265 [ClientHello ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:08:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:266 [ClientHello ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:08:05 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:08:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:267 [ClientHello HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:08:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:268 [ClientHello HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:08:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:269 [ClientHello Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone ConnectionClosed]
+Feb 05, 2021 3:08:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:270 [ClientHello Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone ConnectionClosed]
+Feb 05, 2021 3:08:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:271 [ClientHello ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 3:08:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:272 [ClientHello ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:08:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:273 [ClientHelloDHE ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:08:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:274 [ClientHelloDHE ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:08:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:275 [ClientHelloDHE ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:276 [ClientHelloDHE ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:277 [ClientHelloDHE ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:278 [ClientHelloDHE ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:279 [ClientHelloDHE ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:280 [ClientHelloDHE EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.48ConnectionClosed]
+Feb 05, 2021 3:09:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:281 [ClientHelloDHE CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:282 [ClientHelloDHE ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:283 [ClientHelloDHE ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 3:09:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:284 [ClientHelloDHE ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:09:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:285 [ClientHelloDHE ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:09:58 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:10:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:286 [ClientHelloDHE ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:10:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:287 [ClientHelloDHE Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:10:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:288 [ClientHelloDHE ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:10:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:289 [ClientHelloDHE ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:10:23 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:10:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:290 [ClientHelloDHE HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:10:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:291 [ClientHelloDHE HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:10:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:292 [ClientHelloDHE Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone ConnectionClosed]
+Feb 05, 2021 3:10:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:293 [ClientHelloDHE Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone ConnectionClosed]
+Feb 05, 2021 3:10:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:294 [ClientHelloDHE ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.45ConnectionClosed]
+Feb 05, 2021 3:10:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:295 [ClientHelloDHE ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:11:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:296 [ApplicationDataEmpty ApplicationDataEmpty ClientHello | Empty Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:11:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:297 [ClientHello ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:11:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:298 [ClientHello ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:11:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:299 [ClientHello ApplicationDataEmpty ClientHelloDHE | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:11:36 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHello ApplicationDataEmpty ClientHelloDHE
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:11:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:300 [ClientHello ApplicationDataEmpty ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:11:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:301 [ClientHello ApplicationDataEmpty ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:12:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:302 [ClientHello ApplicationDataEmpty ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:12:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:303 [ClientHello ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:12:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:304 [ClientHello ApplicationDataEmpty ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:12:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:305 [ClientHello ApplicationDataEmpty ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:12:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:306 [ClientHello ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.48ConnectionClosed]
+Feb 05, 2021 3:12:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:307 [ClientHello ApplicationDataEmpty CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:12:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:308 [ClientHello ApplicationDataEmpty ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:13:00 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:309 [ClientHello ApplicationDataEmpty ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.45ConnectionClosed]
+Feb 05, 2021 3:13:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:310 [ClientHello ApplicationDataEmpty ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:13:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:311 [ClientHello ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:13:20 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:13:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:312 [ClientHelloDHE ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:13:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:313 [ClientHelloDHE ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:13:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:314 [ClientHelloDHE ApplicationDataEmpty ClientHelloDHE | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Alert2.10ConnectionClosed]
+Feb 05, 2021 3:13:44 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ClientHelloDHE
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:13:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:315 [ClientHelloDHE ApplicationDataEmpty ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:316 [ClientHelloDHE ApplicationDataEmpty ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:317 [ClientHelloDHE ApplicationDataEmpty ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:318 [ClientHelloDHE ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:319 [ClientHelloDHE ApplicationDataEmpty ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:320 [ClientHelloDHE ApplicationDataEmpty ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:321 [ClientHelloDHE ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.48ConnectionClosed]
+Feb 05, 2021 3:14:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:322 [ClientHelloDHE ApplicationDataEmpty CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:14:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:323 [ClientHelloDHE ApplicationDataEmpty ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:15:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:324 [ClientHelloDHE ApplicationDataEmpty ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.45ConnectionClosed]
+Feb 05, 2021 3:15:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:325 [ClientHelloDHE ApplicationDataEmpty ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:15:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:326 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:15:28 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:15:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:327 [ClientHelloDHE ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:15:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:328 [ClientHelloDHE ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:15:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:329 [ClientHelloDHE ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:16:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:330 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:16:07 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:16:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:331 [ClientHelloDHE ApplicationDataEmpty HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:16:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:332 [ClientHelloDHE ApplicationDataEmpty HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:16:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:333 [ClientHelloDHE ApplicationDataEmpty Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:16:41 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:334 [ClientHelloDHE ApplicationDataEmpty Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:16:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:335 [ClientHelloDHE ApplicationDataEmpty ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.45ConnectionClosed]
+Feb 05, 2021 3:16:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:336 [ClientHelloDHE ApplicationDataEmpty ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:337 [ClientHelloDHE ClientKeyExchange ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:338 [ClientHelloDHE ClientKeyExchange ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:339 [ClientHelloDHE ClientKeyExchange ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:340 [ClientHelloDHE ClientKeyExchange ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:341 [ClientHelloDHE ClientKeyExchange ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:342 [ClientHelloDHE ClientKeyExchange ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:17:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:343 [ClientHelloDHE ClientKeyExchange EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:18:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:344 [ClientHelloDHE ClientKeyExchange CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:18:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:345 [ClientHelloDHE ClientKeyExchange ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:18:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:346 [ClientHelloDHE ClientKeyExchange ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:18:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:347 [ClientHelloDHE ClientKeyExchange ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.80ConnectionClosed]
+Feb 05, 2021 3:18:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:348 [ClientHelloDHE ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:18:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:349 [ClientHelloDHE ClientKeyExchange ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:18:50 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Feb 05, 2021 3:18:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:350 [ClientHelloDHE ClientKeyExchange Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:19:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:351 [ClientHelloDHE ClientKeyExchange ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:19:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:352 [ClientHelloDHE ClientKeyExchange ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:19:19 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:19:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:353 [ClientHelloDHE ClientKeyExchange HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:19:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:354 [ClientHelloDHE ClientKeyExchange HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:19:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:355 [ClientHelloDHE ClientKeyExchange Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:19:53 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:356 [ClientHelloDHE ClientKeyExchange Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:20:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:357 [ClientHelloDHE ClientKeyExchange ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:20:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:358 [ClientHelloDHE ClientKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:20:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:359 [ClientHello ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:20:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:360 [ClientHello ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:20:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:361 [ClientHello ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:20:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:362 [ClientHello ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:20:48 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:20:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:363 [ClientHello ApplicationDataEmpty HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:21:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:364 [ClientHello ApplicationDataEmpty HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:21:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:365 [ClientHello ApplicationDataEmpty Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:21:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:366 [ClientHello ApplicationDataEmpty Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:21:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:367 [ClientHello ApplicationDataEmpty ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.45ConnectionClosed]
+Feb 05, 2021 3:21:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:368 [ClientHello ApplicationDataEmpty ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:21:46 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:369 [ClientHello ClientKeyExchange ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:21:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:370 [ClientHello ClientKeyExchange ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:371 [ClientHello ClientKeyExchange ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:372 [ClientHello ClientKeyExchange ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:21 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:373 [ClientHello ClientKeyExchange ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:374 [ClientHello ClientKeyExchange ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:375 [ClientHello ClientKeyExchange EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:376 [ClientHello ClientKeyExchange CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:22:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:377 [ClientHello ClientKeyExchange ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:23:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:378 [ClientHello ClientKeyExchange ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:23:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:379 [ClientHello ClientKeyExchange ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.80ConnectionClosed]
+Feb 05, 2021 3:23:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:380 [ClientHello ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:23:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:381 [ClientHello ClientKeyExchange ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:23:33 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Feb 05, 2021 3:23:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:382 [ClientHello ClientKeyExchange Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:23:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:383 [ClientHello ClientKeyExchange ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:24:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:384 [ClientHello ClientKeyExchange ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty]
+Feb 05, 2021 3:24:02 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:24:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:385 [ClientHello ClientKeyExchange HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:24:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:386 [ClientHello ClientKeyExchange HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:24:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:387 [ClientHello ClientKeyExchange Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:24:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:388 [ClientHello ClientKeyExchange Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:24:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:389 [ClientHello ClientKeyExchange ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:24:53 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:390 [ClientHello ClientKeyExchange ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:25:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:391 [ApplicationDataEmpty ApplicationDataEmpty ClientHelloDHE | Empty Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:25:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:392 [ApplicationDataEmpty ApplicationDataEmpty ClientHelloRSA | Empty Empty ServerHelloTLSv12CertificateServerHelloDone]
+Feb 05, 2021 3:25:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:393 [ApplicationDataEmpty ApplicationDataEmpty ClientHelloDHEReset | Empty Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:25:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:394 [ApplicationDataEmpty ApplicationDataEmpty ClientHelloRSAReset | Empty Empty ServerHelloTLSv12CertificateServerHelloDone]
+Feb 05, 2021 3:25:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:395 [ApplicationDataEmpty ApplicationDataEmpty ServerHelloRSA | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:25:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:396 [ApplicationDataEmpty ApplicationDataEmpty ServerHelloDHE | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:25:56 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:397 [ApplicationDataEmpty ApplicationDataEmpty EmptyCertificate | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:398 [ApplicationDataEmpty ApplicationDataEmpty CertificateRequest | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:399 [ApplicationDataEmpty ApplicationDataEmpty ServerHelloDone | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:400 [ApplicationDataEmpty ApplicationDataEmpty ClientCertificate | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:401 [ApplicationDataEmpty ApplicationDataEmpty ClientCertificateVerify | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:402 [ApplicationDataEmpty ApplicationDataEmpty ClientKeyExchange | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:403 [ApplicationDataEmpty ApplicationDataEmpty ChangeCipherSpec | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:404 [ApplicationDataEmpty ApplicationDataEmpty Finished | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:405 [ApplicationDataEmpty ApplicationDataEmpty ApplicationData | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:26:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:406 [ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:26:59 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:27:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:407 [ApplicationDataEmpty ApplicationDataEmpty HeartbeatRequest | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:27:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:408 [ApplicationDataEmpty ApplicationDataEmpty HeartbeatResponse | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:27:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:409 [ApplicationDataEmpty ApplicationDataEmpty Alert10 | Empty Empty ConnectionClosed]
+Feb 05, 2021 3:27:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:410 [ApplicationDataEmpty ApplicationDataEmpty Alert1100 | Empty Empty ConnectionClosed]
+Feb 05, 2021 3:27:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:411 [ApplicationDataEmpty ApplicationDataEmpty ServerCertificate | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:27:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:412 [ApplicationDataEmpty ApplicationDataEmpty ServerKeyExchange | Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:27:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:413 [ClientHelloRSAReset ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:27:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:414 [ClientHelloRSAReset ApplicationDataEmpty ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:27:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:415 [ClientHelloRSAReset ApplicationDataEmpty ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:416 [ClientHelloRSAReset ApplicationDataEmpty ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:417 [ClientHelloRSAReset ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:418 [ClientHelloRSAReset ApplicationDataEmpty ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:25 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:419 [ClientHelloRSAReset ApplicationDataEmpty ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:420 [ClientHelloRSAReset ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.48ConnectionClosed]
+Feb 05, 2021 3:28:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:421 [ClientHelloRSAReset ApplicationDataEmpty CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:422 [ClientHelloRSAReset ApplicationDataEmpty ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:28:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:423 [ClientHelloRSAReset ApplicationDataEmpty ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.45ConnectionClosed]
+Feb 05, 2021 3:28:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:424 [ClientHelloRSAReset ApplicationDataEmpty ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:29:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:425 [ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty]
+Feb 05, 2021 3:29:09 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:29:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:426 [ClientHelloRSAReset ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:29:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:427 [ClientHelloRSAReset ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:29:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:428 [ClientHelloRSAReset ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:29:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:429 [ClientHelloRSAReset ApplicationDataEmpty HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:29:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:430 [ClientHelloRSAReset ApplicationDataEmpty HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:29:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:431 [ClientHelloRSAReset ApplicationDataEmpty Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:29:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:432 [ClientHelloRSAReset ApplicationDataEmpty Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty ConnectionClosed]
+Feb 05, 2021 3:30:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:433 [ClientHelloRSAReset ApplicationDataEmpty ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.45ConnectionClosed]
+Feb 05, 2021 3:30:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:434 [ClientHelloRSAReset ApplicationDataEmpty ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:30:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:435 [ApplicationDataEmpty ClientHello ClientKeyExchange | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:30:20 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:30:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:436 [ApplicationDataEmpty ClientHello ApplicationDataEmpty | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:30:30 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:30:41 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:437 [ApplicationDataEmpty ClientHelloDHE ClientKeyExchange | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:30:41 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Feb 05, 2021 3:30:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:438 [ApplicationDataEmpty ClientHelloDHE ApplicationDataEmpty | Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty]
+Feb 05, 2021 3:30:52 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:31:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:439 [ClientHello ApplicationDataEmpty ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:31:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:440 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:31:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:441 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:31:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:442 [ClientHelloDHE ClientKeyExchange ChangeCipherSpec ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:31:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:443 [ClientHelloDHE ClientKeyExchange ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:31:50 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 3:31:50 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [19] with merge candidates [22]
+Feb 05, 2021 3:31:50 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: States differ by non-low confidence memory, continuing.
+Feb 05, 2021 3:31:50 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 3:31:50 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [19] with merge candidates [22]
+Feb 05, 2021 3:31:50 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x5555555a7730,  df]  0x5555555a780f         22        
+Feb 05, 2021 3:31:50 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Feb 05, 2021 3:31:50 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {5555555a7730, 298, df} watchpoint hits at state 22
+Feb 05, 2021 3:31:50 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {5555555a7730, 298, df} at state 22
+Feb 05, 2021 3:32:00 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:444 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:32:00 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:32:10 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:445 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:32:10 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:32:19 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:446 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:32:19 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:32:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:447 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:32:29 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:32:29 AM learningalgorithm.CoreLearner handleNonDeterminism
+SEVERE: Deleting transition and states (if required) - StateID: 0 Input: ClientHelloDHE --> StateID: 19
+Feb 05, 2021 3:32:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:448 [ClientHelloDHE ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:32:38 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientHelloDHE/Empty), queueing new queries.
+Feb 05, 2021 3:32:38 AM learningalgorithm.CoreLearner updateModel
+INFO: Not possible to obtain snapshot for input, mapping as loopback
+Feb 05, 2021 3:32:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:449 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:32:48 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty
+Input 1: expected - Empty //// Got - Empty
+Feb 05, 2021 3:32:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:450 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:32:58 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty
+Input 1: expected - Empty //// Got - Empty
+Feb 05, 2021 3:33:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:451 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:33:07 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty
+Input 1: expected - Empty //// Got - Empty
+Feb 05, 2021 3:33:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:452 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:33:17 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty
+Input 1: expected - Empty //// Got - Empty
+Feb 05, 2021 3:33:17 AM learningalgorithm.CoreLearner handleNonDeterminism
+SEVERE: Deleting transition and states (if required) - StateID: 0 Input: ApplicationDataEmpty --> StateID: 20
+Feb 05, 2021 3:33:17 AM learningalgorithm.CoreLearner handleNonDeterminism
+INFO: Updated queryQueue
+Feb 05, 2021 3:33:17 AM learningalgorithm.CoreLearner handleNonDeterminism
+INFO: Updated queryDoneCache
+Feb 05, 2021 3:33:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:453 [ClientHelloDHE ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:33:26 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:33:26 AM learningalgorithm.CoreLearner updateModel
+INFO: Not possible to obtain snapshot for input, mapping as loopback
+Feb 05, 2021 3:33:26 AM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Feb 05, 2021 3:33:26 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 19 and 22
+Feb 05, 2021 3:33:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:454 [ClientHello ApplicationDataEmpty ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:33:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:455 [ClientHello ClientKeyExchange ChangeCipherSpec ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:33:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:456 [ClientHello ClientKeyExchange ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:34:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:457 [ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:34:09 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 3:34:09 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [2] with merge candidates [6]
+Feb 05, 2021 3:34:09 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x5555555a7730,  df]  0x5555555a780f          6        
+Feb 05, 2021 3:34:09 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Feb 05, 2021 3:34:09 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {5555555a7730, 298, df} watchpoint hits at state 6
+Feb 05, 2021 3:34:09 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {5555555a7730, 298, df} at state 6
+Feb 05, 2021 3:34:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:458 [ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty]
+Feb 05, 2021 3:34:19 AM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange
+Feb 05, 2021 3:34:19 AM greyboxinterface.TainterInterface addr2line
+INFO: 0x5555555a780f watchpoint hit at 0x555555575e6c in /tmp/hostap_tls/sessID-458-watchpoint-1.log
+Feb 05, 2021 3:34:19 AM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: crypto_rsa_exptmod
+At source code file/line: /home/mathy/greyboxstatelearning/hostapd-tls/hostap/src/tls/rsa.c:340
+Preview:
+
+	*outlen = modlen;
+	os_memset(out, 0, modlen);
+	if (bignum_get_unsigned_bin(
+*******HIT MARKER******
+		    tmp, out +
+		    (modlen - bignum_get_unsigned_bin_len(tmp)), NULL) < 0)
+		goto error;
+
+	ret = 0;
+Feb 05, 2021 3:34:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:459 [ClientHelloRSAReset ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty]
+Feb 05, 2021 3:34:28 AM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u mathy pypy3 /home/mathy/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/mathy/greyboxstatelearning/hostapd-tls/hostap/tests/hostaptls_srv --ida C:\ida72\ida64.exe --window 512 --extended /tmp/stateMem17510574991064806355.log --repr-mallocs /tmp/hostap_tls/malloc2.log --exp-val Ag== --watchpoints /tmp/hostap_tls/sessID-458-watchpoint-1
+Feb 05, 2021 3:34:29 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Feb 05, 2021 3:34:29 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 2 and 6
+Feb 05, 2021 3:34:29 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [18] with merge candidates [21]
+Feb 05, 2021 3:34:29 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x5555555a7730,  df]  0x5555555a780f         21        
+Feb 05, 2021 3:34:29 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Feb 05, 2021 3:34:29 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {5555555a7730, 298, df} watchpoint hits at state 21
+Feb 05, 2021 3:34:29 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {5555555a7730, 298, df} at state 21
+Feb 05, 2021 3:34:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:460 [ClientHello ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:34:38 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHello ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:34:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:461 [ClientHello ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:34:48 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHello ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:34:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:462 [ClientHello ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:34:57 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHello ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:35:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:463 [ClientHello ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:35:07 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHello ApplicationDataEmpty ClientKeyExchange
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:35:07 AM learningalgorithm.CoreLearner handleNonDeterminism
+SEVERE: Deleting transition and states (if required) - StateID: 0 Input: ClientHello --> StateID: 18
+Feb 05, 2021 3:35:07 AM learningalgorithm.CoreLearner handleNonDeterminism
+INFO: Updated queryQueue
+Feb 05, 2021 3:35:07 AM learningalgorithm.CoreLearner handleNonDeterminism
+INFO: Updated queryDoneCache
+Feb 05, 2021 3:35:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:464 [ClientHello ApplicationDataEmpty ClientKeyExchange | Empty Empty Empty]
+Feb 05, 2021 3:35:17 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientHello/Empty), queueing new queries.
+Feb 05, 2021 3:35:17 AM learningalgorithm.CoreLearner updateModel
+INFO: Not possible to obtain snapshot for input, mapping as loopback
+Feb 05, 2021 3:35:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:465 [ClientHello ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Empty]
+Feb 05, 2021 3:35:26 AM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Feb 05, 2021 3:35:26 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 18 and 21
+Feb 05, 2021 3:35:26 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 3:35:26 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 3:35:26 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 3:35:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:466 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:35:46 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:467 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:35:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:468 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:36:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:469 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:36:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:470 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:36:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:471 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:36:34 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:472 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:36:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:473 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:36:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:474 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:37:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:475 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:37:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:476 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.80ConnectionClosed]
+Feb 05, 2021 3:37:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:477 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:37:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:478 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:37:35 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Feb 05, 2021 3:37:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:479 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:37:55 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:480 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:38:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:481 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:38:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:482 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:38:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:483 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 3:38:34 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:484 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 3:38:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:485 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:38:53 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:486 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:39:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:487 [ClientHelloRSA ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:39:06 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Feb 05, 2021 3:39:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:488 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:39:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:489 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:39:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:490 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:39:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:491 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:40:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:492 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:40:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:493 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:40:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:494 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:40:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:495 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:40:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:496 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:41:00 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:497 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:41:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:498 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:41:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:499 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:41:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:500 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:41:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:501 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Feb 05, 2021 3:42:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:502 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:42:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:503 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:42:17 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:42:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:504 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:42:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:505 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:42:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:506 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 3:43:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:507 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 3:43:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:508 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:43:28 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:509 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:43:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:510 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:43:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:511 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:44:01 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:512 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientHelloDHEReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:44:12 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:513 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:44:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:514 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ServerHelloRSA | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:44:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:515 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ServerHelloDHE | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:44:48 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:516 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:44:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:517 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty CertificateRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:45:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:518 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ServerHelloDone | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:45:21 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:519 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:45:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:520 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientCertificateVerify | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.80ConnectionClosed]
+Feb 05, 2021 3:45:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:521 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:45:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:522 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:45:59 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Feb 05, 2021 3:46:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:523 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:46:23 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:524 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:46:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:525 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:46:38 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Feb 05, 2021 3:46:50 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:526 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty HeartbeatRequest | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:47:03 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:527 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty HeartbeatResponse | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:47:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:528 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty Alert10 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 3:47:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:529 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty Alert1100 | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty ConnectionClosed]
+Feb 05, 2021 3:47:37 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:530 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ServerCertificate | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:47:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:531 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ServerKeyExchange | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:48:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:532 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:48:02 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 3:48:02 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [3] with merge candidates [10]
+Feb 05, 2021 3:48:02 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x5555555a7730,  df]  0x5555555a780f         10        
+Feb 05, 2021 3:48:02 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Feb 05, 2021 3:48:02 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {5555555a7730, 298, df} watchpoint hits at state 10
+Feb 05, 2021 3:48:02 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {5555555a7730, 298, df} at state 10
+Feb 05, 2021 3:48:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:533 [ClientHelloRSA ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:48:15 AM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSA ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Feb 05, 2021 3:48:15 AM greyboxinterface.TainterInterface addr2line
+INFO: 0x5555555a780f watchpoint hit at 0x555555575e6c in /tmp/hostap_tls/sessID-533-watchpoint-1.log
+Feb 05, 2021 3:48:15 AM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: crypto_rsa_exptmod
+At source code file/line: /home/mathy/greyboxstatelearning/hostapd-tls/hostap/src/tls/rsa.c:340
+Preview:
+
+	*outlen = modlen;
+	os_memset(out, 0, modlen);
+	if (bignum_get_unsigned_bin(
+*******HIT MARKER******
+		    tmp, out +
+		    (modlen - bignum_get_unsigned_bin_len(tmp)), NULL) < 0)
+		goto error;
+
+	ret = 0;
+Feb 05, 2021 3:48:15 AM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSA ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Feb 05, 2021 3:48:15 AM greyboxinterface.TainterInterface addr2line
+INFO: 0x5555555a780f watchpoint hit at 0x5555555602db in /tmp/hostap_tls/sessID-533-watchpoint-2.log
+Feb 05, 2021 3:48:15 AM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: tls_process_ocsp_responses
+At source code file/line: /home/mathy/greyboxstatelearning/hostapd-tls/hostap/src/tls/tlsv1_client_ocsp.c:343
+Preview:
+						     hdr.payload, hdr.length,
+						     &res) == 0)
+			return res;
+		pos = hdr.payload + hdr.length;
+*******HIT MARKER******
+	}
+
+	wpa_printf(MSG_DEBUG,
+		   "OCSP: Did not find a response matching the server certificate");
+	return TLS_OCSP_NO_RESPONSE;
+Feb 05, 2021 3:48:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:534 [ClientHelloRSA ClientKeyExchange ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Feb 05, 2021 3:48:28 AM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u mathy pypy3 /home/mathy/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/mathy/greyboxstatelearning/hostapd-tls/hostap/tests/hostaptls_srv --ida C:\ida72\ida64.exe --window 512 --extended /tmp/stateMem16843122332202794161.log --repr-mallocs /tmp/hostap_tls/malloc2.log --exp-val Aw== --watchpoints /tmp/hostap_tls/sessID-533-watchpoint-1 /tmp/hostap_tls/sessID-533-watchpoint-2
+Feb 05, 2021 3:48:28 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Feb 05, 2021 3:48:28 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 3 and 10
+Feb 05, 2021 3:48:28 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 3:48:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:535 [ClientHelloDHEReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:48:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:536 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:49:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:537 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:49:13 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 3:49:13 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [26] with merge candidates [29]
+Feb 05, 2021 3:49:13 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x5555555a7730,  df]  0x5555555a780f          6        
+Feb 05, 2021 3:49:13 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Feb 05, 2021 3:49:13 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {5555555a7730, 298, df} watchpoint hits at state 6
+Feb 05, 2021 3:49:13 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {5555555a7730, 298, df} at state 6
+Feb 05, 2021 3:49:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:538 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | Empty Empty Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:49:28 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:49:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:539 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | Empty Empty Empty ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone]
+Feb 05, 2021 3:49:42 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:49:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:540 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | Empty Empty Empty Empty]
+Feb 05, 2021 3:49:54 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:50:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:541 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | Empty Empty Empty Empty]
+Feb 05, 2021 3:50:07 AM learningalgorithm.CoreLearner updateModel
+SEVERE: Retrying Inconsistent query response in query ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Input 0: expected - ServerHelloTLSv12CertificateServerKeyExchangeServerHelloDone //// Got - Empty
+Feb 05, 2021 3:50:07 AM learningalgorithm.CoreLearner handleNonDeterminism
+SEVERE: Deleting transition and states (if required) - StateID: 0 Input: ClientHelloDHEReset --> StateID: 9
+Feb 05, 2021 3:50:07 AM learningalgorithm.CoreLearner handleNonDeterminism
+INFO: Updated queryQueue
+Feb 05, 2021 3:50:07 AM learningalgorithm.CoreLearner handleNonDeterminism
+INFO: Updated queryDoneCache
+Feb 05, 2021 3:50:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:542 [ClientHelloDHEReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | Empty Empty Empty Empty]
+Feb 05, 2021 3:50:20 AM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientHelloDHEReset/Empty), queueing new queries.
+Feb 05, 2021 3:50:20 AM learningalgorithm.CoreLearner updateModel
+INFO: Not possible to obtain snapshot for input, mapping as loopback
+Feb 05, 2021 3:50:20 AM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Feb 05, 2021 3:50:20 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 26 and 29
+Feb 05, 2021 3:50:20 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 3:50:32 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:543 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:50:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:544 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:50:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:545 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:51:11 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:546 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:51:24 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:547 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:51:36 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:548 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:51:49 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:549 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:52:02 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:550 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:52:15 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:551 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:52:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:552 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:52:40 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:553 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:52:53 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:554 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:53:06 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:555 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:53:18 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:556 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:53:31 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:557 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ApplicationDataConnectionClosed]
+Feb 05, 2021 3:53:44 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:558 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ApplicationDataConnectionClosed]
+Feb 05, 2021 3:53:57 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:559 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:54:09 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:560 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:54:22 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:561 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ApplicationDataConnectionClosed]
+Feb 05, 2021 3:54:35 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:562 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ApplicationDataConnectionClosed]
+Feb 05, 2021 3:54:47 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:563 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:55:00 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:564 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ConnectionClosed]
+Feb 05, 2021 3:55:13 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:565 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHello | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:55:26 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:566 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:55:38 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:567 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:55:51 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:568 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHelloDHEReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:56:04 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:569 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:56:16 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:570 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ServerHelloRSA | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:56:29 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:571 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ServerHelloDHE | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:56:42 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:572 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:56:54 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:573 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty CertificateRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:57:07 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:574 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ServerHelloDone | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:57:20 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:575 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:57:33 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:576 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientCertificateVerify | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:57:45 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:577 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:57:58 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:578 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:58:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:579 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished]
+Feb 05, 2021 3:58:27 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:580 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:58:39 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:581 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty HeartbeatRequest | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:58:52 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:582 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty HeartbeatResponse | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:59:05 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:583 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Alert10 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ConnectionClosed]
+Feb 05, 2021 3:59:17 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:584 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Alert1100 | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ConnectionClosed]
+Feb 05, 2021 3:59:30 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:585 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ServerCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:59:43 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:586 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ServerKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10ConnectionClosed]
+Feb 05, 2021 3:59:43 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 3:59:43 AM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [4] with merge candidates [14]
+Feb 05, 2021 3:59:43 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x5555555a7730,  df]  0x5555555a780f          6        
+Feb 05, 2021 3:59:43 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Feb 05, 2021 3:59:43 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {5555555a7730, 298, df} watchpoint hits at state 6
+Feb 05, 2021 3:59:43 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {5555555a7730, 298, df} at state 6
+Feb 05, 2021 3:59:59 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:587 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished]
+Feb 05, 2021 3:59:59 AM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished
+Feb 05, 2021 3:59:59 AM greyboxinterface.TainterInterface addr2line
+INFO: 0x5555555a780f watchpoint hit at 0x555555575e6c in /tmp/hostap_tls/sessID-587-watchpoint-1.log
+Feb 05, 2021 3:59:59 AM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: crypto_rsa_exptmod
+At source code file/line: /home/mathy/greyboxstatelearning/hostapd-tls/hostap/src/tls/rsa.c:340
+Preview:
+
+	*outlen = modlen;
+	os_memset(out, 0, modlen);
+	if (bignum_get_unsigned_bin(
+*******HIT MARKER******
+		    tmp, out +
+		    (modlen - bignum_get_unsigned_bin_len(tmp)), NULL) < 0)
+		goto error;
+
+	ret = 0;
+Feb 05, 2021 4:00:14 AM learningalgorithm.MealyOracle answerQuery
+INFO: Q:588 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty]
+Feb 05, 2021 4:00:14 AM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u mathy pypy3 /home/mathy/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/mathy/greyboxstatelearning/hostapd-tls/hostap/tests/hostaptls_srv --ida C:\ida72\ida64.exe --window 512 --extended /tmp/stateMem10038784767402322745.log --repr-mallocs /tmp/hostap_tls/malloc2.log --exp-val AQ== --watchpoints /tmp/hostap_tls/sessID-587-watchpoint-1
+Feb 05, 2021 4:00:15 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Feb 05, 2021 4:00:15 AM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 4 and 14
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Feb 05, 2021 4:00:15 AM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Feb 05, 2021 4:00:15 AM learner.MemStateLearner learn
+INFO: Learning completed successfully - pre-minimised model has 6 states.
+Feb 05, 2021 4:00:15 AM learner.MemStateLearner learn
+INFO: Learning completed successfully - minimised model has 6 states.
+Feb 05, 2021 4:00:15 AM learner.MemStateLearner learn
+INFO: 
+------------------ MEMORY STATS -----------------
+# Unique bytes for state classification:  209
+# Unique allocations containing bytes:    34
+
+---------------- SUT QUERY STATS ----------------
+# Bootstrap queries:                      204
+# Membership queries:                     355
+# Watchpoint queries:                     11
+# Failed queries:                         18
+# Total queries (exc failed):             570
+# Total time elapsed (hh:mm:ss):          01:35:02
+
+------------ TAINT ANALYSIS STATS ---------------
+# Total watchpoints hits analysed:        4
+# Of which: positive state memory:        0
+#           negative state memory:        4

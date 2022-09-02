@@ -1,0 +1,77 @@
+From 0bd239661bb6b397df5d68132ff23c28fca4e21c Mon Sep 17 00:00:00 2001
+From: Mathy <mathy.vanhoef@nyu.edu>
+Date: Mon, 13 Apr 2020 08:27:43 +0400
+Subject: [PATCH] https-client: modify to constantly keep connecting to the
+ server
+
+---
+ tests/test-https.c | 41 ++++++++++++++++++++++++++++-------------
+ 1 file changed, 28 insertions(+), 13 deletions(-)
+
+diff --git a/tests/test-https.c b/tests/test-https.c
+index a72e56f9d..0599148a5 100644
+--- a/tests/test-https.c
++++ b/tests/test-https.c
+@@ -151,7 +151,8 @@ static int https_client(int s, const char *path)
+ 	out = NULL;
+ 
+ 	wpa_printf(MSG_INFO, "Reading HTTP response");
+-	for (;;) {
++	//for (;;) {
++	{
+ 		int need_more_data;
+ 		in = https_recv(s);
+ 		if (in == NULL)
+@@ -203,23 +204,37 @@ int main(int argc, char *argv[])
+ 		return -1;
+ 	}
+ 
+-	for (rp = result; rp; rp = rp->ai_next) {
+-		s = socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
+-		if (s < 0)
++	printf("Trying to connect");
++	while (1)
++	{
++		for (rp = result; rp; rp = rp->ai_next) {
++			s = socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
++			if (s < 0)
++				continue;
++			if (connect(s, rp->ai_addr, rp->ai_addrlen) == 0)
++				break;
++			close(s);
++		}
++
++		if (rp == NULL) {
++			printf(".");
++			fflush(stdout);
++			usleep(50 * 1000);
+ 			continue;
+-		if (connect(s, rp->ai_addr, rp->ai_addrlen) == 0)
+-			break;
++		}
++
++		wpa_printf(MSG_DEBUG, "\n-------------------------------------");
++		wpa_printf(MSG_DEBUG, "Connected to server");
++
++		https_client(s, argv[3]);
+ 		close(s);
+-	}
+-	freeaddrinfo(result);
+ 
+-	if (rp == NULL) {
+-		wpa_printf(MSG_ERROR, "Could not connect");
+-		return -1;
++		wpa_printf(MSG_DEBUG, "Done with the connection");
++		wpa_printf(MSG_DEBUG, "-------------------------------------");
++		printf("Trying to connect");
+ 	}
+ 
+-	https_client(s, argv[3]);
+-	close(s);
++	freeaddrinfo(result);
+ 
+ 	return 0;
+ }
+-- 
+2.17.1
+

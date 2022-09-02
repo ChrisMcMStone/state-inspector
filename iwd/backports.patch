@@ -1,0 +1,40 @@
+diff --git a/defconfigs/hwsim b/defconfigs/hwsim
+index 9d8006e..770b26e 100644
+--- a/defconfigs/hwsim
++++ b/defconfigs/hwsim
+@@ -3,9 +3,12 @@ CPTCFG_CFG80211_DEFAULT_PS=y
+ CPTCFG_CFG80211_DEBUGFS=y
+ CPTCFG_CFG80211_WEXT=y
+ CPTCFG_MAC80211=m
+-# CPTCFG_MAC80211_RC_PID is not set
+-# CPTCFG_MAC80211_RC_MINSTREL is not set
+-# CPTCFG_MAC80211_RC_DEFAULT_MINSTREL is not set
++
++CPTCFG_MAC80211_HAS_RC=y
++CPTCFG_MAC80211_RC_MINSTREL=y
++CPTCFG_MAC80211_RC_DEFAULT_MINSTREL=y
++CPTCFG_MAC80211_RC_DEFAULT="minstrel_ht"
++
+ CPTCFG_MAC80211_DEBUGFS=y
+ CPTCFG_MAC80211_MESSAGE_TRACING=y
+ CPTCFG_WLAN=y
+diff --git a/net/mac80211/key.c b/net/mac80211/key.c
+index 0f889b9..b78cf7d 100644
+--- a/net/mac80211/key.c
++++ b/net/mac80211/key.c
+@@ -797,6 +797,7 @@ int ieee80211_key_link(struct ieee80211_key *key,
+ 			goto out;
+ 	}
+ 
++#if 0
+ 	/*
+ 	 * Silently accept key re-installation without really installing the
+ 	 * new version of the key to avoid nonce reuse or replay issues.
+@@ -806,6 +807,7 @@ int ieee80211_key_link(struct ieee80211_key *key,
+ 		ret = 0;
+ 		goto out;
+ 	}
++#endif
+ 
+ 	key->local = sdata->local;
+ 	key->sdata = sdata;

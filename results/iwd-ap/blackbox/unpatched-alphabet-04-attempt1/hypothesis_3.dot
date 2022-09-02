@@ -1,0 +1,27 @@
+digraph g {
+
+	s0 [shape="circle" label="s0"];
+	s1 [shape="circle" label="s1"];
+	s2 [shape="circle" label="s2"];
+	s3 [shape="circle" label="s3"];
+	s0 -> s1 [label="AUTH / AUTH_ACCEPT,0.0"];
+	s0 -> s0 [label="ASSOC(RSNE=cc) / REJECT,0.0"];
+	s0 -> s0 [label="E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / TIMEOUT,2.0"];
+	s0 -> s0 [label="E4(|KD=WPA2|CS=SHA1|) / TIMEOUT,2.0"];
+	s1 -> s1 [label="AUTH / AUTH_ACCEPT,0.0"];
+	s1 -> s2 [label="ASSOC(RSNE=cc) / E1(KD=WPA2|CS=SHA1),0.0"];
+	s1 -> s1 [label="E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / TIMEOUT,2.0"];
+	s1 -> s1 [label="E4(|KD=WPA2|CS=SHA1|) / TIMEOUT,2.0"];
+	s2 -> s2 [label="AUTH / AUTH_ACCEPT,0.0"];
+	s2 -> s2 [label="ASSOC(RSNE=cc) / TIMEOUT,2.0"];
+	s2 -> s3 [label="E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / E3(KD=WPA2|CS=SHA1),0.0"];
+	s2 -> s2 [label="E4(|KD=WPA2|CS=SHA1|) / TIMEOUT,2.0"];
+	s3 -> s3 [label="AUTH / AUTH_ACCEPT,0.0"];
+	s3 -> s3 [label="ASSOC(RSNE=cc) / TIMEOUT,2.0"];
+	s3 -> s3 [label="E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / TIMEOUT,2.0"];
+	s3 -> s3 [label="E4(|KD=WPA2|CS=SHA1|) / AES_DATA_1,0.0"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+}

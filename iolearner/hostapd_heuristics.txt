@@ -1,0 +1,10 @@
+Broadcast behaviour: W followed by R; check for W of different sizes, followed by R of always equal (e.g., MSG/ACK)
+Ping-type: R chain; in sequence, all of same size; read-only behaviour, all positive (actual reads, not polling); chain must all be same size... so if the reads are contiguous, then they MUST all have the same size
+
+This is because we assume that the read behaviour should be stateless, unless influenced by some other input/output behaviour
+
+Decide on type:
+  - Server like: did we see accept?
+Otherwise:
+  - Broadcast-type: W-R (message/ack)
+  - Notify-type: R (M/M chain)

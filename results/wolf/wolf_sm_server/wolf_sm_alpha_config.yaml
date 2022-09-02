@@ -1,0 +1,29 @@
+base_dir: "/home/james/Documents/CTF/project/"
+output_dir: "/tmp/wolfssl"
+
+results_dir: "experiments/results"
+
+experiment_name: ""
+kill_ports: 4501
+
+# HARNESS
+harness:
+ base_dir: "tls/TLSAttackerConnector"
+ prep_command: "mvn clean install"
+ command: "java -jar ./target/TLSAttackerConnector2.0.jar --messageDir ./messages/messages.txt --timeout 400 -tP 4501"
+
+# SERVER
+server:
+ base_dir: "tls/openssl/wolfssl"
+ log_file: "server_log.log"
+ command: "/home/james/Documents/CTF/project/tls/openssl/wolfssl/examples/server/server -k /home/james/Documents/CTF/project/tls/openssl/server_key/server_1.key -c /home/james/Documents/CTF/project/tls/openssl/server_key/server_1.pem -A /home/james/Documents/CTF/project/tls/openssl/server_key/CA.pem -p 4501 -g -i -f -x -l TLS_RSA_WITH_AES_128_CBC_SHA256 -d"
+ post_command: ""
+
+# LEARNER
+learner:
+  base_dir: "greyboxstatelearning/statelearner"
+  command: "./run_learner.sh configs/wolf/wolf-sm-alpha.properties"
+  log_file: "learner_log.log"
+
+# MISC
+notes: ""

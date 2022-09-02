@@ -1,0 +1,16 @@
+nodedef> name
+test2
+intrusive[other]
+wave
+intru[sive[]0,7]
+[wave]
+wave[]
+test
+intrusive
+test3[this]
+wave[
+wave,intrusive
+wave[,intrusive[other]
+wave[],intru[sive[]0,7]
+[wave],intrusive
+edgedef> node1,node2

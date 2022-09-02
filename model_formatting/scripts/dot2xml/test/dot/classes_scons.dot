@@ -1,0 +1,8 @@
+digraph "classes_scons" {
+charset="utf-8"
+rankdir=BT
+"4" -> "10";
+  "test" [style="filled" fillcolor="#A3A27C" shape="box"];
+"4" [shape="record"];
+"10" [shape="record"];
+}

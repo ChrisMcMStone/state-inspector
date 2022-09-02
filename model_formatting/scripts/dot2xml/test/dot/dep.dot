@@ -1,0 +1,3 @@
+digraph boost {
+  "test" [style="filled" fillcolor="#A3A27C" shape="box"];
+ }

@@ -1,0 +1,555 @@
+Sep 01, 2020 5:22:02 PM learner.MemStateLearner <init>
+INFO: Using TLS SUL
+Sep 01, 2020 5:22:02 PM learner.MemStateLearner learn
+INFO: Bootstrap phase with 3 iterations of each flow.
+Sep 01, 2020 5:22:05 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:1 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Sep 01, 2020 5:22:05 PM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 482
+Sep 01, 2020 5:22:07 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:2 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Sep 01, 2020 5:22:07 PM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 436
+Sep 01, 2020 5:22:10 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:3 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished]
+Sep 01, 2020 5:22:10 PM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 436
+Sep 01, 2020 5:22:12 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:4 [ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:16 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:5 [ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:19 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:6 [ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:22 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:7 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10 Empty Empty Empty]
+Sep 01, 2020 5:22:25 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:8 [ClientHelloRSAReset EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:28 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:9 [ClientHelloRSAReset ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Alert2.47 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:31 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:10 [ClientHelloRSAReset Finished Finished Finished Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:35 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:11 [ClientHelloRSAReset ApplicationData ApplicationData ApplicationData ApplicationData ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:38 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:12 [ClientHelloRSAReset ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty]
+Sep 01, 2020 5:22:41 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:13 [ClientHelloRSAReset ClientKeyExchange ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:45 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:14 [ClientHelloRSAReset ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:48 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:15 [ClientHelloRSAReset ClientKeyExchange EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:22:52 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:16 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.20 Empty Empty Empty]
+Sep 01, 2020 5:22:55 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:17 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.20 Empty Empty Empty]
+Sep 01, 2020 5:22:59 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:18 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.20 Empty Empty Empty]
+Sep 01, 2020 5:23:02 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:19 [ClientHelloRSAReset ClientKeyExchange Finished Finished Finished Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:06 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:20 [ClientHelloRSAReset ClientKeyExchange ApplicationData ApplicationData ApplicationData ApplicationData ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:09 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:21 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty Empty]
+Sep 01, 2020 5:23:13 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:22 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.20 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:16 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:23 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:20 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:24 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.20 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:24 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:25 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.20 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:28 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:26 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished Finished Finished Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Alert2.10 Empty Empty Empty]
+Sep 01, 2020 5:23:31 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:27 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationData ApplicationData ApplicationData ApplicationData ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10 Empty Empty Empty Empty]
+Sep 01, 2020 5:23:35 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:28 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty Empty Empty]
+Sep 01, 2020 5:23:35 PM learningalgorithm.CoreLearner bootstrap
+INFO: Using 3 unique bootstrap flows, each executed 3 times for diff tool
+Sep 01, 2020 5:23:35 PM learningalgorithm.CoreLearner bootstrap
+INFO: Using representative log from malloc1.log sessionID 1
+Sep 01, 2020 5:23:35 PM greyboxinterface.StateDiffInterface buildCmd
+INFO: 9 meta logs passed to diff tool
+Sep 01, 2020 5:23:35 PM greyboxinterface.StateDiffInterface getStateMemory
+INFO: Diff tool launch command: pypy3 /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/diff_tool/diff_tool.py --mem-maps /tmp/bsafe/mem_maps1.log --mlog-filter /tmp/bsafe/malloc1.log --json --apply-hueristics --output-log /tmp/bsafe/stateaddrset.log --calc-confidence --terminating-outputs ConnectionClosed DecryptError --logs /tmp/bsafe/meta_3.log /tmp/bsafe/meta_5.log /tmp/bsafe/meta_6.log /tmp/bsafe/meta_1.log /tmp/bsafe/meta_18.log /tmp/bsafe/meta_4.log /tmp/bsafe/meta_16.log /tmp/bsafe/meta_17.log /tmp/bsafe/meta_2.log
+Sep 01, 2020 5:23:36 PM learningalgorithm.CoreLearner bootstrap
+INFO: Using 88 addresses of bytes in heap memory for state classification.
+Sep 01, 2020 5:23:36 PM learningalgorithm.CoreLearner updateModel
+WARNING: Observed I/O contradicts state memory classifications for state 1 after input ClientHelloRSAReset. Likely missing state memory in monitor set. 
+Sep 01, 2020 5:23:36 PM learningalgorithm.CoreLearner updateModel
+WARNING: Observed I/O contradicts state memory classifications for state 1 after input ClientHelloRSAReset. Likely missing state memory in monitor set. 
+Sep 01, 2020 5:23:36 PM learningalgorithm.CoreLearner updateModel
+WARNING: Observed I/O contradicts state memory classifications for state 1 after input ChangeCipherSpec. Likely missing state memory in monitor set. 
+Sep 01, 2020 5:23:36 PM learningalgorithm.CoreLearner updateModel
+WARNING: Observed I/O contradicts state memory classifications for state 1 after input ChangeCipherSpec. Likely missing state memory in monitor set. 
+Sep 01, 2020 5:23:37 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:23:37 PM learningalgorithm.CoreLearner updateModel
+WARNING: Observed I/O contradicts state memory classifications for state 1 after input ClientKeyExchange. Likely missing state memory in monitor set. 
+Sep 01, 2020 5:23:37 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:23:37 PM learningalgorithm.CoreLearner updateModel
+WARNING: Observed I/O contradicts state memory classifications for state 1 after input ChangeCipherSpec. Likely missing state memory in monitor set. 
+Sep 01, 2020 5:23:37 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:23:39 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:29 [ClientKeyExchange | Alert1.0]
+Sep 01, 2020 5:23:40 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:30 [EmptyCertificate | Alert1.0]
+Sep 01, 2020 5:23:42 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:31 [ChangeCipherSpec | Empty]
+Sep 01, 2020 5:23:42 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Sep 01, 2020 5:23:44 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:32 [Finished | Alert1.0]
+Sep 01, 2020 5:23:45 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:33 [ApplicationData | Alert1.0]
+Sep 01, 2020 5:23:47 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:34 [ApplicationDataEmpty | Empty]
+Sep 01, 2020 5:23:47 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:23:49 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:35 [ChangeCipherSpec ClientHelloRSAReset | Empty Alert1.0]
+Sep 01, 2020 5:23:51 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:36 [ApplicationDataEmpty ClientHelloRSAReset | Empty Alert1.0]
+Sep 01, 2020 5:23:53 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:37 [ApplicationDataEmpty ClientKeyExchange | Empty Alert1.0]
+Sep 01, 2020 5:23:54 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:38 [ApplicationDataEmpty EmptyCertificate | Empty Alert1.0]
+Sep 01, 2020 5:23:56 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:39 [ApplicationDataEmpty ChangeCipherSpec | Empty Alert1.0]
+Sep 01, 2020 5:23:58 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:40 [ApplicationDataEmpty Finished | Empty Alert1.0]
+Sep 01, 2020 5:24:00 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:41 [ApplicationDataEmpty ApplicationData | Empty Alert1.0]
+Sep 01, 2020 5:24:02 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:42 [ApplicationDataEmpty ApplicationDataEmpty | Empty Empty]
+Sep 01, 2020 5:24:02 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:24:04 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:43 [ChangeCipherSpec ClientKeyExchange | Empty Alert1.0]
+Sep 01, 2020 5:24:06 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:44 [ChangeCipherSpec EmptyCertificate | Empty Alert1.0]
+Sep 01, 2020 5:24:08 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:45 [ChangeCipherSpec ChangeCipherSpec | Empty Alert1.0]
+Sep 01, 2020 5:24:10 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:46 [ChangeCipherSpec Finished | Empty Alert1.0]
+Sep 01, 2020 5:24:11 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:47 [ChangeCipherSpec ApplicationData | Empty Alert1.0]
+Sep 01, 2020 5:24:13 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:48 [ChangeCipherSpec ApplicationDataEmpty | Empty Alert1.0]
+Sep 01, 2020 5:24:15 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:49 [ApplicationDataEmpty ApplicationDataEmpty ClientHelloRSAReset | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:18 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:50 [ApplicationDataEmpty ApplicationDataEmpty ClientKeyExchange | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:20 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:51 [ApplicationDataEmpty ApplicationDataEmpty EmptyCertificate | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:22 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:52 [ApplicationDataEmpty ApplicationDataEmpty ChangeCipherSpec | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:24 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:53 [ApplicationDataEmpty ApplicationDataEmpty Finished | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:26 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:54 [ApplicationDataEmpty ApplicationDataEmpty ApplicationData | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:29 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:55 [ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | Empty Empty Alert1.0]
+Sep 01, 2020 5:24:31 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:56 [ClientHelloRSAReset ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10]
+Sep 01, 2020 5:24:33 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:57 [ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty]
+Sep 01, 2020 5:24:33 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ClientKeyExchange/Empty), queueing new queries.
+Sep 01, 2020 5:24:35 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:58 [ClientHelloRSAReset ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10]
+Sep 01, 2020 5:24:38 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:59 [ClientHelloRSAReset ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.47]
+Sep 01, 2020 5:24:40 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:60 [ClientHelloRSAReset ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10]
+Sep 01, 2020 5:24:42 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:61 [ClientHelloRSAReset ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Alert2.10]
+Sep 01, 2020 5:24:44 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:62 [ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10]
+Sep 01, 2020 5:24:45 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Sep 01, 2020 5:24:45 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [2] with merge candidates [6]
+Sep 01, 2020 5:24:45 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: States differ by non-low confidence memory, continuing.
+Sep 01, 2020 5:24:45 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Sep 01, 2020 5:24:45 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [2] with merge candidates [6]
+Sep 01, 2020 5:24:45 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x555555b810c0,  50]  0x555555b81110          6        
+Sep 01, 2020 5:24:45 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Sep 01, 2020 5:24:45 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b810c0, 78, 50} watchpoint hits at state 6
+Sep 01, 2020 5:24:45 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b810c0, 78, 50} at state 6
+Sep 01, 2020 5:24:47 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:63 [ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty]
+Sep 01, 2020 5:24:47 PM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSAReset ApplicationDataEmpty ClientKeyExchange
+Sep 01, 2020 5:24:47 PM greyboxinterface.TainterInterface addr2line
+INFO: 0x555555b81110 watchpoint hit at 0x555555599bb1 in /tmp/bsafe/sessID-63-watchpoint-1.log
+Sep 01, 2020 5:24:47 PM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: BIO_read
+Addr2line failed to find source code line for given watchpoint hit.
+Sep 01, 2020 5:24:49 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:64 [ClientHelloRSAReset ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty]
+Sep 01, 2020 5:24:49 PM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u chris python3 /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/bsafe/installation/share_c4040/samples/source/ssl/tls_ext_server --ida C:\Program Files\IDA 7.0\ida64.exe --window 512 --extended /tmp/stateMem14319053207117505125.log --repr-mallocs /tmp/bsafe/malloc1.log --exp-val Qw== --watchpoints /tmp/bsafe/sessID-63-watchpoint-1
+Sep 01, 2020 5:25:05 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Sep 01, 2020 5:25:05 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 2 and 6
+Sep 01, 2020 5:25:08 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:65 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10]
+Sep 01, 2020 5:25:10 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:66 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10]
+Sep 01, 2020 5:25:13 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:67 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Sep 01, 2020 5:25:13 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ChangeCipherSpec/Empty), queueing new queries.
+Sep 01, 2020 5:25:15 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:68 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10]
+Sep 01, 2020 5:25:18 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:69 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Alert2.10]
+Sep 01, 2020 5:25:20 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:70 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.20]
+Sep 01, 2020 5:25:21 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Sep 01, 2020 5:25:21 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [3] with merge candidates [10]
+Sep 01, 2020 5:25:21 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x555555b810c0,  50]  0x555555b81110         10        
+Sep 01, 2020 5:25:21 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Sep 01, 2020 5:25:21 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b810c0, 78, 50} watchpoint hits at state 10
+Sep 01, 2020 5:25:21 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b810c0, 78, 50} at state 10
+Sep 01, 2020 5:25:23 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:71 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Sep 01, 2020 5:25:23 PM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ChangeCipherSpec
+Sep 01, 2020 5:25:23 PM greyboxinterface.TainterInterface addr2line
+INFO: 0x555555b81110 watchpoint hit at 0x555555599bb1 in /tmp/bsafe/sessID-71-watchpoint-1.log
+Sep 01, 2020 5:25:23 PM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: BIO_read
+Addr2line failed to find source code line for given watchpoint hit.
+Sep 01, 2020 5:25:26 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:72 [ClientHelloRSAReset ClientKeyExchange ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty]
+Sep 01, 2020 5:25:26 PM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u chris python3 /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/bsafe/installation/share_c4040/samples/source/ssl/tls_ext_server --ida C:\Program Files\IDA 7.0\ida64.exe --window 512 --extended /tmp/stateMem14012094461916309532.log --repr-mallocs /tmp/bsafe/malloc1.log --exp-val zg== --watchpoints /tmp/bsafe/sessID-71-watchpoint-1
+Sep 01, 2020 5:25:41 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Sep 01, 2020 5:25:41 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 3 and 10
+Sep 01, 2020 5:25:41 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Sep 01, 2020 5:25:44 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:73 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Alert2.80]
+Sep 01, 2020 5:25:46 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:74 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Alert2.10]
+Sep 01, 2020 5:25:49 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:75 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Alert2.10]
+Sep 01, 2020 5:25:51 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:76 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Alert2.47Alert1.0]
+Sep 01, 2020 5:25:54 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:77 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished ApplicationDataAlert1.0]
+Sep 01, 2020 5:25:56 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:78 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty]
+Sep 01, 2020 5:25:57 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:25:59 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:79 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:02 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:80 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:05 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:81 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:08 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:82 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:10 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:83 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished]
+Sep 01, 2020 5:26:13 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:84 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:16 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:85 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Alert2.80]
+Sep 01, 2020 5:26:16 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Sep 01, 2020 5:26:16 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Sep 01, 2020 5:26:19 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:86 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Alert2.10]
+Sep 01, 2020 5:26:22 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:87 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Alert2.10]
+Sep 01, 2020 5:26:25 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:88 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Alert2.47Alert1.0]
+Sep 01, 2020 5:26:28 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:89 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Alert2.10]
+Sep 01, 2020 5:26:31 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:90 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty ApplicationDataAlert1.0]
+Sep 01, 2020 5:26:33 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:91 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:26:34 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:26:36 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:92 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:39 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:93 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:43 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:94 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:46 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:95 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:49 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:96 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty ChangeCipherSpecFinished]
+Sep 01, 2020 5:26:52 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:97 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Alert2.10]
+Sep 01, 2020 5:26:55 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:98 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Alert2.80]
+Sep 01, 2020 5:26:58 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:99 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Alert2.10]
+Sep 01, 2020 5:27:01 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:100 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Alert2.10]
+Sep 01, 2020 5:27:03 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:101 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Alert2.47Alert1.0]
+Sep 01, 2020 5:27:06 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:102 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Alert2.10]
+Sep 01, 2020 5:27:09 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:103 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished ApplicationDataAlert1.0]
+Sep 01, 2020 5:27:12 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:104 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty]
+Sep 01, 2020 5:27:12 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:27:15 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:105 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty Alert2.80]
+Sep 01, 2020 5:27:18 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:106 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Alert2.80]
+Sep 01, 2020 5:27:19 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Sep 01, 2020 5:27:19 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [5] with merge candidates [23]
+Sep 01, 2020 5:27:19 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: States differ by non-low confidence memory, continuing.
+Sep 01, 2020 5:27:19 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [14] with merge candidates [15]
+Sep 01, 2020 5:27:19 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x555555b810c0,  50]  0x555555b81110         11        
+Sep 01, 2020 5:27:19 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Sep 01, 2020 5:27:19 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b810c0, 78, 50} watchpoint hits at state 11
+Sep 01, 2020 5:27:19 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b810c0, 78, 50} at state 11
+Sep 01, 2020 5:27:21 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:107 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty ChangeCipherSpecFinished]
+Sep 01, 2020 5:27:24 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:108 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty Empty Empty]
+Sep 01, 2020 5:27:24 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:24 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 14 and 15
+Sep 01, 2020 5:27:24 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Sep 01, 2020 5:27:24 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [5] with merge candidates [23]
+Sep 01, 2020 5:27:24 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x555555b810c0,  50]  0x555555b81110         10        
+ [0x555555b82be0,  5]   0x555555b82be5         10        
+ [0x555555b82d00,  8]   0x555555b82d08         10        
+ [0x555555b82d00,  9]   0x555555b82d09         10        
+ [0x555555b82d00,  a]   0x555555b82d0a         10        
+ [0x555555b82d00,  b]   0x555555b82d0b         10        
+ [0x555555b87e10,  0]   0x555555b87e10         10        
+ [0x555555b87e10,  1]   0x555555b87e11         10        
+Sep 01, 2020 5:27:24 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Sep 01, 2020 5:27:24 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b87e10, 20, 1} watchpoint hits at state 10
+Sep 01, 2020 5:27:24 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b87e10, 20, 1} at state 10
+Sep 01, 2020 5:27:27 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:109 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:28 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:28 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, 8} watchpoint hits at state 10
+Sep 01, 2020 5:27:28 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, 8} at state 10
+Sep 01, 2020 5:27:30 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:110 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:30 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:30 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, 9} watchpoint hits at state 10
+Sep 01, 2020 5:27:30 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, 9} at state 10
+Sep 01, 2020 5:27:33 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:111 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:33 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:33 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, a} watchpoint hits at state 10
+Sep 01, 2020 5:27:33 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, a} at state 10
+Sep 01, 2020 5:27:36 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:112 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:36 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:36 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, b} watchpoint hits at state 10
+Sep 01, 2020 5:27:36 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, b} at state 10
+Sep 01, 2020 5:27:39 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:113 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:39 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:39 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82be0, 18, 5} watchpoint hits at state 10
+Sep 01, 2020 5:27:39 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82be0, 18, 5} at state 10
+Sep 01, 2020 5:27:42 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:114 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:42 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:42 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b87e10, 20, 0} watchpoint hits at state 10
+Sep 01, 2020 5:27:42 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b87e10, 20, 0} at state 10
+Sep 01, 2020 5:27:45 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:115 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:45 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:27:45 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b810c0, 78, 50} watchpoint hits at state 10
+Sep 01, 2020 5:27:45 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b810c0, 78, 50} at state 10
+Sep 01, 2020 5:27:47 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:116 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:27:48 PM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec Finished ApplicationDataEmpty ApplicationDataEmpty
+Sep 01, 2020 5:27:48 PM greyboxinterface.TainterInterface addr2line
+INFO: 0x555555b81110 watchpoint hit at 0x555555599bb1 in /tmp/bsafe/sessID-116-watchpoint-1.log
+Sep 01, 2020 5:27:48 PM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: BIO_read
+Addr2line failed to find source code line for given watchpoint hit.
+Sep 01, 2020 5:27:48 PM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u chris python3 /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/bsafe/installation/share_c4040/samples/source/ssl/tls_ext_server --ida C:\Program Files\IDA 7.0\ida64.exe --window 512 --extended /tmp/stateMem2815206351984470530.log --repr-mallocs /tmp/bsafe/malloc1.log --exp-val SQ== --watchpoints /tmp/bsafe/sessID-116-watchpoint-1
+Sep 01, 2020 5:28:04 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Sep 01, 2020 5:28:04 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 5 and 23
+Sep 01, 2020 5:28:07 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:117 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ClientKeyExchange | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Alert2.10]
+Sep 01, 2020 5:28:10 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:118 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty EmptyCertificate | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Alert2.10]
+Sep 01, 2020 5:28:13 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:119 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ChangeCipherSpec | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Alert2.47Alert1.0]
+Sep 01, 2020 5:28:16 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:120 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty Finished | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Alert2.10]
+Sep 01, 2020 5:28:19 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:121 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationData | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty ApplicationDataAlert1.0]
+Sep 01, 2020 5:28:23 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:122 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:28:23 PM learningalgorithm.CoreLearner updateModel
+INFO: No snapshots obtained for input/output pair (ApplicationDataEmpty/Empty), queueing new queries.
+Sep 01, 2020 5:28:26 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:123 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty ClientHelloRSAReset | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty Alert2.80]
+Sep 01, 2020 5:28:26 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Sep 01, 2020 5:28:26 PM learningalgorithm.CoreLearner mergeIOEquivalentStates
+INFO: State: [22] with merge candidates [26]
+Sep 01, 2020 5:28:26 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: **State Diffs**
+  [Base Addr,   Offset]          Addr           State ID
+ [0x555555b810c0,  50]  0x555555b81110         11        
+ [0x555555b82d00,  8]   0x555555b82d08         11        
+ [0x555555b82d00,  9]   0x555555b82d09         11        
+ [0x555555b82d00,  a]   0x555555b82d0a         11        
+ [0x555555b82d00,  b]   0x555555b82d0b         11        
+Sep 01, 2020 5:28:26 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Performing taint analysis on differing memory in I/O equivalent states
+Sep 01, 2020 5:28:26 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, a} watchpoint hits at state 11
+Sep 01, 2020 5:28:26 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, a} at state 11
+Sep 01, 2020 5:28:29 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:124 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:28:29 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:28:29 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, 9} watchpoint hits at state 11
+Sep 01, 2020 5:28:29 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, 9} at state 11
+Sep 01, 2020 5:28:32 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:125 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:28:33 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:28:33 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, 8} watchpoint hits at state 11
+Sep 01, 2020 5:28:33 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, 8} at state 11
+Sep 01, 2020 5:28:36 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:126 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:28:36 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:28:36 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b810c0, 78, 50} watchpoint hits at state 11
+Sep 01, 2020 5:28:36 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b810c0, 78, 50} at state 11
+Sep 01, 2020 5:28:39 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:127 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:28:39 PM greyboxinterface.TainterInterface runAddr2lineHit
+INFO: Displaying watchpoint hits made processing final input of query: ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty
+Sep 01, 2020 5:28:39 PM greyboxinterface.TainterInterface addr2line
+INFO: 0x555555b81110 watchpoint hit at 0x555555599bb1 in /tmp/bsafe/sessID-127-watchpoint-1.log
+Sep 01, 2020 5:28:39 PM greyboxinterface.TainterInterface addr2line
+INFO: Hit in function: BIO_read
+Addr2line failed to find source code line for given watchpoint hit.
+Sep 01, 2020 5:28:39 PM greyboxinterface.TainterInterface buildLaunchCmd
+INFO: sudo -u chris python3 /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/statemem-taint/src/depan.py --binaries /home/chris/Documents/phd/hw_symb/grey_box/greyboxstatelearning/bsafe/installation/share_c4040/samples/source/ssl/tls_ext_server --ida C:\Program Files\IDA 7.0\ida64.exe --window 512 --extended /tmp/stateMem4431671033208727329.log --repr-mallocs /tmp/bsafe/malloc1.log --exp-val fg== --watchpoints /tmp/bsafe/sessID-127-watchpoint-1
+Sep 01, 2020 5:28:57 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+SEVERE: Taint analysis failed, assuming tested memory is **NOT** state memory
+Sep 01, 2020 5:28:57 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Gathering source code details of {555555b82d00, 18, b} watchpoint hits at state 11
+Sep 01, 2020 5:28:57 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint testing addr {555555b82d00, 18, b} at state 11
+Sep 01, 2020 5:29:00 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:128 [ClientHelloRSAReset ClientKeyExchange ChangeCipherSpec ApplicationDataEmpty Finished ApplicationDataEmpty ApplicationDataEmpty | ServerHelloTLSv12CertificateServerHelloDone Empty Empty Empty ChangeCipherSpecFinished Empty Empty]
+Sep 01, 2020 5:29:00 PM learningalgorithm.MemoryEquivalenceOracle performTaintAnalysis
+INFO: No watchpoint hits at tested address, assuming not state memory.
+Sep 01, 2020 5:29:00 PM learningalgorithm.MemoryEquivalenceOracle mergeTaintState
+INFO: Taint analysis determined all differing memory is *NOT* influential to state, merging states 22 and 26
+Sep 01, 2020 5:29:00 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Sep 01, 2020 5:29:00 PM learner.MemStateLearner learn
+INFO: Learning completed successfully - pre-minimised model has 11 states.
+Sep 01, 2020 5:29:00 PM learner.MemStateLearner learn
+INFO: Learning completed successfully - minimised model has 9 states.
+Sep 01, 2020 5:29:00 PM learner.MemStateLearner learn
+INFO: 
+------------------ MEMORY STATS -----------------
+# Unique bytes for state classification:  88
+# Unique allocations containing bytes:    14
+
+---------------- SUT QUERY STATS ----------------
+# Bootstrap queries:                      28
+# Membership queries:                     81
+# Watchpoint queries:                     19
+# Failed queries:                         0
+# Total queries (exc failed):             128
+# Total time elapsed (hh:mm:ss):          00:06:57
+
+------------ TAINT ANALYSIS STATS ---------------
+# Total watchpoints hits analysed:        0
+# Of which: positive state memory:        0
+#           negative state memory:        0

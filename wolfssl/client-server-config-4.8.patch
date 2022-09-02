@@ -1,0 +1,33 @@
+diff --git a/examples/client/client.c b/examples/client/client.c
+index 6772c82cd..5f170da99 100644
+--- a/examples/client/client.c
++++ b/examples/client/client.c
+@@ -3994,11 +3994,13 @@ exit:
+         ChangeToWolfRoot();
+ 
+ #ifndef NO_WOLFSSL_CLIENT
++        while (1) {
+ #ifdef HAVE_STACK_SIZE
+-        StackSizeCheck(&args, client_test);
++          StackSizeCheck(&args, client_test);
+ #else
+-        client_test(&args);
++          client_test(&args);
+ #endif
++        }
+ #else
+         printf("Client not compiled in!\n");
+ #endif
+diff --git a/wolfssl/wolfcrypt/settings.h b/wolfssl/wolfcrypt/settings.h
+index 3a3dfae66..2c43f8b02 100644
+--- a/wolfssl/wolfcrypt/settings.h
++++ b/wolfssl/wolfcrypt/settings.h
+@@ -160,7 +160,7 @@
+ /* #define WOLFSSL_STATIC_DH */
+ 
+ /* Uncomment next line to enable deprecated less secure static RSA suites */
+-/* #define WOLFSSL_STATIC_RSA */
++#define WOLFSSL_STATIC_RSA
+ 
+ /* Uncomment next line if building for ARDUINO */
+ /* Uncomment both lines if building for ARDUINO on INTEL_GALILEO */

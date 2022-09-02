@@ -1,0 +1,6 @@
+nodedef> name
+test
+10
+4
+4,10
+edgedef> node1,node2

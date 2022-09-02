@@ -1,0 +1,50 @@
+digraph g {
+
+	s0 [shape="circle" label="s0"];
+	s1 [shape="circle" label="s1"];
+	s2 [shape="circle" label="s2"];
+	s3 [shape="circle" label="s3"];
+	s4 [shape="circle" label="s4"];
+	s5 [shape="circle" label="s5"];
+	s6 [shape="circle" label="s6"];
+	s0 -> s2 [label="ClientHelloRSAReset / SERVER_HELLOCERTIFICATESERVER_HELLO_DONE"];
+	s1 -> s1 [label="ClientHelloRSAReset / x"];
+	s1 -> s1 [label="ClientKeyExchange / x"];
+	s1 -> s1 [label="EmptyCertificate / x"];
+	s1 -> s1 [label="ChangeCipherSpec / x"];
+	s1 -> s1 [label="Finished / x"];
+	s1 -> s1 [label="ApplicationData / x"];
+	s1 -> s1 [label="ApplicationDataEmpty / x"];
+	s2 -> s1 [label="ClientHelloRSAReset / Alert1.0ConnectionClosed"];
+	s2 -> s3 [label="ClientKeyExchange / Empty"];
+	s2 -> s1 [label="EmptyCertificate / Alert1.0ConnectionClosed"];
+	s2 -> s1 [label="ChangeCipherSpec / Alert1.0ConnectionClosed"];
+	s2 -> s1 [label="Finished / Alert1.0ConnectionClosed"];
+	s2 -> s1 [label="ApplicationData / Alert2.10ConnectionClosed"];
+	s2 -> s1 [label="ApplicationDataEmpty / Alert1.0ConnectionClosed"];
+	s3 -> s1 [label="ClientHelloRSAReset / Alert1.0ConnectionClosed"];
+	s3 -> s1 [label="ClientKeyExchange / Alert1.0ConnectionClosed"];
+	s3 -> s1 [label="EmptyCertificate / Alert1.0ConnectionClosed"];
+	s3 -> s4 [label="ChangeCipherSpec / Empty"];
+	s3 -> s1 [label="Finished / Alert1.0ConnectionClosed"];
+	s3 -> s1 [label="ApplicationData / Alert2.10ConnectionClosed"];
+	s3 -> s1 [label="ApplicationDataEmpty / Alert1.0ConnectionClosed"];
+	s4 -> s1 [label="ClientHelloRSAReset / Alert1.0ConnectionClosed"];
+	s4 -> s1 [label="ClientKeyExchange / Alert1.0ConnectionClosed"];
+	s4 -> s1 [label="EmptyCertificate / Alert1.0ConnectionClosed"];
+	s4 -> s1 [label="ChangeCipherSpec / Alert1.0ConnectionClosed"];
+	s4 -> s5 [label="Finished / CHANGE_CIPHER_SPECFINISHED"];
+	s4 -> s1 [label="ApplicationData / Alert2.10ConnectionClosed"];
+	s4 -> s1 [label="ApplicationDataEmpty / Alert2.10ConnectionClosed"];
+	s5 -> s1 [label="ClientHelloRSAReset / Alert1.0ConnectionClosed"];
+	s5 -> s1 [label="ClientKeyExchange / Alert1.0ConnectionClosed"];
+	s5 -> s1 [label="EmptyCertificate / Alert1.0ConnectionClosed"];
+	s5 -> s1 [label="ChangeCipherSpec / Alert1.0ConnectionClosed"];
+	s5 -> s1 [label="Finished / Alert1.0ConnectionClosed"];
+	s5 -> s1 [label="ApplicationData / APPLICATIONAlert1.0ConnectionClosed"];
+	s5 -> s6 [label="ApplicationDataEmpty / Empty"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+}

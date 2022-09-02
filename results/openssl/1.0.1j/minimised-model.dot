@@ -1,0 +1,41 @@
+digraph g {
+
+	s0 [shape="circle" label="0"];
+	s1 [shape="circle" label="1"];
+	s2 [shape="circle" label="2"];
+	s3 [shape="circle" label="3"];
+	s4 [shape="circle" label="4"];
+	s5 [shape="circle" label="5"];
+	s6 [shape="circle" label="6"];
+	s7 [shape="circle" label="7"];
+	s8 [shape="circle" label="8"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+	s0 -> s1 [label="ClientHelloRSAReset / ServerHelloTLSv12CertificateServerHelloDone\n"];
+	s0 -> s2 [label="ClientKeyExchange / ConnectionClosed\nEmptyCertificate / ConnectionClosed\nFinished / ConnectionClosed\nApplicationData / ConnectionClosed\n"];
+	s0 -> s3 [label="ChangeCipherSpec / Empty\nApplicationDataEmpty / Empty\n"];
+	s1 -> s4 [label="ClientHelloRSAReset / ServerHelloTLSv12CertificateServerHelloDone\n"];
+	s1 -> s5 [label="ClientKeyExchange / Empty\n"];
+	s1 -> s2 [label="EmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\n"];
+	s1 -> s1 [label="ApplicationDataEmpty / Empty\n"];
+	s2 -> s2 [label="ClientHelloRSAReset / x\nClientKeyExchange / x\nEmptyCertificate / x\nChangeCipherSpec / x\nFinished / x\nApplicationData / x\nApplicationDataEmpty / x\n"];
+	s3 -> s2 [label="ClientHelloRSAReset / ConnectionClosed\nClientKeyExchange / ConnectionClosed\nEmptyCertificate / ConnectionClosed\nChangeCipherSpec / ConnectionClosed\nFinished / ConnectionClosed\nApplicationData / ConnectionClosed\nApplicationDataEmpty / ConnectionClosed\n"];
+	s4 -> s2 [label="ClientHelloRSAReset / ConnectionClosed\n"];
+	s4 -> s5 [label="ClientKeyExchange / Empty\n"];
+	s4 -> s2 [label="EmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\n"];
+	s4 -> s4 [label="ApplicationDataEmpty / Empty\n"];
+	s5 -> s2 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\n"];
+	s5 -> s6 [label="ChangeCipherSpec / Empty\n"];
+	s5 -> s5 [label="ApplicationDataEmpty / Empty\n"];
+	s6 -> s2 [label="ClientHelloRSAReset / Alert2.10ConnectionClosed\nClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nChangeCipherSpec / Alert2.10ConnectionClosed\nApplicationData / Alert2.10ConnectionClosed\n"];
+	s6 -> s7 [label="Finished / ChangeCipherSpecFinished\n"];
+	s6 -> s6 [label="ApplicationDataEmpty / Empty\n"];
+	s7 -> s2 [label="ClientHelloRSAReset / Alert2.40ConnectionClosed\n"];
+	s7 -> s2 [label="ClientKeyExchange / Alert2.10ConnectionClosed\nEmptyCertificate / Alert2.10ConnectionClosed\nFinished / Alert2.10ConnectionClosed\n"];
+	s7 -> s8 [label="ChangeCipherSpec / Empty\n"];
+	s7 -> s2 [label="ApplicationData / ApplicationDataConnectionClosed\n"];
+	s7 -> s7 [label="ApplicationDataEmpty / Empty\n"];
+	s8 -> s2 [label="ClientHelloRSAReset / Alert2.20ConnectionClosed\nClientKeyExchange / Alert2.20ConnectionClosed\nEmptyCertificate / Alert2.20ConnectionClosed\nChangeCipherSpec / Alert2.20ConnectionClosed\nFinished / Alert2.20ConnectionClosed\nApplicationData / Alert2.20ConnectionClosed\nApplicationDataEmpty / Alert2.20ConnectionClosed\n"];
+}

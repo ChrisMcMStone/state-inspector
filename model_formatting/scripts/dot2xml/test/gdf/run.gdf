@@ -1,0 +1,57 @@
+nodedef> name
+__init__:377:built\n34.37%\n(0.00%)\n101×
+Executor:357:__call__\n65.21%\n(0.00%)\n100×
+FS:2309:get_content_hash\n34.57%\n(0.00%)\n101×
+Main:1267:_exec_main\n99.96%\n(0.00%)\n1×
+Executor:332:do_execute\n65.21%\n(0.00%)\n100×
+os:587:spawnvpe\n65.19%\n(0.00%)\n100×
+Util:1407:MD5filesignature\n34.57%\n(0.31%)\n101×
+FS:2769:get_csig\n34.58%\n(0.00%)\n300×
+__init__:112:update\n34.37%\n(0.00%)\n101×
+posix:67:exec_spawnvpe\n65.19%\n(0.00%)\n100×
+posix:103:spawnvpe_spawn\n65.19%\n(0.00%)\n100×
+Main:1070:_build_targets\n99.94%\n(0.00%)\n1×
+os:529:_spawnvef\n65.19%\n(0.00%)\n100×
+Action:736:execute\n65.19%\n(0.00%)\n100×
+Job:100:run\n99.94%\n(0.00%)\n1×
+Action:502:__call__\n65.21%\n(0.01%)\n100×
+Main:1304:main\n99.96%\n(0.00%)\n1×
+Main:177:execute\n65.21%\n(0.00%)\n101×
+Taskmaster:210:execute\n65.21%\n(0.00%)\n101×
+~:0:<method 'read' of 'file' objects>\n22.35%\n(22.35%)\n1128506×
+__init__:359:build\n65.21%\n(0.00%)\n100×
+Main:207:executed\n34.50%\n(0.00%)\n104×
+~:0:<posix.waitpid>\n65.19%\n(65.19%)\n104×
+Job:186:start\n99.93%\n(0.00%)\n1×
+Main:808:_main\n99.96%\n(0.00%)\n1×
+~:0:<method 'update' of '_hashlib.HASH' objects>\n11.92%\n(11.92%)\n1128672×
+Taskmaster:265:executed_with_callbacks\n34.50%\n(0.00%)\n104×
+scons:27:<module>\n100.00%\n(0.00%)\n1×
+Main:207:executed\n34.50%\n(0.00%)\n104×,Taskmaster:265:executed_with_callbacks\n34.50%\n(0.00%)\n104×
+Job:186:start\n99.93%\n(0.00%)\n1×,Main:177:execute\n65.21%\n(0.00%)\n101×
+Job:186:start\n99.93%\n(0.00%)\n1×,Main:207:executed\n34.50%\n(0.00%)\n104×
+Main:1070:_build_targets\n99.94%\n(0.00%)\n1×,Job:100:run\n99.94%\n(0.00%)\n1×
+Main:808:_main\n99.96%\n(0.00%)\n1×,Main:1070:_build_targets\n99.94%\n(0.00%)\n1×
+Main:1304:main\n99.96%\n(0.00%)\n1×,Main:1267:_exec_main\n99.96%\n(0.00%)\n1×
+Action:502:__call__\n65.21%\n(0.01%)\n100×,Action:736:execute\n65.19%\n(0.00%)\n100×
+Taskmaster:210:execute\n65.21%\n(0.00%)\n101×,__init__:359:build\n65.21%\n(0.00%)\n100×
+Main:177:execute\n65.21%\n(0.00%)\n101×,Taskmaster:210:execute\n65.21%\n(0.00%)\n101×
+FS:2769:get_csig\n34.58%\n(0.00%)\n300×,FS:2309:get_content_hash\n34.57%\n(0.00%)\n101×
+__init__:112:update\n34.37%\n(0.00%)\n101×,FS:2769:get_csig\n34.58%\n(0.00%)\n300×
+Executor:332:do_execute\n65.21%\n(0.00%)\n100×,Action:502:__call__\n65.21%\n(0.01%)\n100×
+Main:1267:_exec_main\n99.96%\n(0.00%)\n1×,Main:808:_main\n99.96%\n(0.00%)\n1×
+Util:1407:MD5filesignature\n34.57%\n(0.31%)\n101×,~:0:<method 'read' of 'file' objects>\n22.35%\n(22.35%)\n1128506×
+Util:1407:MD5filesignature\n34.57%\n(0.31%)\n101×,~:0:<method 'update' of '_hashlib.HASH' objects>\n11.92%\n(11.92%)\n1128672×
+Taskmaster:265:executed_with_callbacks\n34.50%\n(0.00%)\n104×,__init__:377:built\n34.37%\n(0.00%)\n101×
+Action:736:execute\n65.19%\n(0.00%)\n100×,posix:103:spawnvpe_spawn\n65.19%\n(0.00%)\n100×
+scons:27:<module>\n100.00%\n(0.00%)\n1×,Main:1304:main\n99.96%\n(0.00%)\n1×
+FS:2309:get_content_hash\n34.57%\n(0.00%)\n101×,Util:1407:MD5filesignature\n34.57%\n(0.31%)\n101×
+__init__:377:built\n34.37%\n(0.00%)\n101×,__init__:112:update\n34.37%\n(0.00%)\n101×
+os:529:_spawnvef\n65.19%\n(0.00%)\n100×,~:0:<posix.waitpid>\n65.19%\n(65.19%)\n104×
+posix:67:exec_spawnvpe\n65.19%\n(0.00%)\n100×,os:587:spawnvpe\n65.19%\n(0.00%)\n100×
+posix:103:spawnvpe_spawn\n65.19%\n(0.00%)\n100×,posix:67:exec_spawnvpe\n65.19%\n(0.00%)\n100×
+__init__:359:build\n65.21%\n(0.00%)\n100×,Executor:357:__call__\n65.21%\n(0.00%)\n100×
+Executor:357:__call__\n65.21%\n(0.00%)\n100×,Executor:332:do_execute\n65.21%\n(0.00%)\n100×
+Job:100:run\n99.94%\n(0.00%)\n1×,Job:186:start\n99.93%\n(0.00%)\n1×
+os:587:spawnvpe\n65.19%\n(0.00%)\n100×,os:529:_spawnvef\n65.19%\n(0.00%)\n100×
+edgedef> node1,node2

@@ -1,0 +1,183 @@
+Aug 15, 2020 11:51:57 PM learner.MemStateLearner <init>
+INFO: Using socket SUL
+Aug 15, 2020 11:51:58 PM learner.MemStateLearner learn
+INFO: Bootstrap phase with 3 iterations of each flow.
+Aug 15, 2020 11:52:01 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:1 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0]
+Aug 15, 2020 11:52:01 PM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 160
+Aug 15, 2020 11:52:05 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:2 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0]
+Aug 15, 2020 11:52:05 PM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 158
+Aug 15, 2020 11:52:09 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:3 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0]
+Aug 15, 2020 11:52:09 PM learningalgorithm.CoreLearner bootstrap
+INFO: Built MallocEntry list of size: 158
+Aug 15, 2020 11:52:15 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:4 [AUTH AUTH AUTH AUTH AUTH AUTH | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:52:20 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:5 [AUTH AUTH AUTH AUTH AUTH AUTH | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:52:37 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:6 [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:52:54 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:7 [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:53:09 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:8 [AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:53:25 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:9 [AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:53:40 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:10 [AUTH E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:53:54 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:11 [AUTH ENC_DATA ENC_DATA ENC_DATA ENC_DATA ENC_DATA | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:54:00 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:12 [AUTH ASSOC(RSNE=cc) AUTH AUTH AUTH AUTH AUTH | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:54:21 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:13 [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:54:34 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:14 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:54:48 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:15 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:55:04 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:16 [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:55:20 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:17 [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:55:34 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:18 [AUTH ASSOC(RSNE=cc) ENC_DATA ENC_DATA ENC_DATA ENC_DATA ENC_DATA | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:55:41 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:19 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH AUTH AUTH AUTH AUTH | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:56:03 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:20 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:56:19 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:21 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:56:26 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:22 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0]
+Aug 15, 2020 11:56:42 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:23 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:56:57 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:24 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ENC_DATA ENC_DATA ENC_DATA ENC_DATA ENC_DATA | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:57:05 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:25 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) AUTH AUTH AUTH AUTH AUTH | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:57:27 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:26 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:57:44 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:27 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:57:51 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:28 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0 AES_DATA_1,0.0]
+Aug 15, 2020 11:58:09 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:29 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) E4(|KD=WPA2|CS=SHA1|RC=+1|) | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:58:24 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:30 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ENC_DATA ENC_DATA ENC_DATA ENC_DATA ENC_DATA | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Aug 15, 2020 11:58:24 PM learningalgorithm.CoreLearner bootstrap
+INFO: Using 2 unique bootstrap flows, each executed 3 times for diff tool
+Aug 15, 2020 11:58:24 PM learningalgorithm.CoreLearner bootstrap
+INFO: Using representative log from malloc1.log sessionID 1
+Aug 15, 2020 11:58:24 PM greyboxinterface.StateDiffInterface buildCmd
+INFO: 6 meta logs passed to diff tool
+Aug 15, 2020 11:58:25 PM learningalgorithm.CoreLearner bootstrap
+INFO: Using 64 addresses of bytes in heap memory for state classification.
+Aug 15, 2020 11:58:25 PM learningalgorithm.CoreLearner updateModel
+WARNING: No differing memory in a happy-flow transition (could be a loopback).
+Aug 15, 2020 11:58:27 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:31 [ASSOC(RSNE=cc) | REJECT,0.0]
+Aug 15, 2020 11:58:30 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:32 [E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | TIMEOUT,2.0]
+Aug 15, 2020 11:58:34 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:33 [E4(|KD=WPA2|CS=SHA1|) | TIMEOUT,2.0]
+Aug 15, 2020 11:58:37 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:34 [E4(|KD=WPA2|CS=SHA1|RC=+1|) | TIMEOUT,2.0]
+Aug 15, 2020 11:58:40 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:35 [ENC_DATA | TIMEOUT,2.0]
+Aug 15, 2020 11:58:44 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:36 [AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Aug 15, 2020 11:58:49 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:37 [AUTH E4(|KD=WPA2|CS=SHA1|) | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Aug 15, 2020 11:58:53 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:38 [AUTH E4(|KD=WPA2|CS=SHA1|RC=+1|) | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Aug 15, 2020 11:58:57 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:39 [AUTH ENC_DATA | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Aug 15, 2020 11:59:02 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:40 [AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:59:07 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:41 [AUTH E4(|KD=WPA2|CS=SHA1|) AUTH | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:59:12 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:42 [AUTH E4(|KD=WPA2|CS=SHA1|RC=+1|) AUTH | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:59:17 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:43 [AUTH ENC_DATA AUTH | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:59:22 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:44 [AUTH ASSOC(RSNE=cc) ENC_DATA | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Aug 15, 2020 11:59:27 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:45 [AUTH ASSOC(RSNE=cc) ENC_DATA AUTH | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:59:27 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:27 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:27 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:33 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:46 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ENC_DATA | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Aug 15, 2020 11:59:39 PM learningalgorithm.MealyOracle answerQuery
+INFO: Q:47 [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ENC_DATA AUTH | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 1: LOW confidence addresses only.
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 2: Any connected I/O equivalent states to depth 1
+Aug 15, 2020 11:59:39 PM learningalgorithm.CoreLearner doCheckMerge
+INFO: State merge check round 3: RESET like inputs
+Aug 15, 2020 11:59:39 PM learner.MemStateLearner learn
+INFO: Learning completed successfully - pre-minimised model has 5 states.
+Aug 15, 2020 11:59:39 PM learner.MemStateLearner learn
+INFO: Learning completed successfully - minimised model has 4 states.
+Aug 15, 2020 11:59:39 PM learner.MemStateLearner learn
+INFO: 
+------------------ MEMORY STATS -----------------
+# Unique bytes for state classification:  64
+# Unique allocations containing bytes:    2
+
+---------------- SUT QUERY STATS ----------------
+# Bootstrap queries:                      30
+# Membership queries:                     17
+# Watchpoint queries:                     0
+# Failed queries:                         0
+# Total queries (exc failed):             47
+
+------------ TAINT ANALYSIS STATS ---------------
+# Total watchpoints hits analysed:        0
+# Of which: positive state memory:        0
+#           negative state memory:        0

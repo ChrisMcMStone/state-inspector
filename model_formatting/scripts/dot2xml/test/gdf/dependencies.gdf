@@ -1,0 +1,6 @@
+nodedef> name
+test
+intrusive
+wave
+wave,intrusive
+edgedef> node1,node2

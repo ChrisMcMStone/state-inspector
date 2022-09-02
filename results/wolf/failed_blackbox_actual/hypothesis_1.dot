@@ -1,0 +1,31 @@
+digraph g {
+
+	s0 [shape="circle" label="s0"];
+	s0 -> s0 [label="ClientHelloRSAReset / SERVER_HELLOCERTIFICATECERTIFICATE_REQUESTSERVER_HELLO_DONE"];
+	s0 -> s0 [label="ClientKeyExchange / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="EmptyCertificate / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ChangeCipherSpec / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="Finished / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ApplicationData / Alert2.10ConnectionClosed"];
+	s0 -> s0 [label="ApplicationDataEmpty / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ClientCertificateValid / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ClientCertificateInvalid / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ClientCertificateVerify / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="CertificateRequest / Alert2.10ConnectionClosed"];
+	s0 -> s0 [label="HelloVerifyRequest / Alert2.10ConnectionClosed"];
+	s0 -> s0 [label="DHClientKeyExchange / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="DHEServerKeyExchange / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ECDHClientKeyExchange / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ECDHEServerKeyExchange / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ServerHelloDone / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="Alert / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="SSL2ClientHello / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="HelloRequest / Alert2.10ConnectionClosed"];
+	s0 -> s0 [label="EncryptedExtensionMessage / Alert1.0ConnectionClosed"];
+	s0 -> s0 [label="ServerHello / Alert2.10ConnectionClosed"];
+	s0 -> s0 [label="ClientCertificateVerifyInvalid / Alert1.0ConnectionClosed"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+}

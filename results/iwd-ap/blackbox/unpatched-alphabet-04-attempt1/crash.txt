@@ -1,0 +1,610 @@
+mathy@mathy-VirtualBox:~/greyboxstatelearning/blackbox/statelearner/target$ java -jar stateLearner-0.0.1-SNAPSHOT.jar ../examples/socket/socket.properties 
+2020-09-03 04:14:11,522 INFO Learner Using socket SUL
+04:14:11.522 [main] INFO Learner - Using socket SUL
+2020-09-03 04:14:11,571 INFO Learner Using learning algorithm TTTLearnerMealy
+04:14:11.571 [main] INFO Learner - Using learning algorithm TTTLearnerMealy
+2020-09-03 04:14:11,572 INFO Learner Using equivalence algorithm MealyModifiedWMethodEQOracle
+04:14:11.572 [main] INFO Learner - Using equivalence algorithm MealyModifiedWMethodEQOracle
+2020-09-03 04:14:11,572 INFO Learner Starting learning
+04:14:11.572 [main] INFO Learner - Starting learning
+2020-09-03 04:14:11,587 INFO Learner Starting round 1
+04:14:11.587 [main] INFO Learner - Starting round 1
+Sending symbol: RESET 0
+2020-09-03 04:14:12,591 INFO learning_queries [ε | AUTH / ε | AUTH_ACCEPT,0.0]
+04:14:12.591 [main] INFO learning_queries - [ε | AUTH / ε | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 1
+2020-09-03 04:14:13,420 INFO learning_queries [ε | ASSOC(RSNE=cc) / ε | REJECT,0.0]
+04:14:13.420 [main] INFO learning_queries - [ε | ASSOC(RSNE=cc) / ε | REJECT,0.0]
+Sending symbol: RESET 2
+2020-09-03 04:14:16,070 INFO learning_queries [ε | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | TIMEOUT,2.0]
+04:14:16.070 [main] INFO learning_queries - [ε | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | TIMEOUT,2.0]
+Sending symbol: RESET 3
+2020-09-03 04:14:18,733 INFO learning_queries [ε | E4(|KD=WPA2|CS=SHA1|) / ε | TIMEOUT,2.0]
+04:14:18.733 [main] INFO learning_queries - [ε | E4(|KD=WPA2|CS=SHA1|) / ε | TIMEOUT,2.0]
+Sending symbol: RESET 4
+04:14:19.559 [main] INFO equivalence_queries - [ε | AUTH / ε | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 5
+04:14:21.187 [main] INFO equivalence_queries - [ε | AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 6
+04:14:22.933 [main] INFO equivalence_queries - [ε | AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 7
+04:14:24.372 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+2020-09-03 04:14:24,373 INFO Learner Counter-example found: Query[ε|AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+04:14:24.373 [main] INFO Learner - Counter-example found: Query[ε|AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+2020-09-03 04:14:24,376 INFO Learner Starting round 2
+04:14:24.376 [main] INFO Learner - Starting round 2
+Sending symbol: RESET 8
+2020-09-03 04:14:26,010 INFO learning_queries [AUTH | AUTH / AUTH_ACCEPT,0.0 | AUTH_ACCEPT,0.0]
+04:14:26.010 [main] INFO learning_queries - [AUTH | AUTH / AUTH_ACCEPT,0.0 | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 9
+2020-09-03 04:14:27,442 INFO learning_queries [AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 | E1(KD=WPA2|CS=SHA1),0.0]
+04:14:27.442 [main] INFO learning_queries - [AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 | E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 10
+2020-09-03 04:14:31,019 INFO learning_queries [AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+04:14:31.019 [main] INFO learning_queries - [AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 11
+2020-09-03 04:14:34,502 INFO learning_queries [AUTH | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+04:14:34.502 [main] INFO learning_queries - [AUTH | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 12
+2020-09-03 04:14:36,863 INFO learning_queries [AUTH AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 | E1(KD=WPA2|CS=SHA1),0.0]
+04:14:36.863 [main] INFO learning_queries - [AUTH AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 | E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 13
+2020-09-03 04:14:42,079 INFO learning_queries [AUTH ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:14:42.079 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 14
+2020-09-03 04:14:46,286 INFO learning_queries [AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 TIMEOUT,2.0 | E1(KD=WPA2|CS=SHA1),0.0]
+04:14:46.286 [main] INFO learning_queries - [AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 TIMEOUT,2.0 | E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 15
+2020-09-03 04:14:50,491 INFO learning_queries [AUTH E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 TIMEOUT,2.0 | E1(KD=WPA2|CS=SHA1),0.0]
+04:14:50.491 [main] INFO learning_queries - [AUTH E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 TIMEOUT,2.0 | E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 16
+2020-09-03 04:14:52,011 INFO learning_queries [ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / REJECT,0.0 | REJECT,0.0]
+04:14:52.011 [main] INFO learning_queries - [ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / REJECT,0.0 | REJECT,0.0]
+Sending symbol: RESET 17
+2020-09-03 04:14:55,496 INFO learning_queries [E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / TIMEOUT,2.0 | REJECT,0.0]
+04:14:55.496 [main] INFO learning_queries - [E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / TIMEOUT,2.0 | REJECT,0.0]
+Sending symbol: RESET 18
+2020-09-03 04:14:59,098 INFO learning_queries [E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / TIMEOUT,2.0 | REJECT,0.0]
+04:14:59.098 [main] INFO learning_queries - [E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / TIMEOUT,2.0 | REJECT,0.0]
+Sending symbol: RESET 19
+2020-09-03 04:15:01,352 INFO learning_queries [AUTH ASSOC(RSNE=cc) | AUTH / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | AUTH_ACCEPT,0.0]
+04:15:01.352 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | AUTH / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 20
+2020-09-03 04:15:06,554 INFO learning_queries [AUTH ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:15:06.554 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 21
+2020-09-03 04:15:08,599 INFO learning_queries [AUTH ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:15:08.599 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 22
+2020-09-03 04:15:12,904 INFO learning_queries [AUTH ASSOC(RSNE=cc) | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:15:12.904 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 23
+2020-09-03 04:15:15,157 INFO learning_queries [AUTH ASSOC(RSNE=cc) | AUTH / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | AUTH_ACCEPT,0.0]
+04:15:15.157 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | AUTH / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 24
+2020-09-03 04:15:20,386 INFO learning_queries [AUTH ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:15:20.386 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 25
+2020-09-03 04:15:22,431 INFO learning_queries [AUTH ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:15:22.431 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 26
+2020-09-03 04:15:26,623 INFO learning_queries [AUTH ASSOC(RSNE=cc) | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:15:26.623 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 27
+2020-09-03 04:15:34,611 INFO learning_queries [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:15:34.611 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 28
+2020-09-03 04:15:40,346 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:15:40.346 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 29
+2020-09-03 04:15:49,359 INFO learning_queries [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:15:49.359 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 30
+2020-09-03 04:15:55,298 INFO learning_queries [AUTH ASSOC(RSNE=cc) AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+04:15:55.298 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 31
+2020-09-03 04:16:03,279 INFO learning_queries [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:16:03.279 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 32
+2020-09-03 04:16:09,115 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:16:09.115 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 33
+2020-09-03 04:16:17,926 INFO learning_queries [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:16:17.926 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 34
+2020-09-03 04:16:24,072 INFO learning_queries [AUTH ASSOC(RSNE=cc) AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+04:16:24.072 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+2020-09-03 04:16:24,073 INFO Learner membership queries to SUL [queries]: 31
+04:16:24.073 [main] INFO Learner - membership queries to SUL [queries]: 31
+2020-09-03 04:16:24,074 INFO Learner membership queries to cache [queries]: 31
+04:16:24.074 [main] INFO Learner - membership queries to cache [queries]: 31
+2020-09-03 04:16:24,074 INFO Learner equivalence queries to SUL [queries]: 4
+04:16:24.074 [main] INFO Learner - equivalence queries to SUL [queries]: 4
+2020-09-03 04:16:24,074 INFO Learner equivalence queries to cache [queries]: 4
+04:16:24.074 [main] INFO Learner - equivalence queries to cache [queries]: 4
+Sending symbol: RESET 35
+04:16:24.898 [main] INFO equivalence_queries - [ε | AUTH / ε | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 36
+04:16:26.532 [main] INFO equivalence_queries - [ε | AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 37
+04:16:28.791 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 38
+04:16:30.221 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 39
+04:16:35.436 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 40
+04:16:39.033 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 41
+04:16:43.122 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 42
+04:16:46.700 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 43
+04:16:50.910 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 44
+04:16:53.465 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 45
+04:16:56.639 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 46
+04:16:58.892 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 47
+04:17:04.928 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 48
+04:17:09.336 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 49
+04:17:14.452 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 50
+04:17:18.852 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 51
+04:17:23.871 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 52
+04:17:26.235 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 53
+04:17:32.264 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 54
+04:17:37.398 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 55
+04:17:46.428 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 56
+04:17:50.494 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 57
+04:17:58.488 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 58
+04:18:02.687 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 59
+04:18:10.573 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 60
+04:18:14.965 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 61
+04:18:20.087 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 62
+04:18:22.137 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 63
+04:18:27.980 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 64
+04:18:34.323 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 65
+04:18:41.294 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 66
+04:18:47.530 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 67
+04:18:54.627 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 68
+04:18:59.002 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 69
+04:19:04.033 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 70
+04:19:08.321 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 71
+04:19:16.208 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 72
+04:19:22.555 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 73
+04:19:29.521 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 74
+04:19:35.759 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 75
+04:19:42.852 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 76
+04:19:46.206 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 77
+04:19:50.214 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 78
+04:19:53.305 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 79
+04:20:00.236 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 80
+04:20:05.462 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 81
+04:20:11.411 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 82
+04:20:16.731 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 83
+04:20:22.560 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 84
+04:20:25.732 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 85
+04:20:32.707 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 86
+04:20:38.645 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 87
+04:20:48.463 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 88
+04:20:53.490 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 89
+04:21:02.295 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 90
+04:21:07.423 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 91
+04:21:16.115 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 92
+04:21:21.445 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 93
+04:21:27.387 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 94
+04:21:30.252 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 95
+04:21:36.906 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 96
+04:21:44.078 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 97
+04:21:51.864 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 98
+04:21:59.027 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 99
+04:22:06.806 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 100
+04:22:12.141 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 101
+04:22:18.074 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 102
+04:22:23.200 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 103
+04:22:31.998 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 104
+04:22:39.066 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 105
+04:22:46.959 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 106
+04:22:54.119 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 107
+04:23:02.003 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 108
+04:23:05.178 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 109
+04:23:12.028 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 110
+04:23:18.072 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 111
+04:23:27.801 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 112
+04:23:32.817 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 113
+04:23:41.629 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 114
+04:23:46.749 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 115
+04:23:54.639 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 116
+04:24:00.570 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 117
+04:24:10.399 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 118
+04:24:19.308 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 119
+04:24:31.899 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 120
+04:24:39.788 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 121
+04:24:51.563 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 122
+04:24:59.451 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 123
+04:25:11.123 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 124
+04:25:16.249 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 125
+04:25:25.048 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 126
+04:25:30.783 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 127
+04:25:40.408 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 128
+04:25:47.275 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 129
+04:25:58.017 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 130
+04:26:04.993 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 131
+04:26:15.736 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 132
+04:26:20.760 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 133
+04:26:29.562 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 134
+04:26:37.547 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 135
+04:26:49.224 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 136
+04:26:56.191 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 137
+04:27:06.937 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 138
+04:27:13.907 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 139
+04:27:24.652 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 140
+04:27:29.875 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 141
+04:27:35.820 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 142
+04:27:38.789 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 143
+04:27:45.439 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 144
+04:27:52.604 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 145
+04:28:00.396 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 146
+04:28:07.558 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 147
+04:28:15.347 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 148
+04:28:18.313 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 149
+04:28:24.965 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 150
+04:28:30.808 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 151
+04:28:40.327 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 152
+04:28:45.143 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 153
+04:28:53.740 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 154
+04:28:58.654 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 155
+04:29:07.150 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 156
+04:29:14.323 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 157
+04:29:22.109 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 158
+04:29:26.918 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+2020-09-03 04:29:26,919 INFO Learner Counter-example found: Query[ε|AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+04:29:26.919 [main] INFO Learner - Counter-example found: Query[ε|AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+2020-09-03 04:29:26,920 INFO Learner Starting round 3
+04:29:26.920 [main] INFO Learner - Starting round 3
+Sending symbol: RESET 159
+2020-09-03 04:29:31,834 INFO learning_queries [AUTH | ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 | E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+04:29:31.834 [main] INFO learning_queries - [AUTH | ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 | E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 160
+2020-09-03 04:29:36,645 INFO learning_queries [AUTH ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+04:29:36.645 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 | E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 161
+2020-09-03 04:29:39,512 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | AUTH_ACCEPT,0.0]
+04:29:39.512 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | AUTH / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 162
+2020-09-03 04:29:45,347 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:29:45.347 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 163
+2020-09-03 04:29:50,261 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:29:50.261 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 164
+2020-09-03 04:29:53,037 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | AES_DATA_1,0.0]
+04:29:53.037 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E4(|KD=WPA2|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | AES_DATA_1,0.0]
+Sending symbol: RESET 165
+2020-09-03 04:29:59,594 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 | TIMEOUT,2.0]
+04:29:59.594 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 166
+2020-09-03 04:30:08,184 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:30:08.184 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 167
+2020-09-03 04:30:16,785 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:30:16.785 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 168
+2020-09-03 04:30:23,441 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+04:30:23.441 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH | ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 169
+2020-09-03 04:30:29,073 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+04:30:29.073 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 170
+2020-09-03 04:30:37,677 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:30:37.677 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 171
+2020-09-03 04:30:45,262 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+04:30:45.262 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | TIMEOUT,2.0]
+Sending symbol: RESET 172
+2020-09-03 04:30:50,882 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 | TIMEOUT,2.0]
+04:30:50.882 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 AES_DATA_1,0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 173
+2020-09-03 04:30:53,787 INFO learning_queries [AUTH ASSOC(RSNE=cc) AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:30:53.787 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 174
+2020-09-03 04:30:59,609 INFO learning_queries [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:30:59.609 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 175
+2020-09-03 04:31:04,402 INFO learning_queries [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+04:31:04.402 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 | TIMEOUT,2.0]
+Sending symbol: RESET 176
+2020-09-03 04:31:09,220 INFO learning_queries [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:31:09.220 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 177
+2020-09-03 04:31:12,187 INFO learning_queries [AUTH ASSOC(RSNE=cc) AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:31:12.187 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) AUTH | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 178
+2020-09-03 04:31:18,026 INFO learning_queries [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:31:18.026 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 179
+2020-09-03 04:31:22,839 INFO learning_queries [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+04:31:22.839 [main] INFO learning_queries - [AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) | E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 | E3(KD=WPA2|CS=SHA1),0.0]
+2020-09-03 04:31:22,840 INFO Learner membership queries to SUL [queries]: 52
+04:31:22.840 [main] INFO Learner - membership queries to SUL [queries]: 52
+2020-09-03 04:31:22,840 INFO Learner membership queries to cache [queries]: 52
+04:31:22.840 [main] INFO Learner - membership queries to cache [queries]: 52
+2020-09-03 04:31:22,840 INFO Learner equivalence queries to SUL [queries]: 128
+04:31:22.840 [main] INFO Learner - equivalence queries to SUL [queries]: 128
+2020-09-03 04:31:22,841 INFO Learner equivalence queries to cache [queries]: 128
+04:31:22.841 [main] INFO Learner - equivalence queries to cache [queries]: 128
+Sending symbol: RESET 180
+04:31:23.700 [main] INFO equivalence_queries - [ε | AUTH / ε | AUTH_ACCEPT,0.0]
+Sending symbol: RESET 181
+04:31:25.299 [main] INFO equivalence_queries - [ε | AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 182
+04:31:27.657 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 183
+04:31:32.051 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 184
+04:31:33.496 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 185
+04:31:38.608 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 186
+04:31:40.661 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 187
+04:31:44.238 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 188
+04:31:48.441 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 189
+04:31:54.785 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 190
+04:31:58.367 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 191
+04:32:02.564 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 192
+04:32:08.812 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 193
+04:32:11.375 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 194
+04:32:14.554 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 195
+04:32:19.770 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 196
+04:32:22.127 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 197
+04:32:28.064 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 198
+04:32:31.038 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 199
+04:32:35.444 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 200
+04:32:40.561 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 201
+04:32:47.622 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 202
+04:32:52.127 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 203
+04:32:57.156 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 204
+04:33:04.313 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 205
+04:33:06.670 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 206
+04:33:12.706 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 207
+04:33:15.603 [main] INFO equivalence_queries - [ε | AUTH AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 208
+04:33:20.799 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 209
+04:33:29.704 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 210
+04:33:35.449 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 211
+04:33:39.747 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 212
+04:33:47.629 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 213
+04:33:52.448 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 214
+04:33:56.749 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 215
+04:34:04.627 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 216
+04:34:09.446 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 217
+04:34:13.945 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 218
+04:34:18.970 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 219
+04:34:26.132 [main] INFO equivalence_queries - [ε | AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 220
+04:34:28.183 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 221
+04:34:34.017 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 222
+04:34:38.829 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 E3(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 223
+04:34:45.176 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 224
+04:34:52.147 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 225
+04:35:01.156 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 226
+04:35:07.500 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 227
+04:35:14.469 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 228
+04:35:23.573 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 229
+04:35:27.977 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 230
+04:35:32.996 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 231
+04:35:40.267 [main] INFO equivalence_queries - [ε | AUTH AUTH E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 232
+04:35:44.473 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0]
+Sending symbol: RESET 233
+04:35:52.454 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 234
+04:35:57.281 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 TIMEOUT,2.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 235
+04:36:03.611 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 236
+04:36:10.578 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 237
+04:36:19.691 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 238
+04:36:26.040 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 239
+04:36:33.022 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 240
+04:36:42.120 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) E4(|KD=WPA2|CS=SHA1|) E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 TIMEOUT,2.0 TIMEOUT,2.0]
+Sending symbol: RESET 241
+04:36:45.495 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH AUTH / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 242
+04:36:49.502 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 243
+04:36:55.632 [main] INFO equivalence_queries - [ε | AUTH AUTH AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 244
+04:36:58.712 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH AUTH / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 245
+04:37:05.675 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 246
+04:37:09.480 [main] INFO equivalence_queries - [ε | AUTH ASSOC(RSNE=cc) AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E3(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 247
+04:37:14.678 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 248
+04:37:20.721 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 249
+04:37:28.706 [main] INFO equivalence_queries - [ε | AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) AUTH AUTH E2(|KD=WPA2|RSNE=cc|CS=SHA1|) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+Sending symbol: RESET 250
+04:37:33.930 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH AUTH / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0]
+Sending symbol: RESET 251
+04:37:42.839 [main] INFO equivalence_queries - [ε | AUTH E4(|KD=WPA2|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / ε | AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+2020-09-03 04:37:42,840 INFO Learner Counter-example found: Query[ε|AUTH E4(|KD=WPA2|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+04:37:42.840 [main] INFO Learner - Counter-example found: Query[ε|AUTH E4(|KD=WPA2|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 TIMEOUT,2.0]
+2020-09-03 04:37:42,840 INFO Learner Starting round 4
+04:37:42.840 [main] INFO Learner - Starting round 4
+Sending symbol: RESET 252
+2020-09-03 04:37:45,919 INFO learning_queries [AUTH | AUTH AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+04:37:45.919 [main] INFO learning_queries - [AUTH | AUTH AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 | AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Sending symbol: RESET 253
+2020-09-03 04:37:51,953 INFO learning_queries [AUTH | E4(|KD=WPA2|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 | TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+04:37:51.953 [main] INFO learning_queries - [AUTH | E4(|KD=WPA2|CS=SHA1|) AUTH AUTH ASSOC(RSNE=cc) / AUTH_ACCEPT,0.0 | TIMEOUT,2.0 AUTH_ACCEPT,0.0 AUTH_ACCEPT,0.0 E1(KD=WPA2|CS=SHA1),0.0]
+Exception in thread "main" java.lang.NullPointerException
+	at de.learnlib.algorithms.ttt.base.AbstractTTTLearner.splitState(AbstractTTTLearner.java:235)
+	at de.learnlib.algorithms.ttt.base.AbstractTTTLearner.splitState(AbstractTTTLearner.java:271)
+	at de.learnlib.algorithms.ttt.base.AbstractTTTLearner.refineHypothesisSingle(AbstractTTTLearner.java:208)
+	at de.learnlib.algorithms.ttt.mealy.TTTLearnerMealy.refineHypothesisSingle(TTTLearnerMealy.java:67)
+	at de.learnlib.algorithms.ttt.base.AbstractTTTLearner.refineHypothesis(AbstractTTTLearner.java:158)
+	at nl.cypherpunk.statelearner.Learner.learn(Learner.java:254)
+	at nl.cypherpunk.statelearner.Learner.main(Learner.java:375)
+mathy@mathy-VirtualBox:~/greyboxstatelearning/blackbox/statelearner/target

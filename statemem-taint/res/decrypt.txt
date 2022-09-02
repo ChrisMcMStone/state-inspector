@@ -1,0 +1,1 @@
+openssl enc -d -pbkdf2 -aes-256-ofb -in idapro.tar.gz.enc -out idapro.tar.gz

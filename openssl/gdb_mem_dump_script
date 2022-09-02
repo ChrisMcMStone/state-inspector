@@ -1,0 +1,40 @@
+set pagination off
+set logging file gdb.output
+set logging on
+
+set $readreturn = 1
+set $writereturn = 1
+
+catch syscall read
+command
+    silent
+    set $readreturn = ! $readreturn
+    if ( $readreturn && $rax >= 0)
+      echo `read' returned\n
+      bt
+      dump binary memory readsnap.bin 0x5555559dc000 0x555555a48000
+      shell mv readsnap.bin readsnap`ls readsnap* writesnap* | wc -l`
+      continue
+    end
+    if ( !$readreturn )
+      echo `read' entered\n
+      continue
+    end
+end
+
+catch syscall write
+command
+    silent
+    set $writereturn = ! $writereturn
+    if ( $writereturn && $rax >= 0)
+      echo `write' returned\n
+      bt
+      dump binary memory writesnap.bin 0x5555559dc000 0x555555a48000
+      shell mv writesnap.bin writesnap`ls readsnap* writesnap* | wc -l`
+      continue
+    end
+    if ( !$writereturn )
+      echo `write' entered\n
+      continue
+    end
+end

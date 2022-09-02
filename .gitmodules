@@ -1,0 +1,9 @@
+[submodule "statemem-taint/Triton"]
+	path = statemem-taint/Triton
+	url = https://github.com/JonathanSalwan/Triton#83abc88b5c6d6a0df7e355136342316cb0c2570f
+[submodule "hostapd/wifi-learner"]
+	path = hostapd/wifi-learner
+	url = https://github.com/ChrisMcMStone/wifi-learner
+[submodule "hostapd/hostap"]
+	path = hostapd/hostap
+	url = git@github.com:vanhoefm/greyboxstatelearning-hostapd.git

@@ -1,0 +1,32 @@
+diff --git a/diff_tool/malloc_align.py b/diff_tool/malloc_align.py
+index b0affa1..b2826ba 100644
+--- a/diff_tool/malloc_align.py
++++ b/diff_tool/malloc_align.py
+@@ -53,9 +53,10 @@ def update_mallocs(alloc_file, prev_build, next_tstamp, malloc_log_files):
+                 break
+             m = Alloc(alloc, alloc_file)
+             if m.is_malloc():
+-                v = [m, None]
+-                lifetimes[m.ret] = v
+-                mallocs.append(v)
++                if not m.size == 0x40:
++                    v = [m, None]
++                    lifetimes[m.ret] = v
++                    mallocs.append(v)
+             elif m.arg == 0:
+                 # skip frees to NULL
+                 continue
+@@ -93,9 +94,10 @@ def build_mallocs(alloc_file, max_timestamp=None, malloc_log_files=None):
+         if max_timestamp is None or int(alloc.split(' ')[0]) < max_timestamp:
+             m = Alloc(alloc, alloc_file)
+             if m.is_malloc():
+-                v = [m, None]
+-                lifetimes[m.ret] = v
+-                mallocs.append(v)
++                if not m.size == 0x40:
++                    v = [m, None]
++                    lifetimes[m.ret] = v
++                    mallocs.append(v)
+             elif m.arg == 0:
+                 # skip frees to NULL (aka double frees)
+                 continue

@@ -1,0 +1,9 @@
+digraph quoted {
+  "wave" -> "intrusive";
+  "wave[" -> "intrusive[other]";
+  "wave[]" -> "intru[sive[]0,7]";
+  "[wave]" -> "intrusive";
+  "test" [style="filled" fillcolor="#A3A27C" shape="box"];
+  "test2" [style="filled" fillcolor="#A3A27C" shape="box" label="test[me]"];
+  "test3[this]" [style="filled" fillcolor="#A3A27C" shape="box" label="test[other]"];
+ }

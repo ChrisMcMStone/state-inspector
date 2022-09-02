@@ -1,0 +1,169 @@
+[1mdiff --git a/statelearner/src/learningalgorithm/MemoryEquivalenceOracle.java b/statelearner/src/learningalgorithm/MemoryEquivalenceOracle.java[m
+[1mindex 436f5ea..62a3b07 100644[m
+[1m--- a/statelearner/src/learningalgorithm/MemoryEquivalenceOracle.java[m
+[1m+++ b/statelearner/src/learningalgorithm/MemoryEquivalenceOracle.java[m
+[36m@@ -340,82 +340,88 @@[m [mpublic class MemoryEquivalenceOracle<I, O> {[m
+         }[m
+ [m
+         log.info(sb.toString()); // log the diffs before executing the watchpoint queries[m
+[31m-[m
+[31m-        if (watchpointQueries != null && watchpointQueries.size() > 0) {[m
+[31m-            if (config.enableTainting)[m
+[31m-                log.info("Performing taint analysis on differing memory in I/O equivalent states");[m
+[31m-            for (Pair<FastMealyMemState<O>, AllocOffset> watchKey : watchpointQueries.keySet()) {[m
+[31m-                FastMealyMemState<O> watchState = watchKey.getValue0();[m
+[31m-                AllocOffset watchAddr = watchKey.getValue1();[m
+[31m-                if (config.a2l)[m
+[31m-                    log.info("Gathering source code details of " + watchAddr.toString() + " watchpoint hits at state "[m
+[31m-                            + watchState.getId());[m
+[31m-                if (config.enableTainting)[m
+[31m-                    log.info("Taint testing addr " + watchAddr.toString() + " at state " + watchState.getId());[m
+[31m-                byte[] expVal = this.model.getMemMapAtState(stateToMerge).get(watchAddr).orNull();[m
+[31m-                if (expVal == null)[m
+[31m-                    continue;[m
+[31m-                List<TainterConfig> taintResults = null;[m
+[31m-                try {[m
+[31m-                    taintResults = this.performTaintAnalysis(watchAddr, expVal, watchpointQueries.get(watchKey), false);[m
+[31m-                } catch (Exception e) {[m
+[31m-                    System.out.println(e);[m
+[31m-                    log.severe("Taint analysis failed, assuming tested memory is **NOT** state memory");[m
+[31m-                    continue;[m
+[31m-                }[m
+[31m-[m
+[31m-                if (!config.enableTainting || taintResults == null)[m
+[31m-                    continue;[m
+[31m-                boolean isStateMemory = taintResults.parallelStream()[m
+[31m-                        .anyMatch(tc -> tc.getWatchpointResults().stream().anyMatch(tr -> tr.isStateMemory()));[m
+[31m-                if (isStateMemory) {[m
+[31m-                    // Perform the extra taint test if configured[m
+[31m-                    if(config.extraTaintCheck && !checkConditionalWrittenMemIsStateMem(taintResults, stateToMerge)) {[m
+[31m-                        // TODO double check the base and toMerge state are still I/O equivalent after performing all the extra watchpoint queries[m
+[31m-                        continue;[m
+[31m-                    }[m
+[31m-                    //Get stateToMerge prefix from watchpoint queries[m
+[31m-                    coreLearner.addMergeCandidate(new Pair<>(base.getSID(), stateToMerge.getSID()));[m
+[31m-[m
+[31m-                    boolean isNonTaken = taintResults.stream()[m
+[31m-                            .map(tc -> tc.getWatchpointResults().stream()[m
+[31m-                            .filter(tr -> tr.isStateMemory())[m
+[31m-                            .allMatch(tr -> isStatefulNotTakenBranch(tr)))[m
+[31m-                            .reduce(Boolean::logicalAnd).orElse(false);[m
+[31m-[m
+[31m-                    // HashSet<Word<I>> permittedInputs = new HashSet<>();[m
+[31m-[m
+[31m-                    // taintResults.stream().filter(tc -> tc.getWatchpointResults().stream()[m
+[31m-                    //                      .anyMatch(tr -> tr.isStateMemory()))[m
+[31m-                    //                      .forEach(tc -> permittedInputs.add((Word<I>)Word.fromList(tc.getInputList())));[m
+[31m-[m
+[31m-                    // Here we set the confidence of this address being state to CONFIRMED,[m
+[31m-                    // on the condition that all other non-LOW confidence addresses hold the same[m
+[31m-                    // value at the time of testing.[m
+[31m-                    model.updateAddrSetConfidences(watchAddr, Confidence.CONDITIONAL,[m
+[31m-                            model.getMemMapAtState(watchState), true);[m
+[31m-                    log.info("Taint analysis determined memory is likely state memory at address "[m
+[31m-                            + watchAddr.toString());[m
+[31m-                    log.info("Not merging states " + base.getSID() + " and " + stateToMerge.getSID());[m
+[31m-                    return false;[m
+[31m-                } else {[m
+[31m-                    if (config.negativeConditionalMemory) {[m
+[31m-                        model.updateAddrSetConfidences(watchAddr, Confidence.CONDITIONAL,[m
+[31m-                                model.getMemMapAtState(watchState), false);[m
+[31m-                    }[m
+[31m-                }[m
+[31m-            }[m
+[31m-        }[m
+[31m-[m
+[31m-        if (!config.enableTainting) {[m
+[31m-            log.info("Taint analysis disabled so automatically merging states " + base.getSID() + " and "[m
+[31m-                    + stateToMerge.getSID());[m
+[31m-        } else {[m
+[31m-            log.info("Taint analysis determined all differing memory is *NOT* influential to state, merging states "[m
+[31m-                    + base.getSID() + " and " + stateToMerge.getSID());[m
+[31m-        }[m
+[31m-        this.model.mergeState(base, stateToMerge);[m
+[31m-        return true;[m
+[32m+[m[32m        log.info("WARNING WARNING WARNING WARNING WARNING");[m
+[32m+[m[32m        log.info("This version of statelearner has been modified to not perform taint analysis, use at your own risk");[m
+[32m+[m[32m        log.info("not merging and returning false now");[m
+[32m+[m[32m        log.info("WARNING WARNING WARNING WARNING WARNING");[m
+[32m+[m[32m        return false;[m
+[32m+[m[32m        // UNCOMMENT ALL OF THE BELOW TO FIX[m
+[32m+[m[32m        // if (config.enableTainting && watchpointQueries != null && watchpointQueries.size() > 0) {[m
+[32m+[m[32m        //     if (config.enableTainting)[m
+[32m+[m[32m        //         log.info("Performing taint analysis on differing memory in I/O equivalent states");[m
+[32m+[m[32m        //     for (Pair<FastMealyMemState<O>, AllocOffset> watchKey : watchpointQueries.keySet()) {[m
+[32m+[m[32m        //         FastMealyMemState<O> watchState = watchKey.getValue0();[m
+[32m+[m[32m        //         AllocOffset watchAddr = watchKey.getValue1();[m
+[32m+[m[32m        //         if (config.a2l)[m
+[32m+[m[32m        //             log.info("Gathering source code details of " + watchAddr.toString() + " watchpoint hits at state "[m
+[32m+[m[32m        //                     + watchState.getId());[m
+[32m+[m[32m        //         if (config.enableTainting)[m
+[32m+[m[32m        //             log.info("Taint testing addr " + watchAddr.toString() + " at state " + watchState.getId());[m
+[32m+[m[32m        //         byte[] expVal = this.model.getMemMapAtState(stateToMerge).get(watchAddr).orNull();[m
+[32m+[m[32m        //         if (expVal == null)[m
+[32m+[m[32m        //             continue;[m
+[32m+[m[32m        //         List<TainterConfig> taintResults = null;[m
+[32m+[m[32m        //         try {[m
+[32m+[m[32m        //             taintResults = this.performTaintAnalysis(watchAddr, expVal, watchpointQueries.get(watchKey), false);[m
+[32m+[m[32m        //             log.info("Taint testing done");[m
+[32m+[m[32m        //         } catch (Exception e) {[m
+[32m+[m[32m        //             System.out.println(e);[m
+[32m+[m[32m        //             log.severe("Taint analysis failed, assuming tested memory is **NOT** state memory");[m
+[32m+[m[32m        //             continue;[m
+[32m+[m[32m        //         }[m
+[32m+[m
+[32m+[m[32m        //         if (!config.enableTainting || taintResults == null)[m
+[32m+[m[32m        //             continue;[m
+[32m+[m[32m        //         boolean isStateMemory = taintResults.parallelStream()[m
+[32m+[m[32m        //                 .anyMatch(tc -> tc.getWatchpointResults().stream().anyMatch(tr -> tr.isStateMemory()));[m
+[32m+[m[32m        //         if (isStateMemory) {[m
+[32m+[m[32m        //             // Perform the extra taint test if configured[m
+[32m+[m[32m        //             if(config.extraTaintCheck && !checkConditionalWrittenMemIsStateMem(taintResults, stateToMerge)) {[m
+[32m+[m[32m        //                 // TODO double check the base and toMerge state are still I/O equivalent after performing all the extra watchpoint queries[m
+[32m+[m[32m        //                 continue;[m
+[32m+[m[32m        //             }[m
+[32m+[m[32m        //             //Get stateToMerge prefix from watchpoint queries[m
+[32m+[m[32m        //             coreLearner.addMergeCandidate(new Pair<>(base.getSID(), stateToMerge.getSID()));[m
+[32m+[m
+[32m+[m[32m        //             boolean isNonTaken = taintResults.stream()[m
+[32m+[m[32m        //                     .map(tc -> tc.getWatchpointResults().stream()[m
+[32m+[m[32m        //                     .filter(tr -> tr.isStateMemory())[m
+[32m+[m[32m        //                     .allMatch(tr -> isStatefulNotTakenBranch(tr)))[m
+[32m+[m[32m        //                     .reduce(Boolean::logicalAnd).orElse(false);[m
+[32m+[m
+[32m+[m[32m        //             // HashSet<Word<I>> permittedInputs = new HashSet<>();[m
+[32m+[m
+[32m+[m[32m        //             // taintResults.stream().filter(tc -> tc.getWatchpointResults().stream()[m
+[32m+[m[32m        //             //                      .anyMatch(tr -> tr.isStateMemory()))[m
+[32m+[m[32m        //             //                      .forEach(tc -> permittedInputs.add((Word<I>)Word.fromList(tc.getInputList())));[m
+[32m+[m
+[32m+[m[32m        //             // Here we set the confidence of this address being state to CONFIRMED,[m
+[32m+[m[32m        //             // on the condition that all other non-LOW confidence addresses hold the same[m
+[32m+[m[32m        //             // value at the time of testing.[m
+[32m+[m[32m        //             model.updateAddrSetConfidences(watchAddr, Confidence.CONDITIONAL,[m
+[32m+[m[32m        //                     model.getMemMapAtState(watchState), true);[m
+[32m+[m[32m        //             log.info("Taint analysis determined memory is likely state memory at address "[m
+[32m+[m[32m        //                     + watchAddr.toString());[m
+[32m+[m[32m        //             log.info("Not merging states " + base.getSID() + " and " + stateToMerge.getSID());[m
+[32m+[m[32m        //             return false;[m
+[32m+[m[32m        //         } else {[m
+[32m+[m[32m        //             if (config.negativeConditionalMemory) {[m
+[32m+[m[32m        //                 model.updateAddrSetConfidences(watchAddr, Confidence.CONDITIONAL,[m
+[32m+[m[32m        //                         model.getMemMapAtState(watchState), false);[m
+[32m+[m[32m        //             }[m
+[32m+[m[32m        //         }[m
+[32m+[m[32m        //     }[m
+[32m+[m[32m        // }[m
+[32m+[m
+[32m+[m[32m        // if (!config.enableTainting) {[m
+[32m+[m[32m        //     log.info("Taint analysis disabled so automatically merging states " + base.getSID() + " and "[m
+[32m+[m[32m        //             + stateToMerge.getSID());[m
+[32m+[m[32m        // } else {[m
+[32m+[m[32m        //     log.info("Taint analysis determined all differing memory is *NOT* influential to state, merging states "[m
+[32m+[m[32m        //             + base.getSID() + " and " + stateToMerge.getSID());[m
+[32m+[m[32m        // }[m
+[32m+[m[32m        // this.model.mergeState(base, stateToMerge);[m
+[32m+[m[32m        // return true;[m
+     }[m
+ [m
+     private boolean checkConditionalWrittenMemIsStateMem(List<TainterConfig> toCheck, FastMealyMemState<O> stateToMerge) throws Exception {[m

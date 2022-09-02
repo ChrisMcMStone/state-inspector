@@ -1,0 +1,369 @@
+digraph G {
+size="100x100" 
+rankdir=RL 
+ratio = 1
+bindingspythonmapnik_styleos [label="./bindings/python/mapnik_style.os"]
+bindingspythonmapnik [label="./bindings/python/mapnik"]
+boost [label="./boost"]
+aggsrcagg_rounded_recto [label="./agg/src/agg_rounded_rect.o"]
+srclayeros [label="./src/layer.os"]
+srcshield_symbolizeros [label="./src/shield_symbolizer.os"]
+aggsrc [label="./agg/src"]
+aggsrcagg_trans_warp_magnifiero [label="./agg/src/agg_trans_warp_magnifier.o"]
+bindingspythonmapnik_imageos [label="./bindings/python/mapnik_image.os"]
+bindingspythonmapnik_featureos [label="./bindings/python/mapnik_feature.os"]
+srcimage_readeros [label="./src/image_reader.os"]
+srcparamsos [label="./src/params.os"]
+srcunicodeos [label="./src/unicode.os"]
+srcpluginos [label="./src/plugin.os"]
+srcagg_rendereros [label="./src/agg_renderer.os"]
+srcpoint_symbolizeros [label="./src/point_symbolizer.os"]
+bindingspythonmapnik_polygon_pattern_symbolizeros [label="./bindings/python/mapnik_polygon_pattern_symbolizer.os"]
+srclibmapnikso [label="./src/libmapnik.so"]
+bindingspythonmapnik_filteros [label="./bindings/python/mapnik_filter.os"]
+srcload_mapos [label="./src/load_map.os"]
+pluginsinputshape [label="./plugins/input/shape"]
+bindingspythonmapnik_view_transformos [label="./bindings/python/mapnik_view_transform.os"]
+srcpng_readeros [label="./src/png_reader.os"]
+bindingspythonmapnik_parametersos [label="./bindings/python/mapnik_parameters.os"]
+bindingspythonpython_cairoos [label="./bindings/python/python_cairo.os"]
+bindingspythonmapnik_line_symbolizeros [label="./bindings/python/mapnik_line_symbolizer.os"]
+srcplacement_finderos [label="./src/placement_finder.os"]
+srcmemory_datasourceos [label="./src/memory_datasource.os"]
+bindingspythonmapnik_featuresetos [label="./bindings/python/mapnik_featureset.os"]
+bindingspythonmapnik_point_symbolizeros [label="./bindings/python/mapnik_point_symbolizer.os"]
+aggsrcagg_arco [label="./agg/src/agg_arc.o"]
+bindings [label="./bindings"]
+src [label="./src"]
+aggsrcagg_vcgen_smooth_poly1o [label="./agg/src/agg_vcgen_smooth_poly1.o"]
+bindingspythonmapnik_shield_symbolizeros [label="./bindings/python/mapnik_shield_symbolizer.os"]
+srcprojectionos [label="./src/projection.os"]
+bindingspythonmapnik_raster_symbolizeros [label="./bindings/python/mapnik_raster_symbolizer.os"]
+ [label="./."]
+bindingspythonmapnik_symbolizeros [label="./bindings/python/mapnik_symbolizer.os"]
+bindingspythonmapnik_datasourceos [label="./bindings/python/mapnik_datasource.os"]
+aggsrcagg_trans_single_patho [label="./agg/src/agg_trans_single_path.o"]
+pluginsinputshapeshape_index_featuresetos [label="./plugins/input/shape/shape_index_featureset.os"]
+agginclude [label="./agg/include"]
+srcsymbolizeros [label="./src/symbolizer.os"]
+plugins [label="./plugins"]
+boostproperty_treedetail [label="./boost/property_tree/detail"]
+pluginsinputrasterraster_infoos [label="./plugins/input/raster/raster_info.os"]
+srcsave_mapos [label="./src/save_map.os"]
+bindingspythonmapnik_line_pattern_symbolizeros [label="./bindings/python/mapnik_line_pattern_symbolizer.os"]
+bindingspythonmapnik_datasource_cacheos [label="./bindings/python/mapnik_datasource_cache.os"]
+aggsrcagg_vcgen_bsplineo [label="./agg/src/agg_vcgen_bspline.o"]
+aggsrcagg_line_profile_aao [label="./agg/src/agg_line_profile_aa.o"]
+bindingspythonmapnik_pythonos [label="./bindings/python/mapnik_python.os"]
+aggsrcagg_bsplineo [label="./agg/src/agg_bspline.o"]
+aggsrcagg_vcgen_strokeo [label="./agg/src/agg_vcgen_stroke.o"]
+bindingspythonmapnik_font_engineos [label="./bindings/python/mapnik_font_engine.os"]
+agglibagga [label="./agg/libagg.a"]
+aggsrcagg_bezier_arco [label="./agg/src/agg_bezier_arc.o"]
+bindingspythonmapnik_ruleos [label="./bindings/python/mapnik_rule.os"]
+bindingspythonmapnik_envelopeos [label="./bindings/python/mapnik_envelope.os"]
+pluginsinputshapeshapeos [label="./plugins/input/shape/shape.os"]
+bindingspythonmapnik_proj_transformos [label="./bindings/python/mapnik_proj_transform.os"]
+srcpolygon_pattern_symbolizeros [label="./src/polygon_pattern_symbolizer.os"]
+pluginsinputraster [label="./plugins/input/raster"]
+pluginsinputrasterrasterinput [label="./plugins/input/raster/raster.input"]
+aggsrcagg_vpgen_clip_polygono [label="./agg/src/agg_vpgen_clip_polygon.o"]
+srcfilter_factoryos [label="./src/filter_factory.os"]
+bindingspython_mapnikso [label="./bindings/python/_mapnik.so"]
+aggsrcagg_vpgen_clip_polylineo [label="./agg/src/agg_vpgen_clip_polyline.o"]
+srclibxml2_loaderos [label="./src/libxml2_loader.os"]
+aggsrcagg_trans_double_patho [label="./agg/src/agg_trans_double_path.o"]
+pluginsinputshapeshapefileos [label="./plugins/input/shape/shapefile.os"]
+boostproperty_tree [label="./boost/property_tree"]
+srcstrokeos [label="./src/stroke.os"]
+srcimage_utilos [label="./src/image_util.os"]
+srcfont_engine_freetypeos [label="./src/font_engine_freetype.os"]
+sconf_temp [label="./.sconf_temp"]
+srctext_symbolizeros [label="./src/text_symbolizer.os"]
+pluginsinputshapeshapeinput [label="./plugins/input/shape/shape.input"]
+bindingspythonmapnik_layeros [label="./bindings/python/mapnik_layer.os"]
+aggsrcagg_image_filterso [label="./agg/src/agg_image_filters.o"]
+pluginsinput [label="./plugins/input"]
+aggsrcagg_gsv_texto [label="./agg/src/agg_gsv_text.o"]
+bindingspythonmapnik_projectionos [label="./bindings/python/mapnik_projection.os"]
+srcdistanceos [label="./src/distance.os"]
+srccoloros [label="./src/color.os"]
+aggsrcagg_sqrt_tableso [label="./agg/src/agg_sqrt_tables.o"]
+bindingspythonmapnik_coordos [label="./bindings/python/mapnik_coord.os"]
+aggsrcagg_vpgen_segmentatoro [label="./agg/src/agg_vpgen_segmentator.o"]
+srcarrowos [label="./src/arrow.os"]
+pluginsinputrasterraster_datasourceos [label="./plugins/input/raster/raster_datasource.os"]
+aggsrcagg_line_aa_basicso [label="./agg/src/agg_line_aa_basics.o"]
+aggsrcagg_embedded_raster_fontso [label="./agg/src/agg_embedded_raster_fonts.o"]
+srcproj_transformos [label="./src/proj_transform.os"]
+bindingspythonmapnik_polygon_symbolizeros [label="./bindings/python/mapnik_polygon_symbolizer.os"]
+bindingspythonmapnik_text_symbolizeros [label="./bindings/python/mapnik_text_symbolizer.os"]
+pluginsinputshapeshape_ioos [label="./plugins/input/shape/shape_io.os"]
+aggsrcagg_trans_affineo [label="./agg/src/agg_trans_affine.o"]
+srcmapos [label="./src/map.os"]
+srcfont_setos [label="./src/font_set.os"]
+pluginsinputrasterraster_featuresetos [label="./plugins/input/raster/raster_featureset.os"]
+bindingspythonmapnik_coloros [label="./bindings/python/mapnik_color.os"]
+agg [label="./agg"]
+srcline_pattern_symbolizeros [label="./src/line_pattern_symbolizer.os"]
+pluginsinputshapedbffileos [label="./plugins/input/shape/dbffile.os"]
+fontsdejavufontsttf230ttf [label="./fonts/dejavufontsttf2.30/ttf"]
+bindingspythonmapnik_image_viewos [label="./bindings/python/mapnik_image_view.os"]
+srcdatasource_cacheos [label="./src/datasource_cache.os"]
+srcscale_denominatoros [label="./src/scale_denominator.os"]
+aggsrcagg_vcgen_contouro [label="./agg/src/agg_vcgen_contour.o"]
+bindingspython [label="./bindings/python"]
+pluginsinputshapeshape_featuresetos [label="./plugins/input/shape/shape_featureset.os"]
+bindingspythonmapnik_geometryos [label="./bindings/python/mapnik_geometry.os"]
+aggsrcagg_curveso [label="./agg/src/agg_curves.o"]
+bindingspythonmapnikogcserver [label="./bindings/python/mapnik/ogcserver"]
+srctiff_readeros [label="./src/tiff_reader.os"]
+bindingspythonmapnik_mapos [label="./bindings/python/mapnik_map.os"]
+srcmemoryos [label="./src/memory.os"]
+srcwkbos [label="./src/wkb.os"]
+include [label="./include"]
+includemapnik [label="./include/mapnik"]
+aggsrcagg_vcgen_markers_termo [label="./agg/src/agg_vcgen_markers_term.o"]
+aggsrcagg_arrowheado [label="./agg/src/agg_arrowhead.o"]
+fontsdejavufontsttf230 [label="./fonts/dejavufontsttf2.30"]
+srcenvelopeos [label="./src/envelope.os"]
+fonts [label="./fonts"]
+aggsrcagg_vcgen_dasho [label="./agg/src/agg_vcgen_dash.o"]
+bindingspythonmapnik_queryos [label="./bindings/python/mapnik_query.os"]
+bindingspythonmapnik_strokeos [label="./bindings/python/mapnik_stroke.os"]
+srcgraphicsos [label="./src/graphics.os"]
+bindingspythonmapnik -> bindingspythonmapnikogcserver
+boost -> boostproperty_tree
+aggsrc -> aggsrcagg_arco
+aggsrc -> aggsrcagg_arrowheado
+aggsrc -> aggsrcagg_bezier_arco
+aggsrc -> aggsrcagg_bsplineo
+aggsrc -> aggsrcagg_curveso
+aggsrc -> aggsrcagg_embedded_raster_fontso
+aggsrc -> aggsrcagg_gsv_texto
+aggsrc -> aggsrcagg_image_filterso
+aggsrc -> aggsrcagg_line_aa_basicso
+aggsrc -> aggsrcagg_line_profile_aao
+aggsrc -> aggsrcagg_rounded_recto
+aggsrc -> aggsrcagg_sqrt_tableso
+aggsrc -> aggsrcagg_trans_affineo
+aggsrc -> aggsrcagg_trans_double_patho
+aggsrc -> aggsrcagg_trans_single_patho
+aggsrc -> aggsrcagg_trans_warp_magnifiero
+aggsrc -> aggsrcagg_vcgen_bsplineo
+aggsrc -> aggsrcagg_vcgen_contouro
+aggsrc -> aggsrcagg_vcgen_dasho
+aggsrc -> aggsrcagg_vcgen_markers_termo
+aggsrc -> aggsrcagg_vcgen_smooth_poly1o
+aggsrc -> aggsrcagg_vcgen_strokeo
+aggsrc -> aggsrcagg_vpgen_clip_polygono
+aggsrc -> aggsrcagg_vpgen_clip_polylineo
+aggsrc -> aggsrcagg_vpgen_segmentatoro
+srclibmapnikso -> srcagg_rendereros
+srclibmapnikso -> srcdatasource_cacheos
+srclibmapnikso -> srccoloros
+srclibmapnikso -> srcenvelopeos
+srclibmapnikso -> srcfilter_factoryos
+srclibmapnikso -> srcfont_engine_freetypeos
+srclibmapnikso -> srcfont_setos
+srclibmapnikso -> srcgraphicsos
+srclibmapnikso -> srcimage_readeros
+srclibmapnikso -> srcimage_utilos
+srclibmapnikso -> srclayeros
+srclibmapnikso -> srcline_pattern_symbolizeros
+srclibmapnikso -> srcmapos
+srclibmapnikso -> srcload_mapos
+srclibmapnikso -> srcmemoryos
+srclibmapnikso -> srcparamsos
+srclibmapnikso -> srcplacement_finderos
+srclibmapnikso -> srcpluginos
+srclibmapnikso -> srcpng_readeros
+srclibmapnikso -> srcpoint_symbolizeros
+srclibmapnikso -> srcpolygon_pattern_symbolizeros
+srclibmapnikso -> srcsave_mapos
+srclibmapnikso -> srcshield_symbolizeros
+srclibmapnikso -> srctext_symbolizeros
+srclibmapnikso -> srctiff_readeros
+srclibmapnikso -> srcwkbos
+srclibmapnikso -> srcprojectionos
+srclibmapnikso -> srcproj_transformos
+srclibmapnikso -> srcdistanceos
+srclibmapnikso -> srcscale_denominatoros
+srclibmapnikso -> srcmemory_datasourceos
+srclibmapnikso -> srcstrokeos
+srclibmapnikso -> srcsymbolizeros
+srclibmapnikso -> srcarrowos
+srclibmapnikso -> srcunicodeos
+srclibmapnikso -> srclibxml2_loaderos
+srclibmapnikso -> agglibagga
+pluginsinputshape -> pluginsinputshapedbffileos
+pluginsinputshape -> pluginsinputshapeshapeinput
+pluginsinputshape -> pluginsinputshapeshapeos
+pluginsinputshape -> pluginsinputshapeshape_featuresetos
+pluginsinputshape -> pluginsinputshapeshape_index_featuresetos
+pluginsinputshape -> pluginsinputshapeshape_ioos
+pluginsinputshape -> pluginsinputshapeshapefileos
+bindings -> bindingspython
+src -> srcagg_rendereros
+src -> srcarrowos
+src -> srccoloros
+src -> srcdatasource_cacheos
+src -> srcdistanceos
+src -> srcenvelopeos
+src -> srcfilter_factoryos
+src -> srcfont_engine_freetypeos
+src -> srcfont_setos
+src -> srcgraphicsos
+src -> srcimage_readeros
+src -> srcimage_utilos
+src -> srclayeros
+src -> srclibmapnikso
+src -> srclibxml2_loaderos
+src -> srcline_pattern_symbolizeros
+src -> srcload_mapos
+src -> srcmapos
+src -> srcmemoryos
+src -> srcmemory_datasourceos
+src -> srcparamsos
+src -> srcplacement_finderos
+src -> srcpluginos
+src -> srcpng_readeros
+src -> srcpoint_symbolizeros
+src -> srcpolygon_pattern_symbolizeros
+src -> srcproj_transformos
+src -> srcprojectionos
+src -> srcsave_mapos
+src -> srcscale_denominatoros
+src -> srcshield_symbolizeros
+src -> srcstrokeos
+src -> srcsymbolizeros
+src -> srctext_symbolizeros
+src -> srctiff_readeros
+src -> srcunicodeos
+src -> srcwkbos
+ -> sconf_temp
+ -> agg
+ -> bindings
+ -> boost
+ -> fonts
+ -> include
+ -> plugins
+ -> src
+plugins -> pluginsinput
+agglibagga -> aggsrcagg_gsv_texto
+agglibagga -> aggsrcagg_vcgen_dasho
+agglibagga -> aggsrcagg_arco
+agglibagga -> aggsrcagg_vpgen_clip_polylineo
+agglibagga -> aggsrcagg_vcgen_markers_termo
+agglibagga -> aggsrcagg_trans_double_patho
+agglibagga -> aggsrcagg_embedded_raster_fontso
+agglibagga -> aggsrcagg_trans_warp_magnifiero
+agglibagga -> aggsrcagg_trans_single_patho
+agglibagga -> aggsrcagg_bezier_arco
+agglibagga -> aggsrcagg_arrowheado
+agglibagga -> aggsrcagg_sqrt_tableso
+agglibagga -> aggsrcagg_image_filterso
+agglibagga -> aggsrcagg_vpgen_segmentatoro
+agglibagga -> aggsrcagg_curveso
+agglibagga -> aggsrcagg_line_aa_basicso
+agglibagga -> aggsrcagg_vcgen_smooth_poly1o
+agglibagga -> aggsrcagg_vpgen_clip_polygono
+agglibagga -> aggsrcagg_bsplineo
+agglibagga -> aggsrcagg_rounded_recto
+agglibagga -> aggsrcagg_trans_affineo
+agglibagga -> aggsrcagg_line_profile_aao
+agglibagga -> aggsrcagg_vcgen_bsplineo
+agglibagga -> aggsrcagg_vcgen_strokeo
+agglibagga -> aggsrcagg_vcgen_contouro
+pluginsinputraster -> pluginsinputrasterrasterinput
+pluginsinputraster -> pluginsinputrasterraster_datasourceos
+pluginsinputraster -> pluginsinputrasterraster_featuresetos
+pluginsinputraster -> pluginsinputrasterraster_infoos
+pluginsinputrasterrasterinput -> pluginsinputrasterraster_datasourceos
+pluginsinputrasterrasterinput -> pluginsinputrasterraster_featuresetos
+pluginsinputrasterrasterinput -> pluginsinputrasterraster_infoos
+bindingspython_mapnikso -> bindingspythonpython_cairoos
+bindingspython_mapnikso -> bindingspythonmapnik_strokeos
+bindingspython_mapnikso -> bindingspythonmapnik_geometryos
+bindingspython_mapnikso -> bindingspythonmapnik_imageos
+bindingspython_mapnikso -> bindingspythonmapnik_datasourceos
+bindingspython_mapnikso -> bindingspythonmapnik_proj_transformos
+bindingspython_mapnikso -> bindingspythonmapnik_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_projectionos
+bindingspython_mapnikso -> bindingspythonmapnik_ruleos
+bindingspython_mapnikso -> bindingspythonmapnik_view_transformos
+bindingspython_mapnikso -> bindingspythonmapnik_text_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_coordos
+bindingspython_mapnikso -> bindingspythonmapnik_featureos
+bindingspython_mapnikso -> bindingspythonmapnik_line_pattern_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_styleos
+bindingspython_mapnikso -> bindingspythonmapnik_point_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_filteros
+bindingspython_mapnikso -> bindingspythonmapnik_polygon_pattern_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_envelopeos
+bindingspython_mapnikso -> bindingspythonmapnik_raster_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_shield_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_font_engineos
+bindingspython_mapnikso -> bindingspythonmapnik_mapos
+bindingspython_mapnikso -> bindingspythonmapnik_datasource_cacheos
+bindingspython_mapnikso -> bindingspythonmapnik_featuresetos
+bindingspython_mapnikso -> bindingspythonmapnik_image_viewos
+bindingspython_mapnikso -> bindingspythonmapnik_line_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_queryos
+bindingspython_mapnikso -> bindingspythonmapnik_polygon_symbolizeros
+bindingspython_mapnikso -> bindingspythonmapnik_layeros
+bindingspython_mapnikso -> bindingspythonmapnik_parametersos
+bindingspython_mapnikso -> bindingspythonmapnik_pythonos
+bindingspython_mapnikso -> bindingspythonmapnik_coloros
+bindingspython_mapnikso -> srclibmapnikso
+boostproperty_tree -> boostproperty_treedetail
+pluginsinputshapeshapeinput -> pluginsinputshapedbffileos
+pluginsinputshapeshapeinput -> pluginsinputshapeshapeos
+pluginsinputshapeshapeinput -> pluginsinputshapeshape_featuresetos
+pluginsinputshapeshapeinput -> pluginsinputshapeshapefileos
+pluginsinputshapeshapeinput -> pluginsinputshapeshape_index_featuresetos
+pluginsinputshapeshapeinput -> pluginsinputshapeshape_ioos
+pluginsinput -> pluginsinputraster
+pluginsinput -> pluginsinputshape
+agg -> agginclude
+agg -> agglibagga
+agg -> aggsrc
+bindingspython -> bindingspython_mapnikso
+bindingspython -> bindingspythonmapnik
+bindingspython -> bindingspythonmapnik_coloros
+bindingspython -> bindingspythonmapnik_coordos
+bindingspython -> bindingspythonmapnik_datasourceos
+bindingspython -> bindingspythonmapnik_datasource_cacheos
+bindingspython -> bindingspythonmapnik_envelopeos
+bindingspython -> bindingspythonmapnik_featureos
+bindingspython -> bindingspythonmapnik_featuresetos
+bindingspython -> bindingspythonmapnik_filteros
+bindingspython -> bindingspythonmapnik_font_engineos
+bindingspython -> bindingspythonmapnik_geometryos
+bindingspython -> bindingspythonmapnik_imageos
+bindingspython -> bindingspythonmapnik_image_viewos
+bindingspython -> bindingspythonmapnik_layeros
+bindingspython -> bindingspythonmapnik_line_pattern_symbolizeros
+bindingspython -> bindingspythonmapnik_line_symbolizeros
+bindingspython -> bindingspythonmapnik_mapos
+bindingspython -> bindingspythonmapnik_parametersos
+bindingspython -> bindingspythonmapnik_point_symbolizeros
+bindingspython -> bindingspythonmapnik_polygon_pattern_symbolizeros
+bindingspython -> bindingspythonmapnik_polygon_symbolizeros
+bindingspython -> bindingspythonmapnik_proj_transformos
+bindingspython -> bindingspythonmapnik_projectionos
+bindingspython -> bindingspythonmapnik_pythonos
+bindingspython -> bindingspythonmapnik_queryos
+bindingspython -> bindingspythonmapnik_raster_symbolizeros
+bindingspython -> bindingspythonmapnik_ruleos
+bindingspython -> bindingspythonmapnik_shield_symbolizeros
+bindingspython -> bindingspythonmapnik_strokeos
+bindingspython -> bindingspythonmapnik_styleos
+bindingspython -> bindingspythonmapnik_symbolizeros
+bindingspython -> bindingspythonmapnik_text_symbolizeros
+bindingspython -> bindingspythonmapnik_view_transformos
+bindingspython -> bindingspythonpython_cairoos
+include -> includemapnik
+fontsdejavufontsttf230 -> fontsdejavufontsttf230ttf
+fonts -> fontsdejavufontsttf230
+}

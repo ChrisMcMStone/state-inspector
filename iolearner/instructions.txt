@@ -1,0 +1,5 @@
+1. Run:
+./iolearn ../../exampleProtocols/BasicProtocol/protocolBasic
+
+2. Run happy flow; kill iolearn
+3. python iolearn.py --log <log from previous>

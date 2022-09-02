@@ -1,0 +1,51 @@
+digraph g {
+
+	s0 [shape="circle" label="s0"];
+	s1 [shape="circle" label="s1"];
+	s2 [shape="circle" label="s2"];
+	s3 [shape="circle" label="s3"];
+	s4 [shape="circle" label="s4"];
+	s5 [shape="circle" label="s5"];
+	s6 [shape="circle" label="s20"];
+	s7 [shape="circle" label="s19"];
+	s8 [shape="circle" label="s18"];
+	s9 [shape="circle" label="s14"];
+	s10 [shape="circle" label="s22"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+	s0 -> s2 [label="ClientHelloRSAReset / ServerHelloTLSv12CertificateServerHelloDone\n"];
+	s0 -> s1 [label="ClientKeyExchange / Alert1.0\nEmptyCertificate / Alert1.0\nFinished / Alert1.0\nApplicationData / Alert1.0\n"];
+	s0 -> s8 [label="ChangeCipherSpec / Empty\n"];
+	s0 -> s7 [label="ApplicationDataEmpty / Empty\n"];
+	s1 -> s1 [label="ClientHelloRSAReset / x\nClientKeyExchange / x\nEmptyCertificate / x\nChangeCipherSpec / x\nFinished / x\nApplicationData / x\nApplicationDataEmpty / x\n"];
+	s2 -> s1 [label="ClientHelloRSAReset / Alert2.10\nEmptyCertificate / Alert2.10\nFinished / Alert2.10\nApplicationData / Alert2.10\n"];
+	s2 -> s3 [label="ClientKeyExchange / Empty\n"];
+	s2 -> s1 [label="ChangeCipherSpec / Alert2.47\n"];
+	s2 -> s2 [label="ApplicationDataEmpty / Empty\n"];
+	s3 -> s1 [label="ClientHelloRSAReset / Alert2.10\nClientKeyExchange / Alert2.10\nEmptyCertificate / Alert2.10\nFinished / Alert2.10\nApplicationData / Alert2.10\n"];
+	s3 -> s4 [label="ChangeCipherSpec / Empty\n"];
+	s3 -> s3 [label="ApplicationDataEmpty / Empty\n"];
+	s4 -> s1 [label="ClientHelloRSAReset / Alert2.20\nEmptyCertificate / Alert2.20\nChangeCipherSpec / Alert2.20\n"];
+	s4 -> s1 [label="ClientKeyExchange / Alert2.10\nApplicationData / Alert2.10\n"];
+	s4 -> s5 [label="Finished / ChangeCipherSpecFinished\n"];
+	s4 -> s9 [label="ApplicationDataEmpty / Empty\n"];
+	s5 -> s1 [label="ClientHelloRSAReset / Alert2.80\n"];
+	s5 -> s1 [label="ClientKeyExchange / Alert2.10\nEmptyCertificate / Alert2.10\nFinished / Alert2.10\n"];
+	s5 -> s1 [label="ChangeCipherSpec / Alert2.47Alert1.0\n"];
+	s5 -> s1 [label="ApplicationData / ApplicationDataAlert1.0\n"];
+	s5 -> s5 [label="ApplicationDataEmpty / Empty\n"];
+	s6 -> s1 [label="ClientHelloRSAReset / Alert1.0\nClientKeyExchange / Alert1.0\nEmptyCertificate / Alert1.0\nChangeCipherSpec / Alert1.0\nFinished / Alert1.0\nApplicationData / Alert1.0\nApplicationDataEmpty / Alert1.0\n"];
+	s7 -> s1 [label="ClientHelloRSAReset / Alert1.0\nClientKeyExchange / Alert1.0\nEmptyCertificate / Alert1.0\nChangeCipherSpec / Alert1.0\nFinished / Alert1.0\nApplicationData / Alert1.0\n"];
+	s7 -> s6 [label="ApplicationDataEmpty / Empty\n"];
+	s8 -> s1 [label="ClientHelloRSAReset / Alert1.0\nClientKeyExchange / Alert1.0\nEmptyCertificate / Alert1.0\nChangeCipherSpec / Alert1.0\nFinished / Alert1.0\nApplicationData / Alert1.0\nApplicationDataEmpty / Alert1.0\n"];
+	s9 -> s1 [label="ClientHelloRSAReset / Alert2.10\nClientKeyExchange / Alert2.10\nEmptyCertificate / Alert2.10\nChangeCipherSpec / Alert2.10\nApplicationData / Alert2.10\n"];
+	s9 -> s10 [label="Finished / ChangeCipherSpecFinished\n"];
+	s9 -> s9 [label="ApplicationDataEmpty / Empty\n"];
+	s10 -> s1 [label="ClientHelloRSAReset / Alert2.80\n"];
+	s10 -> s1 [label="ClientKeyExchange / Alert2.10\nEmptyCertificate / Alert2.10\nFinished / Alert2.10\n"];
+	s10 -> s1 [label="ChangeCipherSpec / Alert2.47Alert1.0\n"];
+	s10 -> s1 [label="ApplicationData / ApplicationDataAlert1.0\n"];
+	s10 -> s10 [label="ApplicationDataEmpty / Empty\n"];
+}

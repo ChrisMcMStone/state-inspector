@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+	<script src="res/d3.v4.min.js"></script>
+	<script src="res/viz.js" type="javascript/worker"></script>
+	<script src="res/d3-graphviz.min.js"></script>
+	<div id="graph" style="text-align: center;"></div>
+	<script>
+
+		var stop = 0;
+
+		var dotIndex = 1;
+		margin = 0; // to avoid scrollbars
+		var oldDot = null;
+
+		function httpGet(theUrl) {
+			var xmlHttp = new XMLHttpRequest();
+			xmlHttp.open("GET", theUrl, false); // false for synchronous request
+			xmlHttp.send();
+			return xmlHttp.responseText;
+		}
+
+		var graphviz = d3.select("#graph").graphviz()
+			.attributer(attributer)
+			.transition(function () {
+				return d3.transition("main")
+					.ease(d3.easeLinear)
+					.delay(1000)
+					.duration(500);
+			})
+			.logEvents(true)
+			.on("initEnd", render);
+
+		async function render() {
+			if (stop == 0) {
+				var dot = httpGet("http://localhost:3000/test.dot", 'utf8');
+				if (dot) {
+					graphviz
+						.renderDot(dot)
+						.on("end", function () {
+							dotIndex = (dotIndex + 1);
+							oldDot = dot;
+							render();
+						});
+				} else {
+					render();
+				}
+			}
+		}
+		function attributer(datum, index, nodes) {
+			var selection = d3.select(this);
+			if (datum.tag == "svg") {
+				var width = window.innerWidth - 20;
+				var height = window.innerHeight - 20;
+				selection
+					.attr("width", width)
+					.attr("height", height)
+				datum.attributes.width = width - margin;
+				datum.attributes.height = height - margin;
+			}
+		}
+
+		// 1. Create the button
+		var button = document.createElement("button");
+		button.innerHTML = "Do Something";
+
+		// 2. Append somewhere
+		var body = document.getElementsByTagName("body")[0];
+		body.prepend(button);
+
+		// 3. Add event handler
+		button.addEventListener("click", function () {
+			stop = 1;
+		});
+
+
+	</script>

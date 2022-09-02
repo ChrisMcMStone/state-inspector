@@ -1,0 +1,48 @@
+nodedef> name
+__init__:1017:changed\n99.66%\n(0.00%)\n101×
+Taskmaster:903:next_task\n99.70%\n(0.00%)\n107×
+FS:2855:is_up_to_date\n99.66%\n(0.00%)\n101×
+Environment:868:default_decide_source\n0.96%\n(0.00%)\n201×
+scons:27:<module>\n100.00%\n(0.01%)\n1×
+Taskmaster:363:make_ready_current\n99.67%\n(0.00%)\n106×
+FS:2769:get_csig\n99.65%\n(0.00%)\n301×
+FS:2814:changed_content\n99.65%\n(0.00%)\n301×
+Main:1070:_build_targets\n99.71%\n(0.00%)\n1×
+Environment:1422:_changed_content\n99.65%\n(0.00%)\n301×
+Main:297:make_ready\n99.67%\n(0.00%)\n106×
+FS:2309:get_content_hash\n99.65%\n(0.00%)\n101×
+Job:100:run\n99.71%\n(0.00%)\n1×
+Main:1267:_exec_main\n99.78%\n(0.00%)\n1×
+Util:1407:MD5filesignature\n99.65%\n(0.65%)\n101×
+Main:1304:main\n99.78%\n(0.00%)\n1×
+FS:2848:decide_target\n98.69%\n(0.00%)\n100×
+Job:186:start\n99.70%\n(0.00%)\n1×
+Main:808:_main\n99.78%\n(0.00%)\n1×
+Environment:872:default_decide_target\n98.69%\n(0.00%)\n100×
+~:0:<method 'update' of '_hashlib.HASH' objects>\n35.30%\n(35.30%)\n1128574×
+FS:2845:decide_source\n0.96%\n(0.00%)\n201×
+~:0:<method 'read' of 'file' objects>\n63.75%\n(63.75%)\n1128506×
+Job:186:start\n99.70%\n(0.00%)\n1×,Taskmaster:903:next_task\n99.70%\n(0.00%)\n107×
+Main:1070:_build_targets\n99.71%\n(0.00%)\n1×,Job:100:run\n99.71%\n(0.00%)\n1×
+Main:808:_main\n99.78%\n(0.00%)\n1×,Main:1070:_build_targets\n99.71%\n(0.00%)\n1×
+Taskmaster:363:make_ready_current\n99.67%\n(0.00%)\n106×,FS:2855:is_up_to_date\n99.66%\n(0.00%)\n101×
+Main:1304:main\n99.78%\n(0.00%)\n1×,Main:1267:_exec_main\n99.78%\n(0.00%)\n1×
+__init__:1017:changed\n99.66%\n(0.00%)\n101×,FS:2848:decide_target\n98.69%\n(0.00%)\n100×
+__init__:1017:changed\n99.66%\n(0.00%)\n101×,FS:2845:decide_source\n0.96%\n(0.00%)\n201×
+FS:2855:is_up_to_date\n99.66%\n(0.00%)\n101×,__init__:1017:changed\n99.66%\n(0.00%)\n101×
+FS:2769:get_csig\n99.65%\n(0.00%)\n301×,FS:2309:get_content_hash\n99.65%\n(0.00%)\n101×
+FS:2814:changed_content\n99.65%\n(0.00%)\n301×,FS:2769:get_csig\n99.65%\n(0.00%)\n301×
+Environment:872:default_decide_target\n98.69%\n(0.00%)\n100×,Environment:1422:_changed_content\n99.65%\n(0.00%)\n301×
+FS:2848:decide_target\n98.69%\n(0.00%)\n100×,Environment:872:default_decide_target\n98.69%\n(0.00%)\n100×
+Main:1267:_exec_main\n99.78%\n(0.00%)\n1×,Main:808:_main\n99.78%\n(0.00%)\n1×
+Util:1407:MD5filesignature\n99.65%\n(0.65%)\n101×,~:0:<method 'update' of '_hashlib.HASH' objects>\n35.30%\n(35.30%)\n1128574×
+Util:1407:MD5filesignature\n99.65%\n(0.65%)\n101×,~:0:<method 'read' of 'file' objects>\n63.75%\n(63.75%)\n1128506×
+FS:2845:decide_source\n0.96%\n(0.00%)\n201×,Environment:868:default_decide_source\n0.96%\n(0.00%)\n201×
+scons:27:<module>\n100.00%\n(0.01%)\n1×,Main:1304:main\n99.78%\n(0.00%)\n1×
+Main:297:make_ready\n99.67%\n(0.00%)\n106×,Taskmaster:363:make_ready_current\n99.67%\n(0.00%)\n106×
+FS:2309:get_content_hash\n99.65%\n(0.00%)\n101×,Util:1407:MD5filesignature\n99.65%\n(0.65%)\n101×
+Taskmaster:903:next_task\n99.70%\n(0.00%)\n107×,Main:297:make_ready\n99.67%\n(0.00%)\n106×
+Environment:1422:_changed_content\n99.65%\n(0.00%)\n301×,FS:2814:changed_content\n99.65%\n(0.00%)\n301×
+Environment:868:default_decide_source\n0.96%\n(0.00%)\n201×,Environment:1422:_changed_content\n99.65%\n(0.00%)\n301×
+Job:100:run\n99.71%\n(0.00%)\n1×,Job:186:start\n99.70%\n(0.00%)\n1×
+edgedef> node1,node2

@@ -1,0 +1,37 @@
+diff --git a/src/tls.c b/src/tls.c
+index 30b453b9b..d493fdced 100644
+--- a/src/tls.c
++++ b/src/tls.c
+@@ -368,6 +368,15 @@ int wolfSSL_DeriveTlsKeys(byte* key_dig, word32 key_dig_len,
+         hash_type, NULL, INVALID_DEVID);
+ }
+ 
++static void dump_hex(const char *prefix, const byte *data, word32 len)
++{
++	if (prefix)
++		fprintf(stderr, "%s", prefix);
++
++	for (word32 i = 0; i < len; ++i)
++		fprintf(stderr, "%02X", data[i]);
++	fprintf(stderr, "\n");
++}
+ 
+ int DeriveTlsKeys(WOLFSSL* ssl)
+ {
+@@ -393,11 +402,16 @@ int DeriveTlsKeys(WOLFSSL* ssl)
+         ret = tsip_generateSeesionKey(ssl);
+     else {
+ #endif
++    fprintf(stderr, ">>> %s calling _DeriveTlsKeys\n", __FUNCTION__);
++    dump_hex("Master Secret: ", ssl->arrays->masterSecret, SECRET_LEN);
++    dump_hex("Server Random: ", ssl->arrays->serverRandom, RAN_LEN);
++    dump_hex("Client Random: ", ssl->arrays->clientRandom, RAN_LEN);
+     ret = _DeriveTlsKeys(key_dig, key_dig_len,
+                          ssl->arrays->masterSecret, SECRET_LEN,
+                          ssl->arrays->serverRandom, ssl->arrays->clientRandom,
+                          IsAtLeastTLSv1_2(ssl), ssl->specs.mac_algorithm,
+                          ssl->heap, ssl->devId);
++    dump_hex("Digest:        ", key_dig, key_dig_len);
+     if (ret == 0)
+         ret = StoreKeys(ssl, key_dig, PROVISION_CLIENT_SERVER);
+ #if defined(WOLFSSL_RENESAS_TSIP_TLS) && \

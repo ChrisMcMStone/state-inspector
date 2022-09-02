@@ -1,0 +1,156 @@
+digraph g {
+s0 [label="s0", shape="circle"];
+s1 [label="s1", shape="circle"];
+s2 [label="s2", shape="circle"];
+s3 [label="s3", shape="circle"];
+s4 [label="s4", shape="circle"];
+s5 [label="s5", shape="circle"];
+s6 [label="s6", shape="circle"];
+s7 [label="s7", shape="circle"];
+s8 [label="s8", shape="circle"];
+s9 [label="s19", shape="circle"];
+s10 [label="s55", shape="circle"];
+s11 [label="s40", shape="circle"];
+s12 [label="s23", shape="circle"];
+s13 [label="s36", shape="circle"];
+s14 [label="s25", shape="circle"];
+s15 [label="s38", shape="circle"];
+s16 [label="s22", shape="circle"];
+s17 [label="s34", shape="circle"];
+s18 [label="s20", shape="circle"];
+s0 -> s2  [label="ClientHelloRSAReset / ServerHelloTLSv12CertificateServerHelloDone"];
+s0 -> s1  [label="ClientKeyExchange / ConnectionClosed
+EmptyCertificate / ConnectionClosed
+Finished / ConnectionClosed
+ApplicationData / ConnectionClosed"];
+s0 -> s9  [label="ChangeCipherSpec / Empty
+ApplicationDataEmpty / Empty"];
+s1 -> s1  [label="ClientHelloRSAReset / x
+ClientKeyExchange / x
+EmptyCertificate / x
+ChangeCipherSpec / x
+Finished / x
+ApplicationData / x
+ApplicationDataEmpty / x"];
+s2 -> s6  [label="ClientHelloRSAReset / ServerHelloTLSv12CertificateServerHelloDone"];
+s2 -> s3  [label="ClientKeyExchange / Empty"];
+s2 -> s1  [label="EmptyCertificate / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s2 -> s7  [label="ChangeCipherSpec / Empty"];
+s2 -> s2  [label="ApplicationDataEmpty / Empty"];
+s3 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s3 -> s4  [label="ChangeCipherSpec / Empty"];
+s3 -> s3  [label="ApplicationDataEmpty / Empty"];
+s4 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s4 -> s5  [label="Finished / ChangeCipherSpecFinished"];
+s4 -> s4  [label="ApplicationDataEmpty / Empty"];
+s5 -> s1  [label="ClientHelloRSAReset / Alert2.40ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / ApplicationDataConnectionClosed"];
+s5 -> s8  [label="ChangeCipherSpec / Empty"];
+s5 -> s5  [label="ApplicationDataEmpty / Empty"];
+s6 -> s1  [label="ClientHelloRSAReset / ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s6 -> s16  [label="ClientKeyExchange / Empty"];
+s6 -> s12  [label="ChangeCipherSpec / Empty"];
+s6 -> s6  [label="ApplicationDataEmpty / Empty"];
+s7 -> s18  [label="ClientHelloRSAReset / ServerHelloTLSv12CertificateServerHelloDone"];
+s7 -> s14  [label="ClientKeyExchange / Empty"];
+s7 -> s1  [label="EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s7 -> s7  [label="ApplicationDataEmpty / Empty"];
+s8 -> s1  [label="ClientHelloRSAReset / Alert2.20ConnectionClosed
+ClientKeyExchange / Alert2.20ConnectionClosed
+EmptyCertificate / Alert2.20ConnectionClosed
+ChangeCipherSpec / Alert2.20ConnectionClosed
+Finished / Alert2.20ConnectionClosed
+ApplicationData / Alert2.20ConnectionClosed
+ApplicationDataEmpty / Alert2.20ConnectionClosed"];
+s9 -> s1  [label="ClientHelloRSAReset / ConnectionClosed
+ClientKeyExchange / ConnectionClosed
+EmptyCertificate / ConnectionClosed
+ChangeCipherSpec / ConnectionClosed
+Finished / ConnectionClosed
+ApplicationData / ConnectionClosed
+ApplicationDataEmpty / ConnectionClosed"];
+s10 -> s1  [label="ClientHelloRSAReset / Alert2.20ConnectionClosed
+ClientKeyExchange / Alert2.20ConnectionClosed
+EmptyCertificate / Alert2.20ConnectionClosed
+ChangeCipherSpec / Alert2.20ConnectionClosed
+Finished / Alert2.20ConnectionClosed
+ApplicationData / Alert2.20ConnectionClosed
+ApplicationDataEmpty / Alert2.20ConnectionClosed"];
+s11 -> s1  [label="ClientHelloRSAReset / Alert2.40ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / ApplicationDataConnectionClosed"];
+s11 -> s10  [label="ChangeCipherSpec / Empty"];
+s11 -> s11  [label="ApplicationDataEmpty / Empty"];
+s12 -> s1  [label="ClientHelloRSAReset / ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s12 -> s17  [label="ClientKeyExchange / Empty"];
+s12 -> s12  [label="ApplicationDataEmpty / Empty"];
+s13 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s13 -> s11  [label="Finished / ChangeCipherSpecFinished"];
+s13 -> s13  [label="ApplicationDataEmpty / Empty"];
+s14 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+Finished / ChangeCipherSpecDecryptError
+ApplicationData / Alert2.10ConnectionClosed"];
+s14 -> s14  [label="ApplicationDataEmpty / Empty"];
+s15 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+Finished / ChangeCipherSpecDecryptError
+ApplicationData / Alert2.10ConnectionClosed"];
+s15 -> s15  [label="ApplicationDataEmpty / Empty"];
+s16 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s16 -> s13  [label="ChangeCipherSpec / Empty"];
+s16 -> s16  [label="ApplicationDataEmpty / Empty"];
+s17 -> s1  [label="ClientHelloRSAReset / Alert2.10ConnectionClosed
+ClientKeyExchange / Alert2.10ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+Finished / ChangeCipherSpecDecryptError
+ApplicationData / Alert2.10ConnectionClosed"];
+s17 -> s17  [label="ApplicationDataEmpty / Empty"];
+s18 -> s1  [label="ClientHelloRSAReset / ConnectionClosed
+EmptyCertificate / Alert2.10ConnectionClosed
+ChangeCipherSpec / Alert2.10ConnectionClosed
+Finished / Alert2.10ConnectionClosed
+ApplicationData / Alert2.10ConnectionClosed"];
+s18 -> s15  [label="ClientKeyExchange / Empty"];
+s18 -> s18  [label="ApplicationDataEmpty / Empty"];
+__start0 [height="0", label="", shape="none", width="0"];
+__start0 -> s0;
+}

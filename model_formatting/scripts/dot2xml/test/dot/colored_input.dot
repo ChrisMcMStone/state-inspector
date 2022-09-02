@@ -1,0 +1,8 @@
+digraph QMS {
+    node [fillcolor="#D2691E", style=filled] "QFABIN02";
+    node [fillcolor="#F0E68C", style=filled] "Q1ACI_01";
+    node [fillcolor="#FFC0CB", style=filled] "Q1ADMN01";
+    "QFABIN02" -> "Q1ACI_01";
+    "Q1ACI_01" -> "Q1ADMN01";
+    "QFABIN02" -> "Q1ADMN01";
+}

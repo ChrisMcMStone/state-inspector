@@ -1,0 +1,18 @@
+diff --git src/libtriton/bindings/python/objects/pyTritonContext.cpp src/libtriton/bindings/python/objects/pyTritonContext.cpp
+index 7f78439b..660c26d0 100644
+--- src/libtriton/bindings/python/objects/pyTritonContext.cpp
++++ src/libtriton/bindings/python/objects/pyTritonContext.cpp
+@@ -441,10 +441,13 @@ namespace triton {
+ 
+         if (PyMethod_Check(function)) {
+           cb_self = PyMethod_GET_SELF(function);
++          Py_INCREF(cb_self);
+           cb = PyMethod_GET_FUNCTION(function);
++          Py_INCREF(cb);
+         }
+         else {
+           cb = function;
++          Py_INCREF(cb);
+         }
+ 
+         try {

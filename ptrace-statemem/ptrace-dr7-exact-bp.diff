@@ -1,0 +1,26 @@
+diff --git a/ptrace-statemem/tracer/util.c b/ptrace-statemem/tracer/util.c
+index 6a666ba..c551a24 100644
+--- a/ptrace-statemem/tracer/util.c
++++ b/ptrace-statemem/tracer/util.c
+@@ -161,10 +161,12 @@ static int get_breakpoint_size(int len_field)
+ #define DR6_TRAPPED(dr6, i) ( (dr6) & (1UL<<(i)) )
+ 
+ #define DR7_ENABLE_FIELD_SHIFT(i) ((i)*2)
++#define DR7_EXACT_FIELD_SHIFT(i) ((i)*4+8)
+ #define DR7_TYPE_FIELD_SHIFT(i) ((i)*4+16)
+ #define DR7_LEN_FIELD_SHIFT(i) ((i)*4+18)
+ 
+ #define DR7_BREAKPOINT_ENABLED(i) (1UL<<DR7_ENABLE_FIELD_SHIFT(i))
++#define DR7_EXACT(i) (3UL<<DR7_EXACT_FIELD_SHIFT(i))
+ #define DR7_TYPE_FIELD(i, type) ( (type)<<DR7_TYPE_FIELD_SHIFT(i) )
+ #define DR7_LEN_FIELD(i, len) ((len)<<DR7_LEN_FIELD_SHIFT(i))
+ 
+@@ -201,6 +203,7 @@ static void compact_debugregs(trace_t *t)
+	for (i=0; i<MAX_BREAKPOINTS; i++)
+		if (t->debug_regs.mapping[i] != -1)
+				   control |= DR7_BREAKPOINT_ENABLED(i) |
++				    DR7_EXACT(i) |
+				   DR7_TYPE_FIELD(i, t->debug_regs.type[i]) |
+				   DR7_LEN_FIELD(i, t->debug_regs.len[i]);
+		else
+
