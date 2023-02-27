@@ -27,7 +27,7 @@ The impact of this is likely to be non-termination, since without the ability to
 #### Dependencies
 
 * Required
-  - Clone this respository with `git clone --recurse-submodules https://github.com/ChrisMcMStone/greyboxstatelearning`
+  - Clone this respository with `git clone --recurse-submodules https://github.com/ChrisMcMStone/state-inspector.git`
   - Maven (e.g. `sudo apt install maven`)
   - Other dependencies: `sudo apt install openjdk-14-jdk-headless maven python2 nodejs graphviz`
 * Optional (configurable in learner properties file)
